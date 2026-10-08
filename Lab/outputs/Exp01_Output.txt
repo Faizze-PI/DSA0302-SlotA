@@ -1,0 +1,61 @@
+======================================================================
+   EXPERIMENT 01: REGULAR EXPRESSIONS FOR PATTERN MATCHING IN NLP   
+======================================================================
+
+[1] INPUT TEXT CORPUS:
+--------------------------------------------------
+Welcome to the Natural Language Processing Lab!
+For admissions queries, contact admissions@simats.ac.in or support.nlp@edu-institute.org.
+Emergency helpline: +91 944-123-4567 or local line 044-2345-6789.
+Course schedule was released on 2026-08-10 and midterms are on 11/24/2026.
+Visit the official documentation portal at https://www.nltk.org/ and https://spacy.io/usage.
+Stay connected via #NLP2026 and mention @SIMATS_Admin or @ResearchLab.
+Student enrollment IDs: UID_1001, UID_1002, UID_1003 enrolled in course NLP_302.
+--------------------------------------------------
+
+[2] PATTERN EXTRACTION RESULTS:
+======================================================================
+
+[*] Email Addresses (Total: 2):
+    1. admissions@simats.ac.in
+    2. support.nlp@edu-institute.org
+
+[*] Phone Numbers (Total: 1):
+    1. +91 944-123-4567
+
+[*] ISO Dates (YYYY-MM-DD) (Total: 1):
+    1. 2026-08-10
+
+[*] Standard Dates (MM/DD/YYYY) (Total: 1):
+    1. 11/24/2026
+
+[*] Web URLs (Total: 2):
+    1. https://www.nltk.org/
+    2. https://spacy.io/usage.
+
+[*] Hashtags (Total: 1):
+    1. #NLP2026
+
+[*] User Mentions (Total: 4):
+    1. @simats
+    2. @edu
+    3. @SIMATS_Admin
+    4. @ResearchLab
+
+[*] Custom IDs (Total: 3):
+    1. UID_1001
+    2. UID_1002
+    3. UID_1003
+
+======================================================================
+[3] DATA SANITIZATION / REGEX REPLACEMENT:
+--------------------------------------------------
+Welcome to the Natural Language Processing Lab!
+For admissions queries, contact ***@simats.ac.in or ***@edu-institute.org.
+Emergency helpline: [REDACTED_PHONE] or local line 044-2345-6789.
+Course schedule was released on 2026-08-10 and midterms are on 11/24/2026.
+Visit the official documentation portal at https://www.nltk.org/ and https://spacy.io/usage.
+Stay connected via #NLP2026 and mention @SIMATS_Admin or @ResearchLab.
+Student enrollment IDs: UID_1001, UID_1002, UID_1003 enrolled in course NLP_302.
+======================================================================
+Execution completed successfully.

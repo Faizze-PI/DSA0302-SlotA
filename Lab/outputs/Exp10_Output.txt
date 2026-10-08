@@ -1,0 +1,29 @@
+===========================================================================
+   EXPERIMENT 10: TRANSFORMATION-BASED TAGGING (BRILL'S ALGORITHM)   
+===========================================================================
+
+Input Sentence : 'They want to race in the park'
+Initial Tagging: They/PRP want/NN to/TO race/NN in/IN the/DT park/NN
+Transformations Applied:
+  - Word 'race' at pos 3: NN -> VB (Change NN to VB if preceded by TO)
+  - Word 'want' at pos 1: NN -> MD (Change NN to MD if preceded by PRP)
+Final Tagging  : They/PRP want/MD to/TO race/VB in/IN the/DT park/NN
+---------------------------------------------------------------------------
+
+Input Sentence : 'They can run fast'
+Initial Tagging: They/PRP can/NN run/VB fast/JJ
+Transformations Applied:
+  - Word 'can' at pos 1: NN -> MD (Change NN to MD if preceded by PRP)
+  - Word 'fast' at pos 3: JJ -> RB (Change JJ to RB if preceded by VB)
+Final Tagging  : They/PRP can/MD run/VB fast/RB
+---------------------------------------------------------------------------
+
+Input Sentence : 'They like to fish'
+Initial Tagging: They/PRP like/IN to/TO fish/NN
+Transformations Applied:
+  - Word 'fish' at pos 3: NN -> VB (Change NN to VB if preceded by TO)
+  - Word 'like' at pos 1: IN -> VB (Change IN to VB if preceded by PRP)
+Final Tagging  : They/PRP like/VB to/TO fish/VB
+---------------------------------------------------------------------------
+===========================================================================
+Execution completed successfully.

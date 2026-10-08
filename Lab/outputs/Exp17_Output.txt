@@ -1,0 +1,57 @@
+===========================================================================
+   EXPERIMENT 17: LEXICAL DATABASE EXPLORATION USING WORDNET   
+===========================================================================
+
+[1] SYNSETS FOR POLYSEMOUS WORD 'bank' (Total: 18):
+---------------------------------------------------------------------------
+1. Synset : bank.n.01 (Noun)
+   Gloss  : sloping land (especially the slope beside a body of water)
+   Example: "they pulled the canoe up on the bank"
+
+2. Synset : depository_financial_institution.n.01 (Noun)
+   Gloss  : a financial institution that accepts deposits and channels the money into lending activities
+   Example: "he cashed a check at the bank"
+
+3. Synset : bank.n.03 (Noun)
+   Gloss  : a long ridge or pile
+   Example: "a huge bank of earth"
+
+4. Synset : bank.n.04 (Noun)
+   Gloss  : an arrangement of similar objects in a row or in tiers
+   Example: "he operated a bank of switches"
+
+5. Synset : bank.n.05 (Noun)
+   Gloss  : a supply or stock held in reserve for future use (especially in emergencies)
+   Example: None
+
+---------------------------------------------------------------------------
+
+[2] TAXONOMIC HYPERNYM HIERARCHY FOR 'car.n.01':
+-----------------------------------------------------------------
+|-- entity.n.01 : that which is perceived or known or inferred to ha...
+  |-- physical_entity.n.01 : an entity that has physical existence...
+    |-- object.n.01 : a tangible and visible entity; an entity that can ...
+      |-- whole.n.02 : an assemblage of parts that is regarded as a singl...
+        |-- artifact.n.01 : a man-made object taken as a whole...
+          |-- instrumentality.n.03 : an artifact (or system of artifacts) that is instr...
+            |-- container.n.01 : any object that can be used to hold things (especi...
+              |-- wheeled_vehicle.n.01 : a vehicle that moves on wheels and usually has a c...
+                |-- self-propelled_vehicle.n.01 : a wheeled vehicle that carries in itself a means o...
+                  |-- motor_vehicle.n.01 : a self-propelled wheeled vehicle that does not run...
+                    |-- car.n.01 : a motor vehicle with four wheels; usually propelle...
+-----------------------------------------------------------------
+
+[3] ANTONYM IDENTIFICATION:
+    Word: 'good' <---> Antonym: 'bad'
+    Word: 'increase' <---> Antonym: 'decrease'
+    Word: 'happy' <---> Antonym: 'unhappy'
+-----------------------------------------------------------------
+
+[4] SEMANTIC SIMILARITY COMPUTATION (Wu-Palmer Metric):
+Base Concept: dog.n.01 ('Dog')
+    vs Cat        (cat.n.01       ) => Wu-Palmer: 0.8571 | Path Similarity: 0.2000
+    vs Wolf       (wolf.n.01      ) => Wu-Palmer: 0.9286 | Path Similarity: 0.3333
+    vs Car        (car.n.01       ) => Wu-Palmer: 0.4000 | Path Similarity: 0.0769
+    vs Computer   (computer.n.01  ) => Wu-Palmer: 0.4444 | Path Similarity: 0.0909
+===========================================================================
+Execution completed successfully.

@@ -1,0 +1,1 @@
+Machine learning algorithms learn statistical predictive patterns from training datasets to make accurate classifications.

@@ -1,0 +1,29 @@
+===========================================================================
+   EXPERIMENT 08: STOCHASTIC PART-OF-SPEECH TAGGING ALGORITHM   
+===========================================================================
+
+[1] DISAMBIGUATION PROBABILITY ANALYSIS FOR POLYSEMOUS WORD 'can':
+---------------------------------------------------------------------------
+    Tag = MD   | Context: Prev Tag = PRP
+      Emission   P('can' | MD)   = 0.9988
+      Transition P(MD | PRP)     = 0.9991
+      Combined Joint Score        = 0.997854
+    Tag = NN   | Context: Prev Tag = PRP
+      Emission   P('can' | NN)   = 0.0909
+      Transition P(NN | PRP)     = 0.0001
+      Combined Joint Score        = 0.000009
+---------------------------------------------------------------------------
+
+[2] TEST SENTENCE TAGGING RESULTS:
+---------------------------------------------------------------------------
+Input : They can solve the problem
+Tagged: They/PRP can/MD solve/VB the/DT problem/NN
+
+Input : The fresh fish is on the table
+Tagged: The/DT fresh/JJ fish/VB is/VBZ on/IN the/DT table/NN
+
+Input : Fruit flies like a banana
+Tagged: Fruit/NN flies/VBZ like/IN a/DT banana/NN
+
+===========================================================================
+Execution completed successfully.

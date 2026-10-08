@@ -1,0 +1,1 @@
+Computer vision models analyze images, pixels, video streams, and visual data patterns using deep convolutional networks.

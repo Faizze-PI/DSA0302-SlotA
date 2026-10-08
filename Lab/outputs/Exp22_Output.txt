@@ -1,0 +1,24 @@
+===========================================================================
+   EXPERIMENT 22: REFERENCE AND ANAPHORA RESOLUTION WITHIN TEXT   
+===========================================================================
+
+[1] INPUT DISCOURSE (CONTAINING ANAPHORIC PRONOUNS):
+---------------------------------------------------------------------------
+Dr. Alan Turing was a pioneer in computing. He designed the Turing Machine. Marie Curie was a renowned physicist. She discovered radium and polonium. The computer processed the dataset. It completed the task without error. The students attended the seminar. They asked insightful questions.
+---------------------------------------------------------------------------
+
+[2] ANAPHORA RESOLUTION LOG:
+---------------------------------------------------------------------------
+Pronoun    | Resolved Antecedent Entity | Location Context
+---------------------------------------------------------------------------
+he         | Alan Turing               | Sentence 3
+she        | Marie                     | Sentence 5
+it         | The Computer              | Sentence 7
+they       | The Students              | Sentence 9
+---------------------------------------------------------------------------
+
+[3] DISAMBIGUATED RESOLVED TEXT:
+---------------------------------------------------------------------------
+Dr. Alan Turing was a pioneer in computing. [Alan Turing] designed the Turing Machine. Marie Curie was a renowned physicist. [Marie] discovered radium and polonium. The computer processed the dataset. [The Computer] completed the task without error. The students attended the seminar. [The Students] asked insightful questions.
+===========================================================================
+Execution completed successfully.

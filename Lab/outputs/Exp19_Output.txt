@@ -1,0 +1,37 @@
+===========================================================================
+   EXPERIMENT 19: WORD SENSE DISAMBIGUATION (LESK ALGORITHM)   
+===========================================================================
+
+[*] Target Word   : 'bank' (Expected: Financial Institution)
+    Sentence      : "The financial bank deposited money into the customer account and approved the loan."
+    Disambiguated : depository_financial_institution.n.01
+    Gloss/Meaning : a financial institution that accepts deposits and channels the money into lending activities
+    Overlap Count : 3
+    NLTK lesk()   : depository_financial_institution.n.01
+---------------------------------------------------------------------------
+
+[*] Target Word   : 'bank' (Expected: River Bank / Slope)
+    Sentence      : "The fisherman sat on the muddy river bank waiting for fish in the water."
+    Disambiguated : bank.n.01
+    Gloss/Meaning : sloping land (especially the slope beside a body of water)
+    Overlap Count : 4
+    NLTK lesk()   : savings_bank.n.02
+---------------------------------------------------------------------------
+
+[*] Target Word   : 'bass' (Expected: Musical Instrument)
+    Sentence      : "The musician tuned the electric bass guitar before the rock concert."
+    Disambiguated : bass.s.01
+    Gloss/Meaning : having or denoting a low vocal or instrumental range
+    Overlap Count : 1
+    NLTK lesk()   : bass.n.01
+---------------------------------------------------------------------------
+
+[*] Target Word   : 'bass' (Expected: Fish Species)
+    Sentence      : "The fresh sea bass fish was served with lemon and garlic."
+    Disambiguated : sea_bass.n.01
+    Gloss/Meaning : the lean flesh of a saltwater fish of the family Serranidae
+    Overlap Count : 1
+    NLTK lesk()   : freshwater_bass.n.01
+---------------------------------------------------------------------------
+===========================================================================
+Execution completed successfully.

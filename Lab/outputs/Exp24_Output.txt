@@ -1,0 +1,33 @@
+===========================================================================
+   EXPERIMENT 24: DIALOGUE ACT RECOGNITION IN CONVERSATIONS   
+===========================================================================
+
+[1] MULTI-TURN CONVERSATION WITH DIALOGUE ACT CLASSIFICATIONS:
+---------------------------------------------------------------------------
+Speaker  | Dialogue Act           | Utterance Text
+---------------------------------------------------------------------------
+User     | GREETING               | "Hello there, good morning!"
+Agent    | GREETING               | "Hello! How can I assist you with your flight reservations today?"
+User     | WH_QUESTION            | "What flights are available from New York to London tomorrow?"
+Agent    | STATEMENT / INFORM     | "There are three flights available departing at 9 AM, 2 PM, and 8 PM."
+User     | DIRECTIVE / REQUEST    | "Can I book a seat on the 2 PM flight?"
+Agent    | AGREEMENT              | "Yes, there are seats available in economy class."
+User     | DIRECTIVE / REQUEST    | "Please reserve one window seat for me."
+Agent    | QUESTION               | "Your seat is reserved. Would you like to add luggage?"
+User     | DISAGREEMENT           | "No, that is not needed."
+Agent    | STATEMENT / INFORM     | "Understood. Your booking reference is FL-9821."
+User     | THANKING / CLOSING     | "Thank you very much for your help! Goodbye."
+---------------------------------------------------------------------------
+
+[2] DIALOGUE ACT FREQUENCY BREAKDOWN:
+---------------------------------------------
+    GREETING                 : 2 (18.2%)
+    STATEMENT / INFORM       : 2 (18.2%)
+    DIRECTIVE / REQUEST      : 2 (18.2%)
+    WH_QUESTION              : 1 (9.1%)
+    AGREEMENT                : 1 (9.1%)
+    QUESTION                 : 1 (9.1%)
+    DISAGREEMENT             : 1 (9.1%)
+    THANKING / CLOSING       : 1 (9.1%)
+===========================================================================
+Execution completed successfully.

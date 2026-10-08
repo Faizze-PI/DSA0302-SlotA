@@ -1,0 +1,17 @@
+===========================================================================
+   EXPERIMENT 14: SUBJECT-VERB AND NUMBER AGREEMENT CHECKING   
+===========================================================================
+
+Test Sentence              | Expected   | Parser Result  | Diagnosis
+---------------------------------------------------------------------------
+the dog barks              | VALID      | AGREED         | Singular NP + Singular VP
+the dogs bark              | VALID      | AGREED         | Plural NP + Plural VP
+this student studies       | VALID      | AGREED         | Singular NP + Singular VP
+these students study       | VALID      | AGREED         | Plural NP + Plural VP
+the dog bark               | INVALID    | REJECTED       | Agreement Violation: Singular NP with Plural VP
+the dogs barks             | INVALID    | REJECTED       | Agreement Violation: Plural NP with Singular VP
+this students study        | INVALID    | REJECTED       | Determiner-Noun Mismatch: 'this' (sg) with 'students' (pl)
+these student studies      | INVALID    | REJECTED       | Determiner-Noun Mismatch: 'these' (pl) with 'student' (sg)
+---------------------------------------------------------------------------
+===========================================================================
+Execution completed successfully.

@@ -1,0 +1,69 @@
+===========================================================================
+   EXPERIMENT 12: EARLEY CHART PARSER FOR CONTEXT-FREE GRAMMARS   
+===========================================================================
+
+Input Sentence: 'the astronomer saw the star'
+Tokens: ['the', 'astronomer', 'saw', 'the', 'star']
+
+[+] PARSE STATUS: ACCEPTED
+
+EARLEY CHARTS BREAKDOWN:
+---------------------------------------------------------------------------
+=== Chart [0] (Processed: '<START>') ===
+    [GAMMA -> . S, (0)]
+    [S -> . NP VP, (0)]
+    [NP -> . Det N, (0)]
+    [NP -> . N, (0)]
+    [Det -> . the, (0)]
+    [Det -> . a, (0)]
+    [N -> . astronomer, (0)]
+    [N -> . telescope, (0)]
+    [N -> . star, (0)]
+
+=== Chart [1] (Processed: 'the') ===
+    [Det -> the ., (0)]
+    [NP -> Det . N, (0)]
+    [N -> . astronomer, (1)]
+    [N -> . telescope, (1)]
+    [N -> . star, (1)]
+
+=== Chart [2] (Processed: 'astronomer') ===
+    [N -> astronomer ., (1)]
+    [NP -> Det N ., (0)]
+    [S -> NP . VP, (0)]
+    [VP -> . V NP, (2)]
+    [VP -> . V, (2)]
+    [V -> . saw, (2)]
+    [V -> . observed, (2)]
+
+=== Chart [3] (Processed: 'saw') ===
+    [V -> saw ., (2)]
+    [VP -> V . NP, (2)]
+    [VP -> V ., (2)]
+    [NP -> . Det N, (3)]
+    [NP -> . N, (3)]
+    [S -> NP VP ., (0)]
+    [Det -> . the, (3)]
+    [Det -> . a, (3)]
+    [N -> . astronomer, (3)]
+    [N -> . telescope, (3)]
+    [N -> . star, (3)]
+    [GAMMA -> S ., (0)]
+
+=== Chart [4] (Processed: 'the') ===
+    [Det -> the ., (3)]
+    [NP -> Det . N, (3)]
+    [N -> . astronomer, (4)]
+    [N -> . telescope, (4)]
+    [N -> . star, (4)]
+
+=== Chart [5] (Processed: 'star') ===
+    [N -> star ., (4)]
+    [NP -> Det N ., (3)]
+    [VP -> V NP ., (2)]
+    [S -> NP VP ., (0)]
+    [GAMMA -> S ., (0)]
+
+---------------------------------------------------------------------------
+===========================================================================
+Execution completed successfully.

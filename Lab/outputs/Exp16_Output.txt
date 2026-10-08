@@ -1,0 +1,51 @@
+===========================================================================
+   EXPERIMENT 16: NAMED ENTITY RECOGNITION (NER) USING SPACY   
+===========================================================================
+
+[1] INPUT TEXT:
+---------------------------------------------------------------------------
+Apple Inc. was founded by Steve Jobs and Steve Wozniak in Cupertino, California. On January 9, 2007, the company unveiled the first iPhone in San Francisco. In 2024, Tim Cook announced an investment of $10 billion into AI research centers across Germany and Japan.
+---------------------------------------------------------------------------
+
+[2] EXTRACTED NAMED ENTITIES:
+---------------------------------------------------------------------------
+Entity Text            | Label      | Char Range   | Entity Description
+---------------------------------------------------------------------------
+Apple Inc.             | ORG        | [0:10]       | Companies, agencies, institutions, etc.
+Steve Jobs             | PERSON     | [26:36]      | People, including fictional
+Steve Wozniak          | PERSON     | [41:54]      | People, including fictional
+Cupertino              | GPE        | [58:67]      | Countries, cities, states
+California             | GPE        | [69:79]      | Countries, cities, states
+January 9, 2007        | DATE       | [84:99]      | Absolute or relative dates or periods
+first                  | ORDINAL    | [126:131]    | "first", "second", etc.
+San Francisco          | GPE        | [142:155]    | Countries, cities, states
+2024                   | DATE       | [160:164]    | Absolute or relative dates or periods
+Tim Cook               | PERSON     | [166:174]    | People, including fictional
+$10 billion            | MONEY      | [202:213]    | Monetary values, including unit
+AI                     | GPE        | [219:221]    | Countries, cities, states
+Germany                | GPE        | [246:253]    | Countries, cities, states
+Japan                  | GPE        | [258:263]    | Countries, cities, states
+---------------------------------------------------------------------------
+
+[3] TOKEN-LEVEL IOB (INSIDE-OUTSIDE-BEGINNING) TAGGING:
+-------------------------------------------------------
+Token              | POS      | IOB Entity Tag
+-------------------------------------------------------
+Apple              | PROPN    | B-ORG
+Inc.               | PROPN    | I-ORG
+was                | AUX      | O
+founded            | VERB     | O
+by                 | ADP      | O
+Steve              | PROPN    | B-PERSON
+Jobs               | PROPN    | I-PERSON
+and                | CCONJ    | O
+Steve              | PROPN    | B-PERSON
+Wozniak            | PROPN    | I-PERSON
+in                 | ADP      | O
+Cupertino          | PROPN    | B-GPE
+,                  | PUNCT    | O
+California         | PROPN    | B-GPE
+.                  | PUNCT    | O
+-------------------------------------------------------
+===========================================================================
+Execution completed successfully.

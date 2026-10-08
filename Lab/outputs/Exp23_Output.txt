@@ -1,0 +1,27 @@
+===========================================================================
+   EXPERIMENT 23: TEXT COHERENCE AND DISCOURSE COHESION EVALUATION   
+===========================================================================
+
+[EVALUATION]: Coherent Technical Text
+---------------------------------------------------------------------------
+Passage Content:
+Machine learning is a subset of artificial intelligence that focuses on data. These learning algorithms build mathematical models to make predictions. Furthermore, deep learning models extend these algorithms using multi-layered neural networks. Consequently, neural networks have achieved state-of-the-art results across speech and vision tasks.
+
+Consecutive Sentence Similarities: [0.0677, 0.2328, 0.1371]
+Discourse Connectives Found     : []
+Composite Coherence Index (0-1) : 0.1167
+Qualitative Assessment           : POOR / INCOHERENT
+---------------------------------------------------------------------------
+
+[EVALUATION]: Incoherent Jumbled Text
+---------------------------------------------------------------------------
+Passage Content:
+Machine learning is a subset of artificial intelligence that focuses on data. The recipe requires two cups of flour and fresh strawberries. Penguins live predominantly in Antarctica and love swimming in freezing oceans. My bicycle tire was punctured yesterday morning.
+
+Consecutive Sentence Similarities: [0.0, 0.0, 0.0]
+Discourse Connectives Found     : []
+Composite Coherence Index (0-1) : 0.0000
+Qualitative Assessment           : POOR / INCOHERENT
+---------------------------------------------------------------------------
+===========================================================================
+Execution completed successfully.

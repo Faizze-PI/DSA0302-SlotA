@@ -1,0 +1,44 @@
+===========================================================================
+   EXPERIMENT 26: NEURAL MACHINE TRANSLATION USING TRANSFORMERS   
+===========================================================================
+
+[1] ENGLISH SOURCE SENTENCES TO TRANSLATE:
+---------------------------------------------------------------------------
+    1. Hello, how are you?
+    2. Natural language processing is an exciting field of artificial intelligence.
+    3. The students are studying computational linguistics in the university library.
+    4. Machine translation enables communication across diverse global languages.
+---------------------------------------------------------------------------
+
+[2] TRANSLATION RESULTS (ENGLISH -> FRENCH):
+===========================================================================
+
+Pair #1:
+    Source (EN) : Hello, how are you?
+    Target (FR) : Bonjour, comment allez-vous ?
+    Model Engine: Seq2Seq Neural Translation Model (Academic Engine)
+---------------------------------------------------------------------------
+
+Pair #2:
+    Source (EN) : Natural language processing is an exciting field of artificial intelligence.
+    Target (FR) : Le traitement automatique du langage naturel est un domaine passionnant de l'intelligence artificielle.
+    Model Engine: Seq2Seq Neural Translation Model (Academic Engine)
+---------------------------------------------------------------------------
+
+Pair #3:
+    Source (EN) : The students are studying computational linguistics in the university library.
+    Target (FR) : Les étudiants étudient la linguistique informatique dans la bibliothèque universitaire.
+    Model Engine: Seq2Seq Neural Translation Model (Academic Engine)
+---------------------------------------------------------------------------
+
+Pair #4:
+    Source (EN) : Machine translation enables communication across diverse global languages.
+    Target (FR) : La traduction automatique permet la communication entre diverses langues mondiales.
+    Model Engine: Seq2Seq Neural Translation Model (Academic Engine)
+---------------------------------------------------------------------------
+===========================================================================
+Execution completed successfully.
+
+[STDERR]:
+W1008 22:00:34.782000 26412 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.

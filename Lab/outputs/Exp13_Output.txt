@@ -1,0 +1,85 @@
+===========================================================================
+   EXPERIMENT 13: PARSE TREE GENERATION USING CFG IN NLTK   
+===========================================================================
+
+[1] CONTEXT-FREE GRAMMAR RULES:
+-------------------------------------------------------
+    S -> NP VP
+    PP -> P NP
+    NP -> Det N
+    NP -> Det N PP
+    NP -> 'I'
+    VP -> V NP
+    VP -> VP PP
+    Det -> 'a'
+    Det -> 'the'
+    Det -> 'my'
+    N -> 'man'
+    N -> 'telescope'
+    N -> 'park'
+    N -> 'dog'
+    V -> 'saw'
+    V -> 'walked'
+    P -> 'in'
+    P -> 'with'
+-------------------------------------------------------
+
+[2] TARGET SENTENCE: 'I saw the man with a telescope'
+Tokens: ['I', 'saw', 'the', 'man', 'with', 'a', 'telescope']
+
+[3] GENERATED PARSE TREES (Total Derivations: 2):
+===========================================================================
+
+--- Parse Tree #1 ---
+Bracketed Structure:
+(S
+  (NP I)
+  (VP
+    (VP (V saw) (NP (Det the) (N man)))
+    (PP (P with) (NP (Det a) (N telescope)))))
+
+ASCII Graphical Tree:
+     S                                    
+  ___|___________                          
+ |               VP                       
+ |        _______|________                 
+ |       VP               PP              
+ |    ___|___         ____|___             
+ |   |       NP      |        NP          
+ |   |    ___|___    |     ___|______      
+ NP  V  Det      N   P   Det         N    
+ |   |   |       |   |    |          |     
+ I  saw the     man with  a      telescope
+
+---------------------------------------------------------------------------
+
+--- Parse Tree #2 ---
+Bracketed Structure:
+(S
+  (NP I)
+  (VP
+    (V saw)
+    (NP (Det the) (N man) (PP (P with) (NP (Det a) (N telescope))))))
+
+ASCII Graphical Tree:
+     S                                
+  ___|_______                          
+ |           VP                       
+ |    _______|___                      
+ |   |           NP                   
+ |   |    _______|____                 
+ |   |   |   |        PP              
+ |   |   |   |    ____|___             
+ |   |   |   |   |        NP          
+ |   |   |   |   |     ___|______      
+ NP  V  Det  N   P   Det         N    
+ |   |   |   |   |    |          |     
+ I  saw the man with  a      telescope
+
+---------------------------------------------------------------------------
+
+[4] SYNTACTIC AMBIGUITY INTERPRETATION:
+   - Tree #1: 'with a telescope' attaches to NP ('the man had the telescope').
+   - Tree #2: 'with a telescope' attaches to VP ('saw using the instrument of a telescope').
+===========================================================================
+Execution completed successfully.

@@ -1,0 +1,30 @@
+===========================================================================
+   EXPERIMENT 25: TEXT GENERATION USING OPENAI GPT-3 MODEL   
+===========================================================================
+
+[PROMPT 1]: "Explain the transformer self-attention mechanism"
+---------------------------------------------------------------------------
+Engine Mode    : Academic GPT-3 Environment Emulator (Offline Mode)
+Generated Text :
+The Transformer self-attention mechanism allows tokens to compute relational weights with every other token in the sequence. By computing Query (Q), Key (K), and Value (V) projections, attention scores are obtained via Softmax(Q K^T / sqrt(d_k)) * V. This overcomes the sequential bottleneck of RNNs, enabling massive parallelization.
+---------------------------------------------------------------------------
+
+[PROMPT 2]: "Write a python snippet for tokenization"
+---------------------------------------------------------------------------
+Engine Mode    : Academic GPT-3 Environment Emulator (Offline Mode)
+Generated Text :
+Here is a standard tokenization snippet using NLTK:
+import nltk
+sentence = 'Natural language processing is exciting!'
+tokens = nltk.word_tokenize(sentence)
+print(tokens) # ['Natural', 'language', 'processing', 'is', 'exciting', '!']
+---------------------------------------------------------------------------
+
+[PROMPT 3]: "Describe the significance of Chomsky hierarchy in NLP"
+---------------------------------------------------------------------------
+Engine Mode    : Academic GPT-3 Environment Emulator (Offline Mode)
+Generated Text :
+Generated response for prompt 'Describe the significance of Chomsky hierarchy in NLP': The GPT-3 autoregressive language model predicts next token probabilities based on multi-head self-attention mechanisms and feedforward layers trained on extensive web corpora.
+---------------------------------------------------------------------------
+===========================================================================
+Execution completed successfully.

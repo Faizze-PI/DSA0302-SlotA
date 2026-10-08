@@ -1,0 +1,7 @@
+Welcome to the Natural Language Processing Lab!
+For admissions queries, contact admissions@simats.ac.in or support.nlp@edu-institute.org.
+Emergency helpline: +91 944-123-4567 or local line 044-2345-6789.
+Course schedule was released on 2026-08-10 and midterms are on 11/24/2026.
+Visit the official documentation portal at https://www.nltk.org/ and https://spacy.io/usage.
+Stay connected via #NLP2026 and mention @SIMATS_Admin or @ResearchLab.
+Student enrollment IDs: UID_1001, UID_1002, UID_1003 enrolled in course NLP_302.

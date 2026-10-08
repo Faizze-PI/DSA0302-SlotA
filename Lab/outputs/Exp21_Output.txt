@@ -1,0 +1,38 @@
+===========================================================================
+   EXPERIMENT 21: SYNTAX-DRIVEN SEMANTIC ANALYSIS OF NOUN PHRASES   
+===========================================================================
+
+[SENTENCE 1]: "The intelligent robot analyzed the complex medical data."
+---------------------------------------------------------------------------
+Syntactic Chunk Tree:
+(S
+  (NP The/DT intelligent/JJ robot/NN)
+  analyzed/VBD
+  (NP the/DT complex/JJ medical/JJ data/NNS)
+  ./.)
+
+Extracted Noun Phrase Semantics:
+Noun Phrase            | Head Noun  | Modifiers      | Semantic Category & Meaning
+---------------------------------------------------------------------------
+The intelligent robot  | robot      | The, intelligent | Category: [mechanism] - a mechanism that can move automatically...
+the complex medical data | data       | the, complex, medical | Category: [collection] - a collection of facts from which conclus...
+---------------------------------------------------------------------------
+
+[SENTENCE 2]: "A fierce tiger hunted in the dense tropical forest."
+---------------------------------------------------------------------------
+Syntactic Chunk Tree:
+(S
+  (NP A/DT fierce/JJ tiger/NN)
+  hunted/VBN
+  in/IN
+  (NP the/DT dense/JJ tropical/JJ forest/NN)
+  ./.)
+
+Extracted Noun Phrase Semantics:
+Noun Phrase            | Head Noun  | Modifiers      | Semantic Category & Meaning
+---------------------------------------------------------------------------
+A fierce tiger         | tiger      | A, fierce      | Category: [person] - a fierce or audacious person...
+the dense tropical forest | forest     | the, dense, tropical | Category: [vegetation] - the trees and other plants in a large de...
+---------------------------------------------------------------------------
+===========================================================================
+Execution completed successfully.

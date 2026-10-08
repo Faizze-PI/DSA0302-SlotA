@@ -1,0 +1,111 @@
+===========================================================================
+   EXPERIMENT 11: TOP-DOWN PARSER FOR CONTEXT-FREE GRAMMARS   
+===========================================================================
+
+Input Sentence: 'the fox chases the dog'
+------------------------------------------------------------
+[+] STATUS: PARSED SUCCESSFULLY
+
+Derived Parse Tree:
+(S
+  (NP
+    (Det
+      'the'
+    )
+    (N
+      'fox'
+    )
+  )
+  (VP
+    (V
+      'chases'
+    )
+    (NP
+      (Det
+        'the'
+      )
+      (N
+        'dog'
+      )
+    )
+  )
+)
+
+Sample Derivation Trace (first 6 steps):
+   Expand non-terminal: S at token index 0 ('the')
+     Trying rule: S -> NP VP
+       Expand non-terminal: NP at token index 0 ('the')
+         Trying rule: NP -> Det N
+           Expand non-terminal: Det at token index 0 ('the')
+             Trying rule: Det -> the
+------------------------------------------------------------
+
+Input Sentence: 'she likes a lazy dog'
+------------------------------------------------------------
+[+] STATUS: PARSED SUCCESSFULLY
+
+Derived Parse Tree:
+(S
+  (NP
+    (Pronoun
+      'she'
+    )
+  )
+  (VP
+    (V
+      'likes'
+    )
+    (NP
+      (Det
+        'a'
+      )
+      (Adj
+        'lazy'
+      )
+      (N
+        'dog'
+      )
+    )
+  )
+)
+
+Sample Derivation Trace (first 6 steps):
+   Expand non-terminal: S at token index 0 ('she')
+     Trying rule: S -> NP VP
+       Expand non-terminal: NP at token index 0 ('she')
+         Trying rule: NP -> Det N
+           Expand non-terminal: Det at token index 0 ('she')
+             Trying rule: Det -> the
+------------------------------------------------------------
+
+Input Sentence: 'the dog chases'
+------------------------------------------------------------
+[+] STATUS: PARSED SUCCESSFULLY
+
+Derived Parse Tree:
+(S
+  (NP
+    (Det
+      'the'
+    )
+    (N
+      'dog'
+    )
+  )
+  (VP
+    (V
+      'chases'
+    )
+  )
+)
+
+Sample Derivation Trace (first 6 steps):
+   Expand non-terminal: S at token index 0 ('the')
+     Trying rule: S -> NP VP
+       Expand non-terminal: NP at token index 0 ('the')
+         Trying rule: NP -> Det N
+           Expand non-terminal: Det at token index 0 ('the')
+             Trying rule: Det -> the
+------------------------------------------------------------
+===========================================================================
+Execution completed successfully.

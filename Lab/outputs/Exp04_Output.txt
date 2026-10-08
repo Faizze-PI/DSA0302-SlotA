@@ -1,0 +1,32 @@
+===========================================================================
+   EXPERIMENT 04: FINITE-STATE MACHINE FOR MORPHOLOGICAL PARSING   
+===========================================================================
+
+Singular Noun   | Plural Form     | Morphological Rule Applied
+---------------------------------------------------------------------------
+cat             | cats            | Rule 7: Default -> Append -s
+dog             | dogs            | Rule 7: Default -> Append -s
+bus             | buses           | Rule 2: Sibilant Ending -> Append -es
+box             | boxes           | Rule 2: Sibilant Ending -> Append -es
+watch           | watches         | Rule 2: Sibilant Ending -> Append -es
+dish            | dishes          | Rule 2: Sibilant Ending -> Append -es
+buzz            | buzzes          | Rule 2: Sibilant Ending -> Append -es
+baby            | babies          | Rule 3: Consonant + 'y' -> Replace with -ies
+city            | cities          | Rule 3: Consonant + 'y' -> Replace with -ies
+boy             | boys            | Rule 4: Vowel + 'y' -> Append -s
+day             | days            | Rule 4: Vowel + 'y' -> Append -s
+leaf            | leaves          | Rule 5c: Ending in -f -> Replace with -ves
+knife           | knives          | Rule 5b: Ending in -fe -> Replace with -ves
+wolf            | wolves          | Rule 5c: Ending in -f -> Replace with -ves
+roof            | roofs           | Rule 5a: -f Exception -> Append -s
+potato          | potatoes        | Rule 6: Consonant + 'o' -> Append -es
+hero            | heroes          | Rule 6: Consonant + 'o' -> Append -es
+photo           | photos          | Rule 7: Default -> Append -s
+child           | children        | Rule 1: Irregular Lexicon Lookup
+man             | men             | Rule 1: Irregular Lexicon Lookup
+mouse           | mice            | Rule 1: Irregular Lexicon Lookup
+foot            | feet            | Rule 1: Irregular Lexicon Lookup
+sheep           | sheep           | Rule 1: Irregular Lexicon Lookup
+---------------------------------------------------------------------------
+===========================================================================
+Execution completed successfully.

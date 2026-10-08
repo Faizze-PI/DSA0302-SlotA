@@ -1,0 +1,57 @@
+===========================================================================
+   EXPERIMENT 05: PORTER STEMMER ALGORITHM FOR WORD STEMMING   
+===========================================================================
+
+[1] WORD-LEVEL STEMMING WITH STEP EXPLANATIONS:
+---------------------------------------------------------------------------
+Original Word      | Stemmed Form    | Porter Rule Phase
+---------------------------------------------------------------------------
+caresses           | caress          | Step 1: Inflectional
+ponies             | poni            | Step 1: Inflectional
+ties               | tie             | Step 1: Inflectional
+cats               | cat             | Step 1: Inflectional
+feed               | feed            | Step 1: Inflectional
+agreed             | agre            | Step 1: Inflectional
+disabled           | disabl          | Step 1: Inflectional
+matting            | mat             | Step 1: Inflectional
+mating             | mate            | Step 1: Inflectional
+meeting            | meet            | Step 1: Inflectional
+happy              | happi           | Step 1: Inflectional
+sky                | sky             | Step 1: Inflectional
+crying             | cri             | Step 1: Inflectional
+relational         | relat           | Step 2/3: Derivational
+conditional        | condit          | Step 2/3: Derivational
+rational           | ration          | Step 2/3: Derivational
+valence            | valenc          | Step 1: Inflectional
+hesitancy          | hesit           | Step 1: Inflectional
+digitizer          | digit           | Step 2/3: Derivational
+conformabli        | conform         | Step 2/3: Derivational
+radically          | radic           | Step 1: Inflectional
+different          | differ          | Step 1: Inflectional
+universal          | univers         | Step 4: Suffix Stripping
+university         | univers         | Step 1: Inflectional
+universe           | univers         | Step 1: Inflectional
+studies            | studi           | Step 1: Inflectional
+studying           | studi           | Step 1: Inflectional
+student            | student         | Step 1: Inflectional
+studied            | studi           | Step 1: Inflectional
+---------------------------------------------------------------------------
+
+[2] SENTENCE-LEVEL STEMMING:
+---------------------------------------------------------------------------
+Original Text : The university students were studying computational linguistics and programming algorithms generously.
+Stemmed Text  : the univers student were studi comput linguist and program algorithm generously.
+---------------------------------------------------------------------------
+
+[3] COMPARISON: STEMMING VS LEMMATIZATION:
+---------------------------------------------------------------------------
+Word            | Porter Stemmer     | WordNet Lemmatizer
+---------------------------------------------------------------------------
+running         | run                | running
+wolves          | wolv               | wolf
+better          | better             | better
+corpora         | corpora            | corpus
+generously      | gener              | generously
+flies           | fli                | fly
+===========================================================================
+Execution completed successfully.

@@ -1,0 +1,31 @@
+======================================================================
+   EXPERIMENT 03: MORPHOLOGICAL ANALYSIS USING NLTK   
+======================================================================
+
+[1] POS-AWARE LEMMATIZATION:
+-----------------------------------------------------------------
+Surface Form    | POS Tag    | Base Lemma      | Morphological Shift
+-----------------------------------------------------------------
+running         | Verb       | run             | Inflected -> Lemma (run)
+flies           | Verb       | fly             | Inflected -> Lemma (fly)
+flies           | Noun       | fly             | Inflected -> Lemma (fly)
+better          | Adjective  | good            | Inflected -> Lemma (good)
+best            | Adjective  | best            | Base form preserved
+corpora         | Noun       | corpus          | Inflected -> Lemma (corpus)
+geese           | Noun       | goose           | Inflected -> Lemma (goose)
+wolves          | Noun       | wolf            | Inflected -> Lemma (wolf)
+studied         | Verb       | study           | Inflected -> Lemma (study)
+happiest        | Adjective  | happy           | Inflected -> Lemma (happy)
+easily          | Adverb     | easily          | Base form preserved
+went            | Verb       | go              | Inflected -> Lemma (go)
+-----------------------------------------------------------------
+
+[2] MORPHEMIC AFFIX DECOMPOSITION (Prefix / Root / Suffix):
+-----------------------------------------------------------------
+Word: unhappiness            => Prefix: un     | Root: happi        | Suffix: ness
+Word: internationalization   => Prefix: inter  | Root: nationaliza  | Suffix: tion
+Word: disagreeable           => Prefix: dis    | Root: agree        | Suffix: able
+Word: reconstruction         => Prefix: re     | Root: construc     | Suffix: tion
+Word: preconditioning        => Prefix: pre    | Root: condition    | Suffix: ing
+======================================================================
+Execution completed successfully.

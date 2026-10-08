@@ -1,0 +1,51 @@
+===========================================================================
+   EXPERIMENT 07: PART-OF-SPEECH (POS) TAGGING USING NLTK   
+===========================================================================
+
+[1] INPUT SENTENCE:
+---------------------------------------------------------------------------
+The quick brown fox jumps over the lazy dog while Dr. Smith carefully examines the experimental natural language models at Stanford University.
+---------------------------------------------------------------------------
+
+[2] DETAILED POS TAGGING RESULTS:
+---------------------------------------------------------------------------
+Token              | POS Tag    | Grammatical Category Description
+---------------------------------------------------------------------------
+The                | DT         | Determiner
+quick              | JJ         | Adjective
+brown              | NN         | Noun, singular
+fox                | NN         | Noun, singular
+jumps              | VBZ        | Verb, 3rd person sing. present
+over               | IN         | Preposition/Subordinating conjunction
+the                | DT         | Determiner
+lazy               | JJ         | Adjective
+dog                | NN         | Noun, singular
+while              | IN         | Preposition/Subordinating conjunction
+Dr.                | NNP        | Proper Noun, singular
+Smith              | NNP        | Proper Noun, singular
+carefully          | RB         | Adverb
+examines           | VBZ        | Verb, 3rd person sing. present
+the                | DT         | Determiner
+experimental       | JJ         | Adjective
+natural            | JJ         | Adjective
+language           | NN         | Noun, singular
+models             | NNS        | Noun, plural
+at                 | IN         | Preposition/Subordinating conjunction
+Stanford           | NNP        | Proper Noun, singular
+University         | NNP        | Proper Noun, singular
+.                  | .          | Punctuation mark
+---------------------------------------------------------------------------
+
+[3] POS TAG FREQUENCY DISTRIBUTION:
+---------------------------------------------
+    Tag: JJ     (Adjective                ) : 4
+    Tag: NN     (Noun, singular           ) : 4
+    Tag: NNP    (Proper Noun, singular    ) : 4
+    Tag: DT     (Determiner               ) : 3
+    Tag: IN     (Preposition/Subordinating conjunction) : 3
+    Tag: VBZ    (Verb, 3rd person sing. present) : 2
+    Tag: RB     (Adverb                   ) : 1
+    Tag: NNS    (Noun, plural             ) : 1
+    Tag: .      (Punctuation mark         ) : 1
+===========================================================================
+Execution completed successfully.

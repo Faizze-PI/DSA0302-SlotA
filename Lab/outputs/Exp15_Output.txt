@@ -1,0 +1,44 @@
+===========================================================================
+   EXPERIMENT 15: PROBABILISTIC CONTEXT-FREE GRAMMAR (PCFG) PARSING   
+===========================================================================
+
+[1] PROBABILISTIC GRAMMAR PRODUCTIONS:
+-------------------------------------------------------
+   S -> NP VP [1.0]
+   VP -> V NP [0.7]
+   VP -> VP PP [0.3]
+   PP -> P NP [1.0]
+   NP -> Det N [0.6]
+   NP -> NP PP [0.2]
+   NP -> 'I' [0.2]
+   Det -> 'the' [0.6]
+   Det -> 'a' [0.4]
+   N -> 'astronomer' [0.4]
+   N -> 'telescope' [0.3]
+   N -> 'star' [0.3]
+   V -> 'saw' [1.0]
+   P -> 'with' [1.0]
+-------------------------------------------------------
+
+[2] TARGET SENTENCE: 'I saw the star with a telescope'
+Tokens: ['I', 'saw', 'the', 'star', 'with', 'a', 'telescope']
+
+[3] MOST PROBABLE (VITERBI) PARSE TREE:
+    Joint Derivation Probability : 3.26592000e-04
+    Log Probability               : -11.5802
+---------------------------------------------------------------------------
+Visual Parse Tree:
+     S                                     
+  ___|___________                           
+ |               VP                        
+ |        _______|_________                 
+ |       VP                PP              
+ |    ___|___          ____|___             
+ |   |       NP       |        NP          
+ |   |    ___|___     |     ___|______      
+ NP  V  Det      N    P   Det         N    
+ |   |   |       |    |    |          |     
+ I  saw the     star with  a      telescope
+
+===========================================================================
+Execution completed successfully.

@@ -1,0 +1,49 @@
+===========================================================================
+   EXPERIMENT 06: N-GRAM (BIGRAM) LANGUAGE MODEL FOR TEXT GENERATION   
+===========================================================================
+
+[1] TRAINING CORPUS SNIPPET:
+------------------------------------------------------------
+Natural language processing is a subfield of artificial intelligence and linguistics.
+Artificial intelligence empowers computers to understand human language semantics.
+Natural language processing systems analyze text, speech, and dialog interactions.
+Computer...
+------------------------------------------------------------
+
+[2] MODEL VOCABULARY STATISTICS:
+    - Unique vocabulary words: 66
+    - Total bigram transitions: 86
+
+[3] SAMPLE CONDITIONAL TRANSITION PROBABILITIES:
+-----------------------------------------------------------------
+Transitions following 'natural':
+    P('language' | 'natural') = 6/6 = 1.0000
+
+Transitions following 'language':
+    P('processing' | 'language') = 4/9 = 0.4444
+    P('semantics' | 'language') = 1/9 = 0.1111
+    P('to' | 'language') = 1/9 = 0.1111
+    P('modeling' | 'language') = 1/9 = 0.1111
+    P('models' | 'language') = 1/9 = 0.1111
+    P('generation' | 'language') = 1/9 = 0.1111
+-----------------------------------------------------------------
+
+[4] TEXT GENERATION EXPERIMENTS:
+
+[*] Seed: 'natural'
+    Greedy (Top-1): natural language processing systems analyze text speech and linguistics artificial intelligence and
+    Stochastic    : natural language processing systems analyze text based on learned corpus transitions natural
+
+[*] Seed: 'artificial'
+    Greedy (Top-1): artificial intelligence and linguistics artificial intelligence and linguistics artificial intelligence and linguistics
+    Stochastic    : artificial intelligence and linguistics artificial intelligence and dialog interactions computers process natural
+
+[*] Seed: 'language'
+    Greedy (Top-1): language processing systems analyze text speech and linguistics artificial intelligence and linguistics
+    Stochastic    : language processing is transforming automated systems analyze text based on learned corpus
+
+[*] Seed: 'computers'
+    Greedy (Top-1): computers to understand human language processing systems analyze text speech and linguistics
+    Stochastic    : computers process natural language models predict the next word in modern natural
+===========================================================================
+Execution completed successfully.

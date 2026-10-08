@@ -1,0 +1,33 @@
+===========================================================================
+   EXPERIMENT 09: RULE-BASED POS TAGGING USING REGULAR EXPRESSIONS   
+===========================================================================
+
+[1] INPUT SENTENCE:
+---------------------------------------------------------------------------
+The quick robotic system carefully processed 42 items and happily completed the experimental verification without any complication
+---------------------------------------------------------------------------
+
+[2] RULE-BASED TAGGING RESULTS:
+---------------------------------------------------------------------------
+Word               | Assigned Tag   | Morphological Rule Trigger
+---------------------------------------------------------------------------
+The                | DT             | Determiner Regex
+quick              | NN             | Default Noun Rule
+robotic            | JJ             | Adjectival Suffix
+system             | NN             | Default Noun Rule
+carefully          | RB             | Suffix -ly (Adverb)
+processed          | VBD            | Suffix -ed (Past Tense)
+42                 | CD             | Numeric Cardinal Digit
+items              | NNS            | Plural Noun / 3rd Person
+and                | CC             | Default Noun Rule
+happily            | RB             | Suffix -ly (Adverb)
+completed          | VBD            | Suffix -ed (Past Tense)
+the                | DT             | Determiner Regex
+experimental       | NN             | Default Noun Rule
+verification       | NN             | Noun Suffix -tion
+without            | NN             | Default Noun Rule
+any                | NN             | Default Noun Rule
+complication       | NN             | Noun Suffix -tion
+---------------------------------------------------------------------------
+===========================================================================
+Execution completed successfully.

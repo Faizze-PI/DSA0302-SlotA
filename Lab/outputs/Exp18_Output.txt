@@ -1,0 +1,56 @@
+===========================================================================
+   EXPERIMENT 18: FIRST-ORDER PREDICATE CALCULUS (FOPC) PARSER   
+===========================================================================
+
+[1] FOPC EXPRESSION PARSING & SYNTAX ANALYSIS:
+---------------------------------------------------------------------------
+Natural Language: "Every human is mortal"
+FOPC Expression : all x.(human(x) -> mortal(x))
+Expression Type : AllExpression
+Free Variables  : set()
+---------------------------------------------------------------------------
+Natural Language: "Socrates is a human"
+FOPC Expression : human(socrates)
+Expression Type : ApplicationExpression
+Free Variables  : set()
+---------------------------------------------------------------------------
+Natural Language: "Someone is happy and smart"
+FOPC Expression : exists x.(happy(x) & smart(x))
+Expression Type : ExistsExpression
+Free Variables  : set()
+---------------------------------------------------------------------------
+Natural Language: "John likes Mary"
+FOPC Expression : likes(john,mary)
+Expression Type : ApplicationExpression
+Free Variables  : set()
+---------------------------------------------------------------------------
+Natural Language: "No dog can fly"
+FOPC Expression : all x.(dog(x) -> -flies(x))
+Expression Type : AllExpression
+Free Variables  : set()
+---------------------------------------------------------------------------
+
+[2] SEMANTIC MODEL VALUATION & TRUTH EVALUATION:
+---------------------------------------------------------------------------
+Query Formula : human(socrates)
+Meaning       : Is Socrates human?
+Truth Value   : True
+
+Query Formula : mortal(socrates)
+Meaning       : Is Socrates mortal?
+Truth Value   : True
+
+Query Formula : all x.(human(x) -> mortal(x))
+Meaning       : Are all humans mortal?
+Truth Value   : True
+
+Query Formula : dog(rover)
+Meaning       : Is Rover a dog?
+Truth Value   : True
+
+Query Formula : human(rover)
+Meaning       : Is Rover human?
+Truth Value   : False
+
+===========================================================================
+Execution completed successfully.

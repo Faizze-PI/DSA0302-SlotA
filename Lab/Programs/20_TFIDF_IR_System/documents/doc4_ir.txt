@@ -1,0 +1,1 @@
+Information retrieval systems rank relevant documents based on TF-IDF term weights and search queries using cosine vector distance.
