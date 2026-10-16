@@ -1,0 +1,8 @@
+cat+N+PL
+watch+N+PL, watch+V+3SG
+watch+V+PROG
+study+V+PAST
+big+ADJ+COMP
+cat+N
+big+ADJ+SUP
+UNKNOWN

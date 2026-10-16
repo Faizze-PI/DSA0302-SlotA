@@ -1,0 +1,13 @@
+3
+goose N+PL geese
+go V+PAST went
+good ADJ+COMP better
+8
+cat N+PL
+church N+PL
+baby N+PL
+stop V+PROG
+make V+PROG
+carry V+PAST
+goose N+PL
+go V+PAST

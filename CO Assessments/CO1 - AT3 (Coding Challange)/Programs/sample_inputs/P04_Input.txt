@@ -1,0 +1,15 @@
+5
+cat N
+watch N
+watch V
+study V
+big ADJ
+8
+cats
+watches
+watching
+studied
+bigger
+cat
+biggest
+elephants
