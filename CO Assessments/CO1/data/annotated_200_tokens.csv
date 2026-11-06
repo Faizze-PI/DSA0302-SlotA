@@ -1,0 +1,215 @@
+surface_form,lemma,pos,morph_feature,category
+fractures,fracture,N,+PL,inflectional
+fractured,fracture,V,+PAST,inflectional
+fracturing,fracture,V,+PROG,inflectional
+fracture,fracture,N,+SG,root
+nephrectomy,nephr,N,-ectomy,derivational
+nephrectomies,nephr,N,-ectomy +PL,derivational_inflectional
+nephritis,nephr,N,-itis,derivational
+nephritic,nephr,ADJ,-itic,derivational
+nephrotic,nephr,ADJ,-otic,derivational
+nephrology,nephr,N,-ology,derivational
+nephrologist,nephr,N,-ology + -ist,derivational
+hypertension,tens,N,hyper- + -ion,derivational
+hypertensive,tens,ADJ,hyper- + -ive,derivational
+hypotension,tens,N,hypo- + -ion,derivational
+hypotensive,tens,ADJ,hypo- + -ive,derivational
+appendectomy,append,N,-ectomy,derivational
+appendectomies,append,N,-ectomy +PL,derivational_inflectional
+appendicitis,append,N,-itis,derivational
+bronchitis,bronch,N,-itis,derivational
+bronchitic,bronch,ADJ,-itic,derivational
+bronchoscopy,bronch,N,-scopy,derivational
+bronchoscopies,bronch,N,-scopy +PL,derivational_inflectional
+gastritis,gastr,N,-itis,derivational
+gastrectomy,gastr,N,-ectomy,derivational
+gastroenteritis,gastr,N,gastro- + enter- + -itis,derivational
+hepatitis,hepat,N,-itis,derivational
+hepatomegaly,hepat,N,-megaly,derivational
+hepatic,liver,ADJ,suppletion,irregular
+renal,kidney,ADJ,suppletion,irregular
+cardiac,heart,ADJ,suppletion,irregular
+pulmonary,lung,ADJ,suppletion,irregular
+gastric,stomach,ADJ,suppletion,irregular
+arthritis,arthr,N,-itis,derivational
+arthritic,arthr,ADJ,-itic,derivational
+arthroplasty,arthr,N,-plasty,derivational
+arthroplasties,arthr,N,-plasty +PL,derivational_inflectional
+arthroscopy,arthr,N,-scopy,derivational
+dermatitis,derm,N,-itis,derivational
+dermatology,derm,N,-ology,derivational
+dermatologist,derm,N,-ology + -ist,derivational
+colitis,colon,N,-itis,derivational
+colectomy,colon,N,-ectomy,derivational
+colonoscopy,colon,N,-scopy,derivational
+lesions,lesion,N,+PL,inflectional
+lesion,lesion,N,+SG,root
+patients,patient,N,+PL,inflectional
+patient,patient,N,+SG,root
+symptoms,symptom,N,+PL,inflectional
+symptomatic,symptom,ADJ,-atic,derivational
+asymptomatic,symptom,ADJ,a- + -atic,derivational
+tendons,tendon,N,+PL,inflectional
+tendonitis,tendon,N,-itis,derivational
+ligaments,ligament,N,+PL,inflectional
+vessels,vessel,N,+PL,inflectional
+arteries,artery,N,+PL (y-to-i),inflectional
+arterial,artery,ADJ,-al,derivational
+veins,vein,N,+PL,inflectional
+venous,vein,ADJ,-ous,derivational
+muscles,muscl,N,+PL,inflectional
+muscular,muscl,ADJ,-ar,derivational
+pancreatitis,pancrea,N,-itis,derivational
+cerebral,brain,ADJ,suppletion,irregular
+cranial,cranium,ADJ,-al,derivational
+neurons,neuron,N,+PL,inflectional
+neuronal,neuron,ADJ,-al,derivational
+valves,valv,N,+PL,inflectional
+valvular,valv,ADJ,-ar,derivational
+ventricles,ventricl,N,+PL,inflectional
+ventricular,ventricl,ADJ,-ar,derivational
+atria,atrium,N,+PL (Latin -um to -a),inflectional
+atrial,atrium,ADJ,-al,derivational
+aortic,aort,ADJ,-ic,derivational
+capillaries,capillar,N,+PL,inflectional
+lymphatic,lymph,ADJ,-atic,derivational
+splenomegaly,spleen,N,-megaly,derivational
+splenic,spleen,ADJ,-ic,derivational
+thyroiditis,thyroid,N,-itis,derivational
+hyperthyroidism,thyroid,N,hyper- + -ism,derivational
+hypothyroidism,thyroid,N,hypo- + -ism,derivational
+adrenal,adrenal,ADJ,root,root
+pituitary,pituitar,ADJ,root,root
+cortical,cortex,ADJ,-ical,derivational
+medullary,medulla,ADJ,-ary,derivational
+glomerular,glomerul,ADJ,-ar,derivational
+glomerulonephritis,glomerul,N,glomerulo- + nephr- + -itis,derivational
+tubular,tubul,ADJ,-ar,derivational
+ureteral,ureter,ADJ,-al,derivational
+urethral,urethr,ADJ,-al,derivational
+vesical,vesic,ADJ,-al,derivational
+prostatic,prostat,ADJ,-ic,derivational
+prostatectomy,prostat,N,-ectomy,derivational
+prostatitis,prostat,N,-itis,derivational
+ovarian,ovari,ADJ,-an,derivational
+uterine,uter,ADJ,-ine,derivational
+cervical,cervix,ADJ,-al,derivational
+vaginal,vagin,ADJ,-al,derivational
+placental,placent,ADJ,-al,derivational
+fetal,fetus,ADJ,-al,derivational
+osteomyelitis,oste,N,osteo- + myel- + -itis,derivational
+osteoarthritis,oste,N,osteo- + arthr- + -itis,derivational
+myocarditis,myocard,N,-itis,derivational
+endocarditis,endocard,N,-itis,derivational
+pericarditis,pericard,N,-itis,derivational
+myopathy,myo,N,-pathy,derivational
+myopathies,myo,N,-pathy +PL,derivational_inflectional
+fasciitis,fasci,N,-itis,derivational
+meningitis,mening,N,-itis,derivational
+pleurisy,pleur,N,-isy,derivational
+pleural,pleur,ADJ,-al,derivational
+peritoneal,peritone,ADJ,-al,derivational
+peritonitis,peritone,N,-itis,derivational
+erythrocytes,erythr,N,erythro- + -cyte +PL,derivational_inflectional
+erythrocytic,erythr,ADJ,-ic,derivational
+leukocytes,leuk,N,leuko- + -cyte +PL,derivational_inflectional
+leukocytosis,leuk,N,-osis,derivational
+thrombocytes,thromb,N,-cyte +PL,derivational_inflectional
+thrombocytopenia,thromb,N,-penia,derivational
+thrombosis,thromb,N,-osis,derivational
+thromboses,thromb,N,-oses +PL,inflectional
+macrophages,macro,N,macro- + -phage +PL,derivational_inflectional
+eosinophils,eosin,N,-phil +PL,derivational_inflectional
+eosinophilia,eosin,N,-ia,derivational
+basophils,baso,N,-phil +PL,derivational_inflectional
+neutrophils,neutro,N,-phil +PL,derivational_inflectional
+neutrophilia,neutro,N,-ia,derivational
+monocytes,monocyt,N,+PL,inflectional
+coagulation,coagul,N,-ation,derivational
+coagulated,coagul,V,+PAST,inflectional
+fibrinogen,fibrin,N,-gen,derivational
+albuminuria,albumin,N,-uria,derivational
+bilirubinemia,bilirubin,N,-emia,derivational
+hyperglycemia,glucos,N,hyper- + -emia,derivational
+hypoglycemia,glucos,N,hypo- + -emia,derivational
+glucosuria,glucos,N,-uria,derivational
+mitochondrial,mitochondr,ADJ,-al,derivational
+cytoplasmic,cytoplasm,ADJ,-ic,derivational
+nuclear,nucle,ADJ,-ar,derivational
+chromosomal,chromosom,ADJ,-al,derivational
+genetic,gen,ADJ,-ic,derivational
+genetics,gen,N,-ics,derivational
+mutations,mutat,N,-ion +PL,derivational_inflectional
+mutated,mutat,V,+PAST,inflectional
+peptides,peptid,N,+PL,inflectional
+proteins,protein,N,+PL,inflectional
+lipids,lipid,N,+PL,inflectional
+hyperlipidemia,lipid,N,hyper- + -emia,derivational
+esophagitis,esophag,N,-itis,derivational
+duodenitis,duoden,N,-itis,derivational
+ileitis,ileum,N,-itis,derivational
+rectal,rectum,ADJ,-al,derivational
+fistulae,fistul,N,+PL (Latin -a to -ae),inflectional
+ulceration,ulcer,N,-ation,derivational
+ulcerative,ulcer,ADJ,-ative,derivational
+ulcers,ulcer,N,+PL,inflectional
+necrosis,necros,N,-osis,derivational
+necrotic,necros,ADJ,-ic,derivational
+gangrenous,gangren,ADJ,-ous,derivational
+ischemia,ischemi,N,root,root
+ischemic,ischemi,ADJ,-ic,derivational
+infarction,infarct,N,-ion,derivational
+infarctions,infarct,N,-ion +PL,derivational_inflectional
+infarcted,infarct,V,+PAST,inflectional
+embolism,embol,N,-ism,derivational
+emboli,embol,N,+PL (Latin -us to -i),inflectional
+aneurysms,aneurysm,N,+PL,inflectional
+stenosis,stenos,N,-osis,derivational
+stenoses,stenos,N,+PL (Greek -is to -es),inflectional
+occlusion,occlus,N,-ion,derivational
+occluded,occlus,V,+PAST,inflectional
+perforation,perfor,N,-ation,derivational
+perforated,perfor,V,+PAST,inflectional
+ruptured,ruptur,V,+PAST,inflectional
+rupture,ruptur,N,+SG,root
+herniation,herni,N,-ation,derivational
+hernias,herni,N,+PL,inflectional
+strictures,strictur,N,+PL,inflectional
+calculi,calcul,N,+PL (Latin -us to -i),inflectional
+nephrolithiasis,nephr,N,nephro- + -lithiasis,derivational
+cholelithiasis,chole,N,chole- + -lithiasis,derivational
+polyps,polyp,N,+PL,inflectional
+polypectomy,polyp,N,-ectomy,derivational
+carcinomas,carcin,N,-oma +PL,derivational_inflectional
+carcinogenic,carcin,ADJ,-genic,derivational
+sarcomas,sarcom,N,+PL,inflectional
+adenomas,adenom,N,+PL,inflectional
+adenocarcinoma,adenom,N,adeno- + carcin- + -oma,derivational
+melanomas,melanom,N,+PL,inflectional
+lymphomas,lymphom,N,+PL,inflectional
+leukemias,leukemi,N,+PL,inflectional
+fibromas,fibrom,N,+PL,inflectional
+lipomas,lipom,N,+PL,inflectional
+edematous,edem,ADJ,-atous,derivational
+effusions,effus,N,-ion +PL,derivational_inflectional
+exudative,exudat,ADJ,-ive,derivational
+cyanotic,cyanot,ADJ,-ic,derivational
+cyanosis,cyanot,N,-osis,derivational
+feverish,fever,ADJ,-ish,derivational
+fevers,fever,N,+PL,inflectional
+pyrexia,pyrex,N,-ia,derivational
+diaphoretic,diaphor,ADJ,-etic,derivational
+nauseous,nause,ADJ,-ous,derivational
+vomited,vomit,V,+PAST,inflectional
+vomiting,vomit,V,+PROG,inflectional
+dizziness,dizzin,N,-ness,derivational
+headaches,headach,N,+PL,inflectional
+seizures,seizur,N,+PL,inflectional
+dysarthric,dysarthr,ADJ,-ic,derivational
+dysphagic,dysphag,ADJ,-ic,derivational
+dyspneic,dyspne,ADJ,-ic,derivational
+tachycardic,tachycard,ADJ,-ic,derivational
+bradycardic,bradycard,ADJ,-ic,derivational
+arrhythmias,arrhythm,N,+PL,inflectional
+arrhythmic,arrhythm,ADJ,-ic,derivational
+septicemic,septic,ADJ,-emic,derivational
