@@ -1,0 +1,8 @@
+Category,Feature_Name,Possible_Values,Default_Value,Constraint_Rule
+Agreement,NUM,"sg, pl, any",sg,NP[NUM=?n] VP[NUM=?n] (Subject-Verb Number Agreement)
+Agreement,PERS,"1, 2, 3, any",3,NP[PERS=?p] VP[PERS=?p] (Subject-Verb Person Agreement)
+Agreement,DET_NUM,"sg, pl, any",any,Det[NUM=?n] Nom[NUM=?n] (Determiner-Noun Number Agreement)
+Case,CASE,"nom, acc, any",any,"NP_subj[CASE=nom], NP_obj[CASE=acc] (Pronoun Case Constraint)"
+Valence,SUBCAT,"intr, trans, ditrans, comp, prep",trans,V[SUBCAT=?s] selects exact complement sequence
+Inversion,INV,"+, -",-,S[INV=+] requires auxiliary fronting; S[INV=-] standard order
+Wh_Extraction,SLASH,"none, NP, PP",none,Gapped constituent threading through clause

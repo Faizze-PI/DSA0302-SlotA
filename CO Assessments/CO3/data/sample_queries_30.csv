@@ -1,0 +1,31 @@
+Query_ID,Sentence_Type,Query_Text,Is_Ambiguous,Expected_Root,Description
+Q01,Declarative,the student paid the hostel fee,False,S,Standard declarative with transitive verb
+Q02,Declarative,the portal crashed,False,S,Intransitive clause with past tense verb
+Q03,Declarative,the officer approved the refund,False,S,Subject-verb-object declarative query
+Q04,Declarative,they submitted the examination form,False,S,Pronominal subject declarative query
+Q05,Declarative,the warden sent me the receipt,False,S,Ditransitive clause with pronoun recipient
+Q06,Declarative,students apply for a hostel room,False,S,Prepositional complement declarative query
+Q07,Imperative,submit the examination form,False,S,Helpdesk imperative query
+Q08,Imperative,send me the receipt,False,S,Ditransitive imperative instruction
+Q09,Imperative,pay the hostel fee,False,S,Direct transitive command
+Q10,Imperative,download the timetable,False,S,Transitive action request
+Q11,Imperative,check the late fee notice,False,S,Noun compound imperative query
+Q12,Imperative,apply for the room,False,S,Prepositional complement imperative instruction
+Q13,YesNo_Question,is the library open on Sunday,False,S,Inverted copular Yes/No question
+Q14,YesNo_Question,did the officer approve the refund,False,S,Auxiliary inverted Yes/No question
+Q15,YesNo_Question,does the placement talk start at noon,False,S,3sg inverted Yes/No question
+Q16,YesNo_Question,was the examination form submitted,False,S,Passive-like copular question
+Q17,YesNo_Question,can the student book the room,False,S,Modal-fronted Yes/No question
+Q18,Wh_Subject_Question,who approved the fee refund,False,S,Wh-subject query with transitive verb
+Q19,Wh_Subject_Question,who sent me the receipt,False,S,Wh-subject query with ditransitive verb
+Q20,Wh_Subject_Question,what caused the late fee,False,S,Wh-subject inquiry
+Q21,Wh_Object_Question,what did the student submit,False,S,Wh-object query with auxiliary inversion and gap
+Q22,Wh_Object_Question,when does the placement talk start,False,S,Wh-adjunct temporal query
+Q23,Wh_Object_Question,where did the officer send the receipt,False,S,Wh-locative query with ditransitive gap
+Q24,Wh_Object_Question,what did the warden confirm,False,S,Wh-object query with sentential complement verb
+Q25,Ambiguous_PP_Attachment,show the students with the late fee notice,True,S,PP attachment to NP (students with notice) vs VP (show with notice)
+Q26,Ambiguous_PP_Attachment,book the room near the library for the seminar,True,S,"Multiple PP attachments (near library, for seminar)"
+Q27,Ambiguous_Coordination,submit the form and the fee receipt or the card,True,S,Coordination scope ambiguity ((A and B) or C) vs (A and (B or C))
+Q28,Ambiguous_PP_Attachment,the officer approved the refund for the hostel with the desk,True,S,Chained PP attachment to refund vs hostel vs approved
+Q29,Ambiguous_Coordination,officers and students with notices paid the fee,True,S,Modifier scope: with notices modifies only students or both
+Q30,Ambiguous_Relative_Clause,the warden confirmed the reports that the student submitted,True,S,Relative clause attachment to reports vs complement clause to confirmed

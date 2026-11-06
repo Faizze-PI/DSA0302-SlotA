@@ -1,0 +1,11 @@
+Message_ID,Raw_Message,Phenomena,Standard_Parseable,Uncovered_Features
+M01,"Can you tell me when the exams that were postponed will be held, and also whether the hostel fee is due?","Embedded question, relative clause, clausal coordination, modal polite fronting",False,"Embedded Wh-clause, relative modifier, Conj clausal"
+M02,I want to know if the library stays open on Sunday because I have a seminar next week.,"Embedded conditional, causal subordinate clause, multi-clause coordination",False,"Subordinating conjunction because, if-clause"
+M03,Please send me the timetable for mechanical engineering and update my hostel room status immediately.,"Polite imperative marker, coordination of VPs, temporal adverbial adjunct",False,"Discourse marker Please, multi-PP coordination"
+M04,"Where do I submit my fee refund form, or should I email the warden directly?",Wh-question coordinated with inverted modal clause,False,"Interrogative coordination, modal auxiliary should"
+M05,The officer who told me that the receipt was ready forgot to give it to me yesterday.,"Subject relative clause, sentential complement, infinitive complement, temporal adjunct",False,"Infinitive VP complement, nested Sbar"
+M06,"Crashed again while submitting the form, what to do now?","Subject ellipsis, temporal subordinate participle, fragment question",False,"Elliptical subject, gerund clause, fragment root"
+M07,"Is there any late fee for paying after Friday, or can I get an extension from the desk?","Existential there-construction, prepositional gerund, coordinated modal question",False,"Existential copula, gerund complement"
+M08,Tell me whether the placement talk starts at ten and if attendance is mandatory for final year students.,"Coordinated indirect questions (whether ... and if ...), prepositional modifier",False,Multiple complementizer clauses
+M09,"Hostel fee receipt not generated, money deducted from bank account.","Telegraphic fragments, passive participle ellipsis, juxtaposed independent clauses",False,"Unanchored fragments, missing copula"
+M10,Can I check which professor approved the refund and ask them for a signed confirmation letter?,"Modal fronting, embedded Wh-clause, pronoun binding across coordinated VP",False,Wh-gap within coordinated VP

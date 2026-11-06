@@ -1,0 +1,51 @@
+Rule_ID,LHS,RHS,Rule_Type,Recursive_Flag,Description
+R01,S,NP VP,Clause,False,Declarative sentence structure
+R02,S,VP,Clause,False,Imperative sentence structure
+R03,S,Aux NP VP,Clause,False,Yes-No question with subject-auxiliary inversion
+R04,S,Wh Aux NP VP,Clause,False,Wh-question with non-subject extraction and auxiliary inversion
+R05,S,Wh VP,Clause,False,Wh-question with subject extraction
+R06,S,S Conj S,Clause,True,Coordinated compound sentence
+R07,S,AdvP S,Clause,False,Fronted adverbial sentence
+R08,VP,V_intr,VP,False,Intransitive verb phrase (no object complement)
+R09,VP,V_trans NP,VP,False,Transitive verb phrase with direct object
+R10,VP,V_ditrans NP NP,VP,False,Ditransitive verb phrase with indirect and direct objects
+R11,VP,V_comp Sbar,VP,False,Sentential complement verb phrase
+R12,VP,V_ditrans NP Sbar,VP,False,Ditransitive verb with NP object and Sbar complement
+R13,VP,V_prep PP,VP,False,Prepositional complement verb phrase
+R14,VP,VP PP,VP,True,Verb phrase modified by prepositional adjunct (recursive)
+R15,VP,V_trans NP PP,VP,False,Transitive verb with object and prepositional argument/adjunct
+R16,VP,Copula AdjP,VP,False,Copular verb with predicate adjective
+R17,VP,Copula PP,VP,False,Copular verb with locative/temporal prepositional phrase
+R18,VP,VP Conj VP,VP,True,Coordinated verb phrases
+R19,VP,Mod VP,VP,False,Modal auxiliary governing verb phrase
+R20,Sbar,Comp S,SubClause,False,Complementizer clause
+R21,RC,RelPro VP,SubClause,False,Subject relative clause
+R22,RC,RelPro S_gap,SubClause,False,Object relative clause with gap
+R23,S_gap,NP V_trans,SubClause,False,Transitive clause with gapped object
+R24,NP,Det Nom,NP,False,Determiner-governed nominal
+R25,NP,Nom,NP,False,Bare nominal phrase (mass/plural)
+R26,NP,Pron,NP,False,Pronominal noun phrase
+R27,NP,PropN,NP,False,Proper nominal phrase
+R28,NP,NP PP,NP,True,Noun phrase modified by prepositional phrase (recursive)
+R29,NP,NP RC,NP,True,Noun phrase modified by relative clause
+R30,NP,NP Conj NP,NP,True,Coordinated noun phrases
+R31,Nom,N,Nom,False,Base nominal head noun
+R32,Nom,Adj Nom,Nom,True,Adjective modifying nominal
+R33,Nom,N Nom,Nom,True,Noun-noun compound nominal
+R34,PP,P NP,PP,False,Preposition governing noun phrase complement
+R35,AdjP,Adj,AdjP,False,Single adjective phrase
+R36,AdjP,Adv Adj,AdjP,False,Adverbially modified adjective phrase
+R37,AdvP,Adv,AdvP,False,Adverbial modifier phrase
+R38,S_sg,NP_sg VP_sg,AgreementSplit,False,Singular subject-verb agreement rule
+R39,S_pl,NP_pl VP_pl,AgreementSplit,False,Plural subject-verb agreement rule
+R40,NP_sg,Det_sg Nom_sg,AgreementSplit,False,Singular determiner-noun agreement rule
+R41,NP_pl,Det_pl Nom_pl,AgreementSplit,False,Plural determiner-noun agreement rule
+R42,VP_sg,V_trans_sg NP,AgreementSplit,False,Singular transitive verb phrase
+R43,VP_pl,V_trans_pl NP,AgreementSplit,False,Plural transitive verb phrase
+R44,VP_sg,V_intr_sg,AgreementSplit,False,Singular intransitive verb phrase
+R45,VP_pl,V_intr_pl,AgreementSplit,False,Plural intransitive verb phrase
+R46,Nom_sg,N_sg,AgreementSplit,False,Singular base nominal
+R47,Nom_pl,N_pl,AgreementSplit,False,Plural base nominal
+R48,NP_nom,Pron_nom,AgreementSplit,False,Nominative case pronoun subject
+R49,NP_acc,Pron_acc,AgreementSplit,False,Accusative case pronoun object
+R50,VP,V_ditrans NP_acc NP,AgreementSplit,False,Ditransitive verb with accusative recipient

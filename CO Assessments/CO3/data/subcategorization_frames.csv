@@ -1,0 +1,6 @@
+Frame_Name,Notation,Required_Arguments,Example_Verb,Example_Sentence,Illicit_Example
+Intransitive,V_intr,[NP_subj],crashed,The portal crashed,*The portal crashed the form
+Transitive,V_trans,"[NP_subj, NP_obj]",submit,Submit the examination form,*Submit
+Ditransitive,V_ditrans,"[NP_subj, NP_recip, NP_obj]",send,Send me the receipt,*Send the receipt
+Sentential Complement,V_comp,"[NP_subj, (NP_recip), Sbar]",tell,Tell me that the fee is paid,*Tell me
+Prepositional Complement,V_prep,"[NP_subj, PP_for]",apply,Students apply for a hostel room,*Students apply a hostel room

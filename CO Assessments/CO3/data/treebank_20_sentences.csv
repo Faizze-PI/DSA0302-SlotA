@@ -1,0 +1,21 @@
+Tree_ID,Sentence,Bracketed_Parse,Sentence_Type
+T01,the student paid the hostel fee,(S (NP (Det the) (Nom (N student))) (VP (V_trans paid) (NP (Det the) (Nom (N hostel) (Nom (N fee)))))),Declarative
+T02,the portal crashed,(S (NP (Det the) (Nom (N portal))) (VP (V_intr crashed))),Declarative
+T03,the officer approved the refund,(S (NP (Det the) (Nom (N officer))) (VP (V_trans approved) (NP (Det the) (Nom (N refund))))),Declarative
+T04,they submitted the examination form,(S (NP (Pron they)) (VP (V_trans submitted) (NP (Det the) (Nom (N examination) (Nom (N form)))))),Declarative
+T05,the warden sent me the receipt,(S (NP (Det the) (Nom (N warden))) (VP (V_ditrans sent) (NP (Pron me)) (NP (Det the) (Nom (N receipt))))),Declarative
+T06,students apply for a hostel room,(S (NP (Nom (N students))) (VP (V_prep apply) (PP (P for) (NP (Det a) (Nom (N hostel) (Nom (N room))))))),Declarative
+T07,submit the examination form,(S (VP (V_trans submit) (NP (Det the) (Nom (N examination) (Nom (N form)))))),Imperative
+T08,send me the receipt,(S (VP (V_ditrans send) (NP (Pron me)) (NP (Det the) (Nom (N receipt))))),Imperative
+T09,pay the hostel fee,(S (VP (V_trans pay) (NP (Det the) (Nom (N hostel) (Nom (N fee)))))),Imperative
+T10,download the timetable,(S (VP (V_trans download) (NP (Det the) (Nom (N timetable))))),Imperative
+T11,did the officer approve the refund,(S (Aux did) (NP (Det the) (Nom (N officer))) (VP (V_trans approve) (NP (Det the) (Nom (N refund))))),YesNo_Question
+T12,who approved the fee refund,(S (Wh who) (VP (V_trans approved) (NP (Det the) (Nom (N fee) (Nom (N refund)))))),Wh_Subject_Question
+T13,who sent me the receipt,(S (Wh who) (VP (V_ditrans sent) (NP (Pron me)) (NP (Det the) (Nom (N receipt))))),Wh_Subject_Question
+T14,the warden told me that the fee is paid,(S (NP (Det the) (Nom (N warden))) (VP (V_comp told) (NP (Pron me)) (Sbar (Comp that) (S (NP (Det the) (Nom (N fee))) (VP (Aux is) (VP (V_trans paid))))))),Sentential_Comp
+T15,the student booked the room near the library,(S (NP (Det the) (Nom (N student))) (VP (V_trans booked) (NP (NP (Det the) (Nom (N room))) (PP (P near) (NP (Det the) (Nom (N library))))))),PP_Attachment_NP
+T16,show the students with the late fee notice,(S (VP (V_trans show) (NP (NP (Det the) (Nom (N students))) (PP (P with) (NP (Det the) (Nom (Adj late) (Nom (N fee) (Nom (N notice))))))))),PP_Attachment_NP
+T17,the officer confirmed the refund,(S (NP (Det the) (Nom (N officer))) (VP (V_trans confirmed) (NP (Det the) (Nom (N refund))))),Declarative
+T18,the professor checked the marks,(S (NP (Det the) (Nom (N professor))) (VP (V_trans checked) (NP (Det the) (Nom (N marks))))),Declarative
+T19,book the seminar room,(S (VP (V_trans book) (NP (Det the) (Nom (N seminar) (Nom (N room)))))),Imperative
+T20,apply for the room near the hostel,(S (VP (V_prep apply) (PP (P for) (NP (NP (Det the) (Nom (N room))) (PP (P near) (NP (Det the) (Nom (N hostel)))))))),Prepositional_Adjunct
