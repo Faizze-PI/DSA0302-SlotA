@@ -1,0 +1,1500 @@
+[
+  {
+    "surface_form": "fractures",
+    "lemma": "fracture",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "fractured",
+    "lemma": "fracture",
+    "pos": "V",
+    "morph_feature": "+PAST",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "fracturing",
+    "lemma": "fracture",
+    "pos": "V",
+    "morph_feature": "+PROG",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "fracture",
+    "lemma": "fracture",
+    "pos": "N",
+    "morph_feature": "+SG",
+    "category": "root"
+  },
+  {
+    "surface_form": "nephrectomy",
+    "lemma": "nephr",
+    "pos": "N",
+    "morph_feature": "-ectomy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "nephrectomies",
+    "lemma": "nephr",
+    "pos": "N",
+    "morph_feature": "-ectomy +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "nephritis",
+    "lemma": "nephr",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "nephritic",
+    "lemma": "nephr",
+    "pos": "ADJ",
+    "morph_feature": "-itic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "nephrotic",
+    "lemma": "nephr",
+    "pos": "ADJ",
+    "morph_feature": "-otic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "nephrology",
+    "lemma": "nephr",
+    "pos": "N",
+    "morph_feature": "-ology",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "nephrologist",
+    "lemma": "nephr",
+    "pos": "N",
+    "morph_feature": "-ology + -ist",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hypertension",
+    "lemma": "tens",
+    "pos": "N",
+    "morph_feature": "hyper- + -ion",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hypertensive",
+    "lemma": "tens",
+    "pos": "ADJ",
+    "morph_feature": "hyper- + -ive",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hypotension",
+    "lemma": "tens",
+    "pos": "N",
+    "morph_feature": "hypo- + -ion",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hypotensive",
+    "lemma": "tens",
+    "pos": "ADJ",
+    "morph_feature": "hypo- + -ive",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "appendectomy",
+    "lemma": "append",
+    "pos": "N",
+    "morph_feature": "-ectomy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "appendectomies",
+    "lemma": "append",
+    "pos": "N",
+    "morph_feature": "-ectomy +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "appendicitis",
+    "lemma": "append",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "bronchitis",
+    "lemma": "bronch",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "bronchitic",
+    "lemma": "bronch",
+    "pos": "ADJ",
+    "morph_feature": "-itic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "bronchoscopy",
+    "lemma": "bronch",
+    "pos": "N",
+    "morph_feature": "-scopy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "bronchoscopies",
+    "lemma": "bronch",
+    "pos": "N",
+    "morph_feature": "-scopy +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "gastritis",
+    "lemma": "gastr",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "gastrectomy",
+    "lemma": "gastr",
+    "pos": "N",
+    "morph_feature": "-ectomy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "gastroenteritis",
+    "lemma": "gastr",
+    "pos": "N",
+    "morph_feature": "gastro- + enter- + -itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hepatitis",
+    "lemma": "hepat",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hepatomegaly",
+    "lemma": "hepat",
+    "pos": "N",
+    "morph_feature": "-megaly",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hepatic",
+    "lemma": "liver",
+    "pos": "ADJ",
+    "morph_feature": "suppletion",
+    "category": "irregular"
+  },
+  {
+    "surface_form": "renal",
+    "lemma": "kidney",
+    "pos": "ADJ",
+    "morph_feature": "suppletion",
+    "category": "irregular"
+  },
+  {
+    "surface_form": "cardiac",
+    "lemma": "heart",
+    "pos": "ADJ",
+    "morph_feature": "suppletion",
+    "category": "irregular"
+  },
+  {
+    "surface_form": "pulmonary",
+    "lemma": "lung",
+    "pos": "ADJ",
+    "morph_feature": "suppletion",
+    "category": "irregular"
+  },
+  {
+    "surface_form": "gastric",
+    "lemma": "stomach",
+    "pos": "ADJ",
+    "morph_feature": "suppletion",
+    "category": "irregular"
+  },
+  {
+    "surface_form": "arthritis",
+    "lemma": "arthr",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "arthritic",
+    "lemma": "arthr",
+    "pos": "ADJ",
+    "morph_feature": "-itic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "arthroplasty",
+    "lemma": "arthr",
+    "pos": "N",
+    "morph_feature": "-plasty",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "arthroplasties",
+    "lemma": "arthr",
+    "pos": "N",
+    "morph_feature": "-plasty +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "arthroscopy",
+    "lemma": "arthr",
+    "pos": "N",
+    "morph_feature": "-scopy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "dermatitis",
+    "lemma": "derm",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "dermatology",
+    "lemma": "derm",
+    "pos": "N",
+    "morph_feature": "-ology",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "dermatologist",
+    "lemma": "derm",
+    "pos": "N",
+    "morph_feature": "-ology + -ist",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "colitis",
+    "lemma": "colon",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "colectomy",
+    "lemma": "colon",
+    "pos": "N",
+    "morph_feature": "-ectomy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "colonoscopy",
+    "lemma": "colon",
+    "pos": "N",
+    "morph_feature": "-scopy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "lesions",
+    "lemma": "lesion",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "lesion",
+    "lemma": "lesion",
+    "pos": "N",
+    "morph_feature": "+SG",
+    "category": "root"
+  },
+  {
+    "surface_form": "patients",
+    "lemma": "patient",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "patient",
+    "lemma": "patient",
+    "pos": "N",
+    "morph_feature": "+SG",
+    "category": "root"
+  },
+  {
+    "surface_form": "symptoms",
+    "lemma": "symptom",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "symptomatic",
+    "lemma": "symptom",
+    "pos": "ADJ",
+    "morph_feature": "-atic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "asymptomatic",
+    "lemma": "symptom",
+    "pos": "ADJ",
+    "morph_feature": "a- + -atic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "tendons",
+    "lemma": "tendon",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "tendonitis",
+    "lemma": "tendon",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "ligaments",
+    "lemma": "ligament",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "vessels",
+    "lemma": "vessel",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "arteries",
+    "lemma": "artery",
+    "pos": "N",
+    "morph_feature": "+PL (y-to-i)",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "arterial",
+    "lemma": "artery",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "veins",
+    "lemma": "vein",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "venous",
+    "lemma": "vein",
+    "pos": "ADJ",
+    "morph_feature": "-ous",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "muscles",
+    "lemma": "muscl",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "muscular",
+    "lemma": "muscl",
+    "pos": "ADJ",
+    "morph_feature": "-ar",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "pancreatitis",
+    "lemma": "pancrea",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "cerebral",
+    "lemma": "brain",
+    "pos": "ADJ",
+    "morph_feature": "suppletion",
+    "category": "irregular"
+  },
+  {
+    "surface_form": "cranial",
+    "lemma": "cranium",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "neurons",
+    "lemma": "neuron",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "neuronal",
+    "lemma": "neuron",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "valves",
+    "lemma": "valv",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "valvular",
+    "lemma": "valv",
+    "pos": "ADJ",
+    "morph_feature": "-ar",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "ventricles",
+    "lemma": "ventricl",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "ventricular",
+    "lemma": "ventricl",
+    "pos": "ADJ",
+    "morph_feature": "-ar",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "atria",
+    "lemma": "atrium",
+    "pos": "N",
+    "morph_feature": "+PL (Latin -um to -a)",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "atrial",
+    "lemma": "atrium",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "aortic",
+    "lemma": "aort",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "capillaries",
+    "lemma": "capillar",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "lymphatic",
+    "lemma": "lymph",
+    "pos": "ADJ",
+    "morph_feature": "-atic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "splenomegaly",
+    "lemma": "spleen",
+    "pos": "N",
+    "morph_feature": "-megaly",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "splenic",
+    "lemma": "spleen",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "thyroiditis",
+    "lemma": "thyroid",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hyperthyroidism",
+    "lemma": "thyroid",
+    "pos": "N",
+    "morph_feature": "hyper- + -ism",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hypothyroidism",
+    "lemma": "thyroid",
+    "pos": "N",
+    "morph_feature": "hypo- + -ism",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "adrenal",
+    "lemma": "adrenal",
+    "pos": "ADJ",
+    "morph_feature": "root",
+    "category": "root"
+  },
+  {
+    "surface_form": "pituitary",
+    "lemma": "pituitar",
+    "pos": "ADJ",
+    "morph_feature": "root",
+    "category": "root"
+  },
+  {
+    "surface_form": "cortical",
+    "lemma": "cortex",
+    "pos": "ADJ",
+    "morph_feature": "-ical",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "medullary",
+    "lemma": "medulla",
+    "pos": "ADJ",
+    "morph_feature": "-ary",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "glomerular",
+    "lemma": "glomerul",
+    "pos": "ADJ",
+    "morph_feature": "-ar",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "glomerulonephritis",
+    "lemma": "glomerul",
+    "pos": "N",
+    "morph_feature": "glomerulo- + nephr- + -itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "tubular",
+    "lemma": "tubul",
+    "pos": "ADJ",
+    "morph_feature": "-ar",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "ureteral",
+    "lemma": "ureter",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "urethral",
+    "lemma": "urethr",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "vesical",
+    "lemma": "vesic",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "prostatic",
+    "lemma": "prostat",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "prostatectomy",
+    "lemma": "prostat",
+    "pos": "N",
+    "morph_feature": "-ectomy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "prostatitis",
+    "lemma": "prostat",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "ovarian",
+    "lemma": "ovari",
+    "pos": "ADJ",
+    "morph_feature": "-an",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "uterine",
+    "lemma": "uter",
+    "pos": "ADJ",
+    "morph_feature": "-ine",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "cervical",
+    "lemma": "cervix",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "vaginal",
+    "lemma": "vagin",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "placental",
+    "lemma": "placent",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "fetal",
+    "lemma": "fetus",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "osteomyelitis",
+    "lemma": "oste",
+    "pos": "N",
+    "morph_feature": "osteo- + myel- + -itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "osteoarthritis",
+    "lemma": "oste",
+    "pos": "N",
+    "morph_feature": "osteo- + arthr- + -itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "myocarditis",
+    "lemma": "myocard",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "endocarditis",
+    "lemma": "endocard",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "pericarditis",
+    "lemma": "pericard",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "myopathy",
+    "lemma": "myo",
+    "pos": "N",
+    "morph_feature": "-pathy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "myopathies",
+    "lemma": "myo",
+    "pos": "N",
+    "morph_feature": "-pathy +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "fasciitis",
+    "lemma": "fasci",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "meningitis",
+    "lemma": "mening",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "pleurisy",
+    "lemma": "pleur",
+    "pos": "N",
+    "morph_feature": "-isy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "pleural",
+    "lemma": "pleur",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "peritoneal",
+    "lemma": "peritone",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "peritonitis",
+    "lemma": "peritone",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "erythrocytes",
+    "lemma": "erythr",
+    "pos": "N",
+    "morph_feature": "erythro- + -cyte +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "erythrocytic",
+    "lemma": "erythr",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "leukocytes",
+    "lemma": "leuk",
+    "pos": "N",
+    "morph_feature": "leuko- + -cyte +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "leukocytosis",
+    "lemma": "leuk",
+    "pos": "N",
+    "morph_feature": "-osis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "thrombocytes",
+    "lemma": "thromb",
+    "pos": "N",
+    "morph_feature": "-cyte +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "thrombocytopenia",
+    "lemma": "thromb",
+    "pos": "N",
+    "morph_feature": "-penia",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "thrombosis",
+    "lemma": "thromb",
+    "pos": "N",
+    "morph_feature": "-osis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "thromboses",
+    "lemma": "thromb",
+    "pos": "N",
+    "morph_feature": "-oses +PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "macrophages",
+    "lemma": "macro",
+    "pos": "N",
+    "morph_feature": "macro- + -phage +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "eosinophils",
+    "lemma": "eosin",
+    "pos": "N",
+    "morph_feature": "-phil +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "eosinophilia",
+    "lemma": "eosin",
+    "pos": "N",
+    "morph_feature": "-ia",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "basophils",
+    "lemma": "baso",
+    "pos": "N",
+    "morph_feature": "-phil +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "neutrophils",
+    "lemma": "neutro",
+    "pos": "N",
+    "morph_feature": "-phil +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "neutrophilia",
+    "lemma": "neutro",
+    "pos": "N",
+    "morph_feature": "-ia",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "monocytes",
+    "lemma": "monocyt",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "coagulation",
+    "lemma": "coagul",
+    "pos": "N",
+    "morph_feature": "-ation",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "coagulated",
+    "lemma": "coagul",
+    "pos": "V",
+    "morph_feature": "+PAST",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "fibrinogen",
+    "lemma": "fibrin",
+    "pos": "N",
+    "morph_feature": "-gen",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "albuminuria",
+    "lemma": "albumin",
+    "pos": "N",
+    "morph_feature": "-uria",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "bilirubinemia",
+    "lemma": "bilirubin",
+    "pos": "N",
+    "morph_feature": "-emia",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hyperglycemia",
+    "lemma": "glucos",
+    "pos": "N",
+    "morph_feature": "hyper- + -emia",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hypoglycemia",
+    "lemma": "glucos",
+    "pos": "N",
+    "morph_feature": "hypo- + -emia",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "glucosuria",
+    "lemma": "glucos",
+    "pos": "N",
+    "morph_feature": "-uria",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "mitochondrial",
+    "lemma": "mitochondr",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "cytoplasmic",
+    "lemma": "cytoplasm",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "nuclear",
+    "lemma": "nucle",
+    "pos": "ADJ",
+    "morph_feature": "-ar",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "chromosomal",
+    "lemma": "chromosom",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "genetic",
+    "lemma": "gen",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "genetics",
+    "lemma": "gen",
+    "pos": "N",
+    "morph_feature": "-ics",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "mutations",
+    "lemma": "mutat",
+    "pos": "N",
+    "morph_feature": "-ion +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "mutated",
+    "lemma": "mutat",
+    "pos": "V",
+    "morph_feature": "+PAST",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "peptides",
+    "lemma": "peptid",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "proteins",
+    "lemma": "protein",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "lipids",
+    "lemma": "lipid",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "hyperlipidemia",
+    "lemma": "lipid",
+    "pos": "N",
+    "morph_feature": "hyper- + -emia",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "esophagitis",
+    "lemma": "esophag",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "duodenitis",
+    "lemma": "duoden",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "ileitis",
+    "lemma": "ileum",
+    "pos": "N",
+    "morph_feature": "-itis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "rectal",
+    "lemma": "rectum",
+    "pos": "ADJ",
+    "morph_feature": "-al",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "fistulae",
+    "lemma": "fistul",
+    "pos": "N",
+    "morph_feature": "+PL (Latin -a to -ae)",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "ulceration",
+    "lemma": "ulcer",
+    "pos": "N",
+    "morph_feature": "-ation",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "ulcerative",
+    "lemma": "ulcer",
+    "pos": "ADJ",
+    "morph_feature": "-ative",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "ulcers",
+    "lemma": "ulcer",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "necrosis",
+    "lemma": "necros",
+    "pos": "N",
+    "morph_feature": "-osis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "necrotic",
+    "lemma": "necros",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "gangrenous",
+    "lemma": "gangren",
+    "pos": "ADJ",
+    "morph_feature": "-ous",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "ischemia",
+    "lemma": "ischemi",
+    "pos": "N",
+    "morph_feature": "root",
+    "category": "root"
+  },
+  {
+    "surface_form": "ischemic",
+    "lemma": "ischemi",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "infarction",
+    "lemma": "infarct",
+    "pos": "N",
+    "morph_feature": "-ion",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "infarctions",
+    "lemma": "infarct",
+    "pos": "N",
+    "morph_feature": "-ion +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "infarcted",
+    "lemma": "infarct",
+    "pos": "V",
+    "morph_feature": "+PAST",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "embolism",
+    "lemma": "embol",
+    "pos": "N",
+    "morph_feature": "-ism",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "emboli",
+    "lemma": "embol",
+    "pos": "N",
+    "morph_feature": "+PL (Latin -us to -i)",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "aneurysms",
+    "lemma": "aneurysm",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "stenosis",
+    "lemma": "stenos",
+    "pos": "N",
+    "morph_feature": "-osis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "stenoses",
+    "lemma": "stenos",
+    "pos": "N",
+    "morph_feature": "+PL (Greek -is to -es)",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "occlusion",
+    "lemma": "occlus",
+    "pos": "N",
+    "morph_feature": "-ion",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "occluded",
+    "lemma": "occlus",
+    "pos": "V",
+    "morph_feature": "+PAST",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "perforation",
+    "lemma": "perfor",
+    "pos": "N",
+    "morph_feature": "-ation",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "perforated",
+    "lemma": "perfor",
+    "pos": "V",
+    "morph_feature": "+PAST",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "ruptured",
+    "lemma": "ruptur",
+    "pos": "V",
+    "morph_feature": "+PAST",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "rupture",
+    "lemma": "ruptur",
+    "pos": "N",
+    "morph_feature": "+SG",
+    "category": "root"
+  },
+  {
+    "surface_form": "herniation",
+    "lemma": "herni",
+    "pos": "N",
+    "morph_feature": "-ation",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "hernias",
+    "lemma": "herni",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "strictures",
+    "lemma": "strictur",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "calculi",
+    "lemma": "calcul",
+    "pos": "N",
+    "morph_feature": "+PL (Latin -us to -i)",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "nephrolithiasis",
+    "lemma": "nephr",
+    "pos": "N",
+    "morph_feature": "nephro- + -lithiasis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "cholelithiasis",
+    "lemma": "chole",
+    "pos": "N",
+    "morph_feature": "chole- + -lithiasis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "polyps",
+    "lemma": "polyp",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "polypectomy",
+    "lemma": "polyp",
+    "pos": "N",
+    "morph_feature": "-ectomy",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "carcinomas",
+    "lemma": "carcin",
+    "pos": "N",
+    "morph_feature": "-oma +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "carcinogenic",
+    "lemma": "carcin",
+    "pos": "ADJ",
+    "morph_feature": "-genic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "sarcomas",
+    "lemma": "sarcom",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "adenomas",
+    "lemma": "adenom",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "adenocarcinoma",
+    "lemma": "adenom",
+    "pos": "N",
+    "morph_feature": "adeno- + carcin- + -oma",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "melanomas",
+    "lemma": "melanom",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "lymphomas",
+    "lemma": "lymphom",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "leukemias",
+    "lemma": "leukemi",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "fibromas",
+    "lemma": "fibrom",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "lipomas",
+    "lemma": "lipom",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "edematous",
+    "lemma": "edem",
+    "pos": "ADJ",
+    "morph_feature": "-atous",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "effusions",
+    "lemma": "effus",
+    "pos": "N",
+    "morph_feature": "-ion +PL",
+    "category": "derivational_inflectional"
+  },
+  {
+    "surface_form": "exudative",
+    "lemma": "exudat",
+    "pos": "ADJ",
+    "morph_feature": "-ive",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "cyanotic",
+    "lemma": "cyanot",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "cyanosis",
+    "lemma": "cyanot",
+    "pos": "N",
+    "morph_feature": "-osis",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "feverish",
+    "lemma": "fever",
+    "pos": "ADJ",
+    "morph_feature": "-ish",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "fevers",
+    "lemma": "fever",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "pyrexia",
+    "lemma": "pyrex",
+    "pos": "N",
+    "morph_feature": "-ia",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "diaphoretic",
+    "lemma": "diaphor",
+    "pos": "ADJ",
+    "morph_feature": "-etic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "nauseous",
+    "lemma": "nause",
+    "pos": "ADJ",
+    "morph_feature": "-ous",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "vomited",
+    "lemma": "vomit",
+    "pos": "V",
+    "morph_feature": "+PAST",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "vomiting",
+    "lemma": "vomit",
+    "pos": "V",
+    "morph_feature": "+PROG",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "dizziness",
+    "lemma": "dizzin",
+    "pos": "N",
+    "morph_feature": "-ness",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "headaches",
+    "lemma": "headach",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "seizures",
+    "lemma": "seizur",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "dysarthric",
+    "lemma": "dysarthr",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "dysphagic",
+    "lemma": "dysphag",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "dyspneic",
+    "lemma": "dyspne",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "tachycardic",
+    "lemma": "tachycard",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "bradycardic",
+    "lemma": "bradycard",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "arrhythmias",
+    "lemma": "arrhythm",
+    "pos": "N",
+    "morph_feature": "+PL",
+    "category": "inflectional"
+  },
+  {
+    "surface_form": "arrhythmic",
+    "lemma": "arrhythm",
+    "pos": "ADJ",
+    "morph_feature": "-ic",
+    "category": "derivational"
+  },
+  {
+    "surface_form": "septicemic",
+    "lemma": "septic",
+    "pos": "ADJ",
+    "morph_feature": "-emic",
+    "category": "derivational"
+  }
+]

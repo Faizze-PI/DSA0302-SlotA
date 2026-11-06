@@ -1,0 +1,45 @@
+DSA03 NLP ASSIGNMENT 1: PIPELINE EXECUTION SUMMARY & TRANSCRIPT
+================================================================================
+
+1. CORPUS SUMMARY:
+   - Total Clinical Records: 500
+   - Total Word Tokens: 103954
+   - Record Types Covered: 4 (Discharge Summary, Prescription, Operation Note, Nursing Observation)
+
+2. STRUCTURED ENTITY INVENTORY (TASK 2):
+   - patient_id               :   500 occurrences extracted
+   - clinical_date            :   625 occurrences extracted
+   - drug_strength            :  1922 occurrences extracted
+   - dosage_frequency         :   980 occurrences extracted
+   - lab_value                :  1000 occurrences extracted
+   - blood_pressure           :   500 occurrences extracted
+   - temperature              :   500 occurrences extracted
+   - icd_code                 :   500 occurrences extracted
+   - ward_bed                 :   500 occurrences extracted
+   - contact_number           :   500 occurrences extracted
+   - age                      :   500 occurrences extracted
+   - symptom_duration         :   463 occurrences extracted
+   - All negative rejection test cases: PASSED
+
+3. AUTOMATA & EQUIVALENCE (TASK 4):
+   - 4 Validator DFAs (Patient ID, BP, Temp, ICD): ALL FUNCTIONAL
+   - Optional Dosage NFA with eps-transitions: 9 States
+   - Subset Construction DFA: 8 States
+   - Minimized DFA: 8 States
+
+4. MORPHOLOGICAL TRANSDUCER & CASCADE (TASKS 7 & 8):
+   - Orthographic 20-form test suite: 20 / 20 PASS (100% accuracy)
+   - Two-tape bidirectional parsing and generation: VERIFIED
+
+5. PORTER STEMMER RETRIEVAL BENCHMARK (TASKS 9 & 11):
+   - RAW         : Precision=1.0000, Recall=1.0000, F1=1.0000
+   - PORTER      : Precision=0.8507, Recall=1.0000, F1=0.8541
+   - MORPHOLOGY  : Precision=0.8549, Recall=1.0000, F1=0.8581
+
+6. DAY-4 DESIGN CHALLENGE EVALUATION (TASK 12):
+   - Architectural Decision: MODIFY
+   - NOISY-OCR-001 (OCR Scanned Form): Coverage 1.9% -> 46.2%
+   - NOISY-MIXED-002 (Code-Mixed Romanised Regional): Coverage 3.2% -> 57.9%
+   - NOISY-HYBRID-003 (Hybrid OCR and Code-Mixed): Coverage 3.5% -> 40.5%
+
+Total Pipeline Execution Time: 4.4575 seconds.
