@@ -8,7 +8,7 @@ Evaluates entity extraction, automata, morphological transducers, Porter stemmin
 Generates publication-quality performance graphs in outputs/.
 """
 
-import json
+import csv
 import os
 import sys
 import time
@@ -65,22 +65,48 @@ def run_pipeline():
     print("DSA03 NLP ASSIGNMENT 1: HOSPITAL RECORD TEXT NORMALISATION & SEARCH LAYER")
     print("================================================================================\n")
 
-    corpus_path = os.path.join(DATA_DIR, "clinical_corpus.json")
-    lexicon_path = os.path.join(DATA_DIR, "morphological_lexicon.json")
-    annotated_path = os.path.join(DATA_DIR, "annotated_200_tokens.json")
-    eval_queries_path = os.path.join(DATA_DIR, "eval_40_queries.json")
-    noisy_path = os.path.join(DATA_DIR, "noisy_day4_records.json")
+    corpus_path = os.path.join(DATA_DIR, "clinical_corpus.csv")
+    lexicon_path = os.path.join(DATA_DIR, "morphological_lexicon.csv")
+    annotated_path = os.path.join(DATA_DIR, "annotated_200_tokens.csv")
+    eval_queries_path = os.path.join(DATA_DIR, "eval_40_queries.csv")
+    noisy_path = os.path.join(DATA_DIR, "noisy_day4_records.csv")
 
     with open(corpus_path, "r", encoding="utf-8") as f:
-        records = json.load(f)
+        records = list(csv.DictReader(f))
+
+    lexicon: Dict[str, Any] = {
+        "stems": [],
+        "inflectional_affixes": [],
+        "derivational_affixes": [],
+        "irregular_forms": []
+    }
     with open(lexicon_path, "r", encoding="utf-8") as f:
-        lexicon = json.load(f)
+        for row in csv.DictReader(f):
+            cat = row["category"]
+            if cat == "stem":
+                lexicon["stems"].append(row["surface_or_affix"])
+            elif cat == "inflectional":
+                lexicon["inflectional_affixes"].append(row["surface_or_affix"])
+            elif cat == "derivational":
+                lexicon["derivational_affixes"].append(row["surface_or_affix"])
+            elif cat == "irregular":
+                lexicon["irregular_forms"].append({
+                    "surface": row["surface_or_affix"],
+                    "canonical_stem": row["canonical_stem"],
+                    "category": row["pos_or_feature"]
+                })
+
     with open(annotated_path, "r", encoding="utf-8") as f:
-        annotated_tokens = json.load(f)
+        annotated_tokens = list(csv.DictReader(f))
+
+    eval_queries = []
     with open(eval_queries_path, "r", encoding="utf-8") as f:
-        eval_queries = json.load(f)
+        for row in csv.DictReader(f):
+            row["relevant_record_ids"] = row["relevant_record_ids"].split(";") if row.get("relevant_record_ids") else []
+            eval_queries.append(row)
+
     with open(noisy_path, "r", encoding="utf-8") as f:
-        noisy_records = json.load(f)
+        noisy_records = list(csv.DictReader(f))
 
     start_total_time = time.time()
 

@@ -10,7 +10,6 @@ Builds inverted search indexes over clinical records under three regimes:
 Evaluates 40 clinician benchmark queries reporting Precision, Recall, and F1.
 """
 
-import json
 import re
 import time
 from typing import Any, Dict, List, Optional, Set, Tuple

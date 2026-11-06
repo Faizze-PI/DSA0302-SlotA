@@ -7,7 +7,7 @@ Defines and evaluates regular expressions for twelve structured clinical entitie
 Demonstrates greedy vs. non-greedy quantifier semantics and operator precedence.
 """
 
-import json
+import csv
 import re
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -107,7 +107,7 @@ def demonstrate_precedence_issue() -> Dict[str, Any]:
 
 def evaluate_on_corpus(records_path: str) -> Dict[str, Any]:
     with open(records_path, "r", encoding="utf-8") as f:
-        records = json.load(f)
+        records = list(csv.DictReader(f))
 
     evaluation = {}
     for entity in COMPILED_PATTERNS.keys():

@@ -1,4 +1,4 @@
-record_id,record_type,patient_id,admission_date,discharge_date,diagnosis,icd_code,age,contact,ward_bed,blood_pressure,temperature,clinical_note_text
+record_id,record_type,patient_id,admission_date,discharge_date,diagnosis,icd_code,age,contact,ward_bed,blood_pressure,temperature,text
 REC-0001,Discharge Summary,PID-10228,2024-02-18,2024-02-24,Gastro-oesophageal reflux disease,K21.0,21 yo,+91-9896233790,"Orthopaedic Unit, Bed 7",132/67 mmHg,98.1 F,"DISCHARGE SUMMARY
 Patient ID: PID-10228 | Age: 21 yo | Contact: +91-9896233790
 Admission Date: 2024-02-18 | Discharge Date: 2024-02-24

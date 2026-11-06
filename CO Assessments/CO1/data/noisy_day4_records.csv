@@ -1,0 +1,20 @@
+record_id,type,text
+NOISY-OCR-001,OCR Scanned Form,"DISCHARGE SUlvlMARY
+Patient lD: PlD-10294 | Age: 45 yo | Contact: +91-9876543210
+Admission Date: 2O24-O3-12 | Discharge Date: 2024-03-18
+Location: CardiaIogy Ward, Bed 12
+Primary Diagnosis: Acute myocardiaI infarction (ICD code: l21.9).
+Physical findings: bIood pressure 14O/9O mmHg, body temp 98.6 F.
+Lab tests: Hb 13.5 g/dL, Creatinine 1.2 mg/dL, WBC 85OO /uL.
+Post-oper- 
+ative notes indicate patient underwent coronary catheterisa- 
+tion successfully.
+Prescribed Paracetam0l 5OOmg t.i.d. and Atorvastatin 2Omg once daily."
+NOISY-MIXED-002,Code-Mixed Romanised Regional,"NURSING OBSERVATION & SHIFT HANDOVER
+Patient ID: PID-10552 | Age: 52 yo | Contact: +91-9840123456
+Location: Orthopaedic Unit, Bed 08
+Primary Issue: Closed fracture right leg.
+Shift Notes: patient ku fever irundhuchu, evening time romba shivering aachu. BP 135/85 mmHg check panrom, temp 101.2 F irukku. paracetamol 500mg kuduthen, after one hour fever koranjuduchu. leg pain kooda irundhuchu, tramadol 50mg potrukkom. wound dressing maathiyachu, bleeding edhum illa. doctor kitta inform panirukkom."
+NOISY-HYBRID-003,Hybrid OCR and Code-Mixed,"EMERGENCY ENCOUNTER N0TE
+Patient lD: PlD-10884 | Age: 63 years oId | Ward 4, Bed 15
+ClinicaI Observation: patient ku chest pain irundhuchu for 3 hours. ECG Ia st elevation therinjidhu. BIood pressure 15O/95 mmHg, temp 99.O F. Hb 11.2 g/dL, WBC 112OO /uL, Creatinine 1.4 mg/dL. aspirin 15Omg stat kuduthen, clopidogrel 3OOmg potachu. patient ippo stable ah irukaaru, ICU-B ku shift panna pOrOm."

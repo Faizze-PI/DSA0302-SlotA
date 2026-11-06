@@ -7,7 +7,6 @@ Implements inflectional paradigms, orthographic rewrite rules, irregular lexicon
 derivational family hierarchies, affix productivity counters, and type-to-lemma metrics.
 """
 
-import json
 import re
 from typing import Any, Dict, List, Set, Tuple
 

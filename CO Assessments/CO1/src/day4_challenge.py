@@ -8,7 +8,6 @@ code-mixed clinical text. Implements weighted edit-distance repair, de-hyphenati
 and regional affix stripping to adapt and defend the finite-state layer.
 """
 
-import json
 import re
 from typing import Any, Dict, List, Optional, Set, Tuple
 from .entity_patterns import extract_entities

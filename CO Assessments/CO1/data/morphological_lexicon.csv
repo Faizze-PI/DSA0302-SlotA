@@ -1,0 +1,357 @@
+category,surface_or_affix,canonical_stem,pos_or_feature
+stem,abscess,abscess,ROOT
+stem,absorpt,absorpt,ROOT
+stem,acut,acut,ROOT
+stem,adenom,adenom,ROOT
+stem,adrenal,adrenal,ROOT
+stem,albumin,albumin,ROOT
+stem,allel,allel,ROOT
+stem,ammoni,ammoni,ROOT
+stem,amylase,amylase,ROOT
+stem,anabol,anabol,ROOT
+stem,anaplas,anaplas,ROOT
+stem,anatom,anatom,ROOT
+stem,aneurysm,aneurysm,ROOT
+stem,angina,angina,ROOT
+stem,angiom,angiom,ROOT
+stem,anorect,anorect,ROOT
+stem,anorex,anorex,ROOT
+stem,anuri,anuri,ROOT
+stem,aort,aort,ROOT
+stem,aphas,aphas,ROOT
+stem,apne,apne,ROOT
+stem,append,append,ROOT
+stem,arrhythm,arrhythm,ROOT
+stem,artery,artery,ROOT
+stem,arthr,arthr,ROOT
+stem,ascit,ascit,ROOT
+stem,asthen,asthen,ROOT
+stem,ataxi,ataxi,ROOT
+stem,atrium,atrium,ROOT
+stem,atroph,atroph,ROOT
+stem,axon,axon,ROOT
+stem,azotemi,azotemi,ROOT
+stem,bacter,bacter,ROOT
+stem,baso,baso,ROOT
+stem,benign,benign,ROOT
+stem,bilirubin,bilirubin,ROOT
+stem,biops,biops,ROOT
+stem,blastom,blastom,ROOT
+stem,bradycard,bradycard,ROOT
+stem,bradypne,bradypne,ROOT
+stem,bronch,bronch,ROOT
+stem,bull,bull,ROOT
+stem,caecum,caecum,ROOT
+stem,calcul,calcul,ROOT
+stem,calor,calor,ROOT
+stem,capillar,capillar,ROOT
+stem,carcin,carcin,ROOT
+stem,cardio,cardio,ROOT
+stem,catabol,catabol,ROOT
+stem,cellulit,cellulit,ROOT
+stem,cephal,cephal,ROOT
+stem,cerebr,cerebr,ROOT
+stem,cervix,cervix,ROOT
+stem,chill,chill,ROOT
+stem,cholesterol,cholesterol,ROOT
+stem,chondr,chondr,ROOT
+stem,chromosom,chromosom,ROOT
+stem,chronic,chronic,ROOT
+stem,cicatr,cicatr,ROOT
+stem,claudicat,claudicat,ROOT
+stem,clearanc,clearanc,ROOT
+stem,coagul,coagul,ROOT
+stem,colon,colon,ROOT
+stem,congenit,congenit,ROOT
+stem,convuls,convuls,ROOT
+stem,cortex,cortex,ROOT
+stem,cough,cough,ROOT
+stem,cranial,cranial,ROOT
+stem,creatin,creatin,ROOT
+stem,cyanot,cyanot,ROOT
+stem,cytoplasm,cytoplasm,ROOT
+stem,dehydrogen,dehydrogen,ROOT
+stem,dendrit,dendrit,ROOT
+stem,derm,derm,ROOT
+stem,diagnos,diagnos,ROOT
+stem,diaphor,diaphor,ROOT
+stem,dizzin,dizzin,ROOT
+stem,dolor,dolor,ROOT
+stem,dosag,dosag,ROOT
+stem,duoden,duoden,ROOT
+stem,dysarthr,dysarthr,ROOT
+stem,dyspeps,dyspeps,ROOT
+stem,dysphag,dysphag,ROOT
+stem,dysplas,dysplas,ROOT
+stem,dyspne,dyspne,ROOT
+stem,dysuri,dysuri,ROOT
+stem,edem,edem,ROOT
+stem,effus,effus,ROOT
+stem,embol,embol,ROOT
+stem,embryo,embryo,ROOT
+stem,emesis,emesis,ROOT
+stem,endocard,endocard,ROOT
+stem,eosin,eosin,ROOT
+stem,epileps,epileps,ROOT
+stem,erythem,erythem,ROOT
+stem,erythr,erythr,ROOT
+stem,esophag,esophag,ROOT
+stem,excret,excret,ROOT
+stem,expector,expector,ROOT
+stem,exudat,exudat,ROOT
+stem,famili,famili,ROOT
+stem,fasci,fasci,ROOT
+stem,fatigu,fatigu,ROOT
+stem,ferritin,ferritin,ROOT
+stem,fetus,fetus,ROOT
+stem,fever,fever,ROOT
+stem,fibrill,fibrill,ROOT
+stem,fibrin,fibrin,ROOT
+stem,fibrom,fibrom,ROOT
+stem,fissur,fissur,ROOT
+stem,fistul,fistul,ROOT
+stem,fractur,fractur,ROOT
+stem,fulmin,fulmin,ROOT
+stem,fungal,fungal,ROOT
+stem,gangren,gangren,ROOT
+stem,gastr,gastr,ROOT
+stem,gen,gen,ROOT
+stem,globulin,globulin,ROOT
+stem,glomerul,glomerul,ROOT
+stem,glucos,glucos,ROOT
+stem,glycogen,glycogen,ROOT
+stem,granul,granul,ROOT
+stem,headach,headach,ROOT
+stem,helminth,helminth,ROOT
+stem,hemato,hemato,ROOT
+stem,hematuri,hematuri,ROOT
+stem,hemoptys,hemoptys,ROOT
+stem,hepat,hepat,ROOT
+stem,heredit,heredit,ROOT
+stem,herni,herni,ROOT
+stem,histio,histio,ROOT
+stem,homeostas,homeostas,ROOT
+stem,hyperplas,hyperplas,ROOT
+stem,hypertens,hypertens,ROOT
+stem,hypertroph,hypertroph,ROOT
+stem,hypotens,hypotens,ROOT
+stem,hypothalam,hypothalam,ROOT
+stem,iatrogen,iatrogen,ROOT
+stem,icter,icter,ROOT
+stem,idiopath,idiopath,ROOT
+stem,ileum,ileum,ROOT
+stem,infarct,infarct,ROOT
+stem,infect,infect,ROOT
+stem,inflamm,inflamm,ROOT
+stem,infus,infus,ROOT
+stem,ingest,ingest,ROOT
+stem,inject,inject,ROOT
+stem,insidi,insidi,ROOT
+stem,intract,intract,ROOT
+stem,invas,invas,ROOT
+stem,ischemi,ischemi,ROOT
+stem,jejun,jejun,ROOT
+stem,keloid,keloid,ROOT
+stem,kinas,kinas,ROOT
+stem,lactat,lactat,ROOT
+stem,lesion,lesion,ROOT
+stem,leuk,leuk,ROOT
+stem,leukemi,leukemi,ROOT
+stem,ligament,ligament,ROOT
+stem,lipase,lipase,ROOT
+stem,lipid,lipid,ROOT
+stem,lipom,lipom,ROOT
+stem,lithias,lithias,ROOT
+stem,lymph,lymph,ROOT
+stem,lymphom,lymphom,ROOT
+stem,lysosom,lysosom,ROOT
+stem,macro,macro,ROOT
+stem,macul,macul,ROOT
+stem,malaise,malaise,ROOT
+stem,malig,malig,ROOT
+stem,medulla,medulla,ROOT
+stem,melanom,melanom,ROOT
+stem,mening,mening,ROOT
+stem,metabol,metabol,ROOT
+stem,metaplas,metaplas,ROOT
+stem,metastat,metastat,ROOT
+stem,migrain,migrain,ROOT
+stem,mitochondr,mitochondr,ROOT
+stem,monocyt,monocyt,ROOT
+stem,muscl,muscl,ROOT
+stem,mutat,mutat,ROOT
+stem,myelin,myelin,ROOT
+stem,myo,myo,ROOT
+stem,myocard,myocard,ROOT
+stem,nause,nause,ROOT
+stem,necros,necros,ROOT
+stem,neoplas,neoplas,ROOT
+stem,nephr,nephr,ROOT
+stem,neuron,neuron,ROOT
+stem,neutro,neutro,ROOT
+stem,nosocomi,nosocomi,ROOT
+stem,nucle,nucle,ROOT
+stem,occlus,occlus,ROOT
+stem,oliguri,oliguri,ROOT
+stem,oper,oper,ROOT
+stem,oste,oste,ROOT
+stem,ovari,ovari,ROOT
+stem,pallor,pallor,ROOT
+stem,palpitat,palpitat,ROOT
+stem,pancrea,pancrea,ROOT
+stem,papul,papul,ROOT
+stem,parasit,parasit,ROOT
+stem,patholog,patholog,ROOT
+stem,patient,patient,ROOT
+stem,peptid,peptid,ROOT
+stem,perfor,perfor,ROOT
+stem,pericard,pericard,ROOT
+stem,peritone,peritone,ROOT
+stem,phag,phag,ROOT
+stem,phlegmon,phlegmon,ROOT
+stem,phosphat,phosphat,ROOT
+stem,physiolog,physiolog,ROOT
+stem,pituitar,pituitar,ROOT
+stem,placent,placent,ROOT
+stem,plasmin,plasmin,ROOT
+stem,pleur,pleur,ROOT
+stem,pleurit,pleurit,ROOT
+stem,polymer,polymer,ROOT
+stem,polyp,polyp,ROOT
+stem,polyuri,polyuri,ROOT
+stem,prognos,prognos,ROOT
+stem,prostat,prostat,ROOT
+stem,protease,protease,ROOT
+stem,protein,protein,ROOT
+stem,proteinuri,proteinuri,ROOT
+stem,protocol,protocol,ROOT
+stem,protozo,protozo,ROOT
+stem,prurit,prurit,ROOT
+stem,pulmon,pulmon,ROOT
+stem,purul,purul,ROOT
+stem,pustul,pustul,ROOT
+stem,pyogen,pyogen,ROOT
+stem,pyrex,pyrex,ROOT
+stem,pyruvat,pyruvat,ROOT
+stem,rales,rales,ROOT
+stem,rectum,rectum,ROOT
+stem,recurren,recurren,ROOT
+stem,refractor,refractor,ROOT
+stem,regimen,regimen,ROOT
+stem,relaps,relaps,ROOT
+stem,remiss,remiss,ROOT
+stem,rhonch,rhonch,ROOT
+stem,ribosom,ribosom,ROOT
+stem,rigor,rigor,ROOT
+stem,rubor,rubor,ROOT
+stem,ruptur,ruptur,ROOT
+stem,sarcom,sarcom,ROOT
+stem,seizur,seizur,ROOT
+stem,seps,seps,ROOT
+stem,septic,septic,ROOT
+stem,shock,shock,ROOT
+stem,spleen,spleen,ROOT
+stem,stenos,stenos,ROOT
+stem,stomach,stomach,ROOT
+stem,strictur,strictur,ROOT
+stem,stridor,stridor,ROOT
+stem,subacut,subacut,ROOT
+stem,surg,surg,ROOT
+stem,symptom,symptom,ROOT
+stem,synaps,synaps,ROOT
+stem,syncope,syncope,ROOT
+stem,tachycard,tachycard,ROOT
+stem,tachypne,tachypne,ROOT
+stem,tendon,tendon,ROOT
+stem,terminal,terminal,ROOT
+stem,therap,therap,ROOT
+stem,thromb,thromb,ROOT
+stem,thrombin,thrombin,ROOT
+stem,thrombus,thrombus,ROOT
+stem,thymus,thymus,ROOT
+stem,thyroid,thyroid,ROOT
+stem,titrat,titrat,ROOT
+stem,toxin,toxin,ROOT
+stem,transcript,transcript,ROOT
+stem,transfer,transfer,ROOT
+stem,transfus,transfus,ROOT
+stem,translat,translat,ROOT
+stem,transudat,transudat,ROOT
+stem,tremor,tremor,ROOT
+stem,triglycerid,triglycerid,ROOT
+stem,tubul,tubul,ROOT
+stem,tumour,tumour,ROOT
+stem,ulcer,ulcer,ROOT
+stem,ure,ure,ROOT
+stem,uremi,uremi,ROOT
+stem,ureter,ureter,ROOT
+stem,urethr,urethr,ROOT
+stem,urticar,urticar,ROOT
+stem,uter,uter,ROOT
+stem,vagin,vagin,ROOT
+stem,valv,valv,ROOT
+stem,vein,vein,ROOT
+stem,ventricl,ventricl,ROOT
+stem,vertigo,vertigo,ROOT
+stem,vesic,vesic,ROOT
+stem,vesicl,vesicl,ROOT
+stem,vessel,vessel,ROOT
+stem,viral,viral,ROOT
+stem,vomit,vomit,ROOT
+stem,wheez,wheez,ROOT
+inflectional,"{'affix': '-s', 'type': 'suffix', 'feature': '+N +PL'}","{'affix': '-s', 'type': 'suffix', 'feature': '+N +PL'}",AFFIX
+inflectional,"{'affix': '-es', 'type': 'suffix', 'feature': '+N +PL'}","{'affix': '-es', 'type': 'suffix', 'feature': '+N +PL'}",AFFIX
+inflectional,"{'affix': '-ed', 'type': 'suffix', 'feature': '+V +PAST'}","{'affix': '-ed', 'type': 'suffix', 'feature': '+V +PAST'}",AFFIX
+inflectional,"{'affix': '-ing', 'type': 'suffix', 'feature': '+V +PROG'}","{'affix': '-ing', 'type': 'suffix', 'feature': '+V +PROG'}",AFFIX
+inflectional,"{'affix': '-er', 'type': 'suffix', 'feature': '+ADJ +COMP'}","{'affix': '-er', 'type': 'suffix', 'feature': '+ADJ +COMP'}",AFFIX
+inflectional,"{'affix': '-est', 'type': 'suffix', 'feature': '+ADJ +SUPERL'}","{'affix': '-est', 'type': 'suffix', 'feature': '+ADJ +SUPERL'}",AFFIX
+inflectional,"{'affix': '-ies', 'type': 'suffix', 'feature': '+N +PL (y-to-i)'}","{'affix': '-ies', 'type': 'suffix', 'feature': '+N +PL (y-to-i)'}",AFFIX
+inflectional,"{'affix': '-en', 'type': 'suffix', 'feature': '+V +PAST_PART'}","{'affix': '-en', 'type': 'suffix', 'feature': '+V +PAST_PART'}",AFFIX
+inflectional,"{'affix': '-a', 'type': 'suffix', 'feature': '+N +PL (Latin -um to -a)'}","{'affix': '-a', 'type': 'suffix', 'feature': '+N +PL (Latin -um to -a)'}",AFFIX
+inflectional,"{'affix': '-i', 'type': 'suffix', 'feature': '+N +PL (Latin -us to -i)'}","{'affix': '-i', 'type': 'suffix', 'feature': '+N +PL (Latin -us to -i)'}",AFFIX
+inflectional,"{'affix': '-ae', 'type': 'suffix', 'feature': '+N +PL (Latin -a to -ae)'}","{'affix': '-ae', 'type': 'suffix', 'feature': '+N +PL (Latin -a to -ae)'}",AFFIX
+inflectional,"{'affix': '-ices', 'type': 'suffix', 'feature': '+N +PL (Latin -ex/-ix to -ices)'}","{'affix': '-ices', 'type': 'suffix', 'feature': '+N +PL (Latin -ex/-ix to -ices)'}",AFFIX
+inflectional,"{'affix': '-ces', 'type': 'suffix', 'feature': '+N +PL (Greek/Latin)'}","{'affix': '-ces', 'type': 'suffix', 'feature': '+N +PL (Greek/Latin)'}",AFFIX
+inflectional,"{'affix': '-des', 'type': 'suffix', 'feature': '+N +PL'}","{'affix': '-des', 'type': 'suffix', 'feature': '+N +PL'}",AFFIX
+inflectional,"{'affix': '-ves', 'type': 'suffix', 'feature': '+N +PL (f/fe to ves)'}","{'affix': '-ves', 'type': 'suffix', 'feature': '+N +PL (f/fe to ves)'}",AFFIX
+inflectional,"{'affix': '-s (verb)', 'type': 'suffix', 'feature': '+V +3SG +PRES'}","{'affix': '-s (verb)', 'type': 'suffix', 'feature': '+V +3SG +PRES'}",AFFIX
+inflectional,"{'affix': '-es (verb)', 'type': 'suffix', 'feature': '+V +3SG +PRES'}","{'affix': '-es (verb)', 'type': 'suffix', 'feature': '+V +3SG +PRES'}",AFFIX
+inflectional,"{'affix': '-ing (participle)', 'type': 'suffix', 'feature': '+ADJ +PART'}","{'affix': '-ing (participle)', 'type': 'suffix', 'feature': '+ADJ +PART'}",AFFIX
+inflectional,"{'affix': '-ed (participle)', 'type': 'suffix', 'feature': '+ADJ +PART'}","{'affix': '-ed (participle)', 'type': 'suffix', 'feature': '+ADJ +PART'}",AFFIX
+inflectional,"{'affix': '-d', 'type': 'suffix', 'feature': '+V +PAST (e-retention)'}","{'affix': '-d', 'type': 'suffix', 'feature': '+V +PAST (e-retention)'}",AFFIX
+derivational,"{'affix': '-itis', 'type': 'suffix', 'meaning': 'inflammation of', 'cat_change': 'N -> N'}","{'affix': '-itis', 'type': 'suffix', 'meaning': 'inflammation of', 'cat_change': 'N -> N'}",AFFIX
+derivational,"{'affix': '-ectomy', 'type': 'suffix', 'meaning': 'surgical excision of', 'cat_change': 'N -> N'}","{'affix': '-ectomy', 'type': 'suffix', 'meaning': 'surgical excision of', 'cat_change': 'N -> N'}",AFFIX
+derivational,"{'affix': '-ology', 'type': 'suffix', 'meaning': 'study/branch of', 'cat_change': 'N -> N'}","{'affix': '-ology', 'type': 'suffix', 'meaning': 'study/branch of', 'cat_change': 'N -> N'}",AFFIX
+derivational,"{'affix': '-osis', 'type': 'suffix', 'meaning': 'abnormal condition of', 'cat_change': 'N -> N'}","{'affix': '-osis', 'type': 'suffix', 'meaning': 'abnormal condition of', 'cat_change': 'N -> N'}",AFFIX
+derivational,"{'affix': '-aemia', 'type': 'suffix', 'meaning': 'blood condition', 'cat_change': 'N/Adj -> N'}","{'affix': '-aemia', 'type': 'suffix', 'meaning': 'blood condition', 'cat_change': 'N/Adj -> N'}",AFFIX
+derivational,"{'affix': '-ation', 'type': 'suffix', 'meaning': 'process or action', 'cat_change': 'V -> N'}","{'affix': '-ation', 'type': 'suffix', 'meaning': 'process or action', 'cat_change': 'V -> N'}",AFFIX
+derivational,"{'affix': '-able', 'type': 'suffix', 'meaning': 'capable of being', 'cat_change': 'V -> Adj'}","{'affix': '-able', 'type': 'suffix', 'meaning': 'capable of being', 'cat_change': 'V -> Adj'}",AFFIX
+derivational,"{'affix': '-ive', 'type': 'suffix', 'meaning': 'tending to', 'cat_change': 'V -> Adj'}","{'affix': '-ive', 'type': 'suffix', 'meaning': 'tending to', 'cat_change': 'V -> Adj'}",AFFIX
+derivational,"{'affix': '-scopy', 'type': 'suffix', 'meaning': 'visual examination', 'cat_change': 'N -> N'}","{'affix': '-scopy', 'type': 'suffix', 'meaning': 'visual examination', 'cat_change': 'N -> N'}",AFFIX
+derivational,"{'affix': '-plasty', 'type': 'suffix', 'meaning': 'surgical repair/reconstruction', 'cat_change': 'N -> N'}","{'affix': '-plasty', 'type': 'suffix', 'meaning': 'surgical repair/reconstruction', 'cat_change': 'N -> N'}",AFFIX
+derivational,"{'affix': '-megaly', 'type': 'suffix', 'meaning': 'abnormal enlargement', 'cat_change': 'N -> N'}","{'affix': '-megaly', 'type': 'suffix', 'meaning': 'abnormal enlargement', 'cat_change': 'N -> N'}",AFFIX
+derivational,"{'affix': '-pathy', 'type': 'suffix', 'meaning': 'disease of', 'cat_change': 'N -> N'}","{'affix': '-pathy', 'type': 'suffix', 'meaning': 'disease of', 'cat_change': 'N -> N'}",AFFIX
+derivational,"{'affix': '-gram', 'type': 'suffix', 'meaning': 'recorded tracing/image', 'cat_change': 'N/V -> N'}","{'affix': '-gram', 'type': 'suffix', 'meaning': 'recorded tracing/image', 'cat_change': 'N/V -> N'}",AFFIX
+derivational,"{'affix': 'nephro-', 'type': 'prefix', 'meaning': 'relating to kidney', 'cat_change': 'Root -> Compound'}","{'affix': 'nephro-', 'type': 'prefix', 'meaning': 'relating to kidney', 'cat_change': 'Root -> Compound'}",AFFIX
+derivational,"{'affix': 'hyper-', 'type': 'prefix', 'meaning': 'excessive/elevated', 'cat_change': 'Adj/N -> Adj/N'}","{'affix': 'hyper-', 'type': 'prefix', 'meaning': 'excessive/elevated', 'cat_change': 'Adj/N -> Adj/N'}",AFFIX
+derivational,"{'affix': 'hypo-', 'type': 'prefix', 'meaning': 'deficient/low', 'cat_change': 'Adj/N -> Adj/N'}","{'affix': 'hypo-', 'type': 'prefix', 'meaning': 'deficient/low', 'cat_change': 'Adj/N -> Adj/N'}",AFFIX
+derivational,"{'affix': 're-', 'type': 'prefix', 'meaning': 'again/backward', 'cat_change': 'V -> V'}","{'affix': 're-', 'type': 'prefix', 'meaning': 'again/backward', 'cat_change': 'V -> V'}",AFFIX
+derivational,"{'affix': 'un-', 'type': 'prefix', 'meaning': 'not/opposite', 'cat_change': 'Adj/V -> Adj/V'}","{'affix': 'un-', 'type': 'prefix', 'meaning': 'not/opposite', 'cat_change': 'Adj/V -> Adj/V'}",AFFIX
+derivational,"{'affix': 'sub-', 'type': 'prefix', 'meaning': 'under/below', 'cat_change': 'Adj/N -> Adj/N'}","{'affix': 'sub-', 'type': 'prefix', 'meaning': 'under/below', 'cat_change': 'Adj/N -> Adj/N'}",AFFIX
+derivational,"{'affix': 'pre-', 'type': 'prefix', 'meaning': 'before', 'cat_change': 'N/Adj -> Adj'}","{'affix': 'pre-', 'type': 'prefix', 'meaning': 'before', 'cat_change': 'N/Adj -> Adj'}",AFFIX
+derivational,"{'affix': 'post-', 'type': 'prefix', 'meaning': 'after', 'cat_change': 'N/Adj -> Adj'}","{'affix': 'post-', 'type': 'prefix', 'meaning': 'after', 'cat_change': 'N/Adj -> Adj'}",AFFIX
+irregular,renal,kidney,IRREGULAR
+irregular,cardiac,heart,IRREGULAR
+irregular,hepatic,liver,IRREGULAR
+irregular,pulmonary,lung,IRREGULAR
+irregular,gastric,stomach,IRREGULAR
+irregular,ocular,eye,IRREGULAR
+irregular,cerebral,brain,IRREGULAR
+irregular,cutaneous,skin,IRREGULAR
+irregular,vertices,vertex,IRREGULAR
+irregular,analyses,analysis,IRREGULAR
+irregular,indices,index,IRREGULAR
+irregular,thrombi,thrombus,IRREGULAR
+irregular,erythrocytes,erythrocyte,IRREGULAR
+irregular,bacteria,bacterium,IRREGULAR
+irregular,protozoa,protozoon,IRREGULAR
