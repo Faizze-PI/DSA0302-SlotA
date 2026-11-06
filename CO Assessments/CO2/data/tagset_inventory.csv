@@ -1,0 +1,25 @@
+tag,category,description,examples,penn_mapping
+NN,Open,Common noun singular or mass,"bus, train, ticket, refund, platform, timing",NN
+NNS,Open,Common noun plural,"buses, tickets, timings, routes, seats, charges",NNS
+N_LOC,Open,"Geographic city, station or location","Chennai, Madurai, Vellore, Egmore, Central, Koyambedu",NNP
+N_TIME,Open,"Time expression, clock time, or temporal noun","6:30 am, 10:15 pm, morning, evening, night, tomorrow",NN/CD
+N_PROP,Open,"Proper service, corporation, or train name","SETC, Shatabdi, Vaigai, Vande_Bharat, Airavata",NNP
+VB,Open,Verb base form / infinitive / imperative,"book, cancel, tell, check, get, confirm, reserve",VB
+VBD,Open,Verb past tense,"booked, cancelled, departed, arrived, missed, delayed",VBD
+VBG,Open,Verb gerund or present participle,"booking, travelling, waiting, returning, reaching",VBG
+VBZ,Open,Verb 3rd person singular present,"leaves, runs, stops, arrives, costs, takes",VBZ
+VBP,Open,Verb non-3rd person singular present,"want, need, have, require, know, like",VBP
+JJ,Open,Adjective modifying transport entities,"sleeper, deluxe, direct, available, delayed, next, intermediate",JJ
+RB,Open,"Adverb of time, manner, or degree","today, immediately, directly, early, late, now, online",RB
+CD,Closed,Cardinal number or numerical quantity,"one, two, three, four, 2, 3, 5, 450",CD
+DT,Closed,Determiner or article,"the, a, an, this, that, any, every, some",DT
+IN,Closed,Preposition or subordinating conjunction,"from, to, at, for, via, between, after, before",IN
+PRP,Closed,Personal pronoun,"I, me, you, we, us, it, they",PRP
+PRP$,Closed,Possessive pronoun,"my, your, our, its, their",PRP$
+MD,Closed,Modal auxiliary verb,"can, could, will, would, should, may, must",MD
+CC,Closed,Coordinating conjunction,"and, or, but",CC
+WRB,Closed,Wh-adverb,"when, where, how, why",WRB
+WP,Closed,Wh-pronoun or determiner,"what, which, who",WP/WDT
+RP,Closed,Verbal particle,"down, up, out, off, by",RP
+UH,Closed,Interjection or polite marker,"please, hello, thanks, kindly, okay, yes, no",UH
+DISFL,Closed,Speech disfluency or hesitation marker,"um, uh, ah, er, actually",UH

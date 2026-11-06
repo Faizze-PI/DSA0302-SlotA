@@ -1,0 +1,16 @@
+utterance_id,service_type,noise_type,utterance_text,english_gloss
+DAY4-001,Bus,Tamil-English Code-Mixing,Chennai to Madurai bus timing enna sollunga,Please tell me what the bus timing from Chennai to Madurai is
+DAY4-002,Bus,Tamil-English Code-Mixing,Koyambedu la irundhu Salem ku AC bus irukka,Is there an AC bus from Koyambedu to Salem
+DAY4-003,Metro,Metro Expansion + Code-Mixing,Central metro station la ticket counter enga irukku,Where is the ticket counter at Central metro station
+DAY4-004,Bus,Tamil Dative Affixation,naan Trichy ku two tickets book pannanum,I need to book two tickets to Trichy
+DAY4-005,Metro,Metro Rail + Delay Complaint,Alandur metro la train delay aachu refund kedaikkuma,"The train was delayed at Alandur metro, will I receive a refund"
+DAY4-006,Bus,Colloquial Interrogative,Tambaram stand la bus stop aaguma illaya,Will the bus stop at Tambaram stand or not
+DAY4-007,Rail,Phonetic ASR Distortion,Vande Bharat train la sleeper coach irukka,Is there a sleeper coach in the Vande Bharat train
+DAY4-008,Bus,Tamil Temporal Expression,innikku night Bangalore ku ultra deluxe service poguma,Will the ultra deluxe service go to Bangalore tonight
+DAY4-009,Metro,Metro Station Token Inquiry,Airport metro ku smart card pass use pannalama,Can we use a smart card pass for Airport metro
+DAY4-010,Bus,Fare Negotiation / Confusion,Tirupati bus fare evlo aagum tell me please,Please tell me how much the Tirupati bus fare will be
+DAY4-011,Rail,Intercity Route Code-Mixing,Coimbatore to Chennai intercity express ticket cancel panna mudiyuma,Can I cancel the intercity express ticket from Coimbatore to Chennai
+DAY4-012,Bus,Dative + Locative Stack,Madurai la irundhu Ooty ku direct route irukka,Is there a direct route from Madurai to Ooty
+DAY4-013,Metro,Metro Interchange Inquiry,Guindy metro la green line ku change pannanuma,Do I have to change to the green line at Guindy metro
+DAY4-014,Bus,Phonetic Spelling Variation,Kovai express ku ticket price evvalavu,How much is the ticket price for Kovai express
+DAY4-015,Bus,Cancellation Reason Code-Mixing,heavy rain aala bus service cancel aayiducha,Has the bus service been cancelled due to heavy rain
