@@ -2,18 +2,18 @@
 
 | Task # | Task Description | Marks | Core Module / Script | Output Screenshot |
 | :---: | :--- | :---: | :--- | :---: |
-| **01** | Linguistic Analysis Levels & Pipeline Framing | 3 | Theoretical Model / [Pipeline Runner](./pipeline_runner.py) | [Screenshot](./outputs/screenshots/Phase08_Master_Pipeline_Execution.png) |
-| **02** | Structured Entity Regular Expression Inventory | 4 | [`src/entity_patterns.py`](./src/entity_patterns.py) | [Screenshot](./outputs/screenshots/Phase02_Entity_Regex_Extraction.png) |
-| **03** | Maximal-Munch Tokenisation & Normalisation | 4 | [`src/tokenizer_normalizer.py`](./src/tokenizer_normalizer.py) | [Screenshot](./outputs/screenshots/Phase01_Tokenisation_Normalisation.png) |
-| **04** | Automata Design, Subset Construction & Equivalence | 5 | [`src/automata_engine.py`](./src/automata_engine.py) | [Screenshot](./outputs/screenshots/Phase03_Automata_Validation_Subset.png) |
-| **05** | Inflectional Morphology & Paradigm Analysis | 3 | [`src/morphology_engine.py`](./src/morphology_engine.py) | [Screenshot](./outputs/screenshots/Phase04_Morphological_FST_Orthography.png) |
-| **06** | Derivational Morphology & Affix Productivity | 4 | [`src/morphology_engine.py`](./src/morphology_engine.py) | [Screenshot](./outputs/screenshots/Phase04_Morphological_FST_Orthography.png) |
-| **07** | Finite-State Transducers & Lexicon Parsing | 5 | [`src/transducer_fst.py`](./src/transducer_fst.py) | [Screenshot](./outputs/screenshots/Phase04_Morphological_FST_Orthography.png) |
-| **08** | Two-Level Morphology & Orthographic Rewrite Rules | 4 | [`src/transducer_fst.py`](./src/transducer_fst.py) | [Screenshot](./outputs/screenshots/Phase04_Morphological_FST_Orthography.png) |
-| **09** | The Porter Stemmer Algorithm & Condition Proofs | 5 | [`src/porter_stemmer.py`](./src/porter_stemmer.py) | [Screenshot](./outputs/screenshots/Phase05_Porter_Stemmer_Divergence.png) |
-| **10** | End-to-End Pipeline Harness & Benchmarking | 3 | [`pipeline_runner.py`](./pipeline_runner.py) | [Screenshot](./outputs/screenshots/Phase08_Master_Pipeline_Execution.png) |
-| **11** | Conflation Strategy Evaluation & Defense | 2 | [`src/search_retrieval.py`](./src/search_retrieval.py) | [Screenshot](./outputs/screenshots/Phase06_Information_Retrieval_Benchmark.png) |
-| **12** | Day-4 Challenge: OCR Corruption & Code-Mixing | 8 | [`src/day4_challenge.py`](./src/day4_challenge.py) | [Screenshot](./outputs/screenshots/Phase07_Day4_Noise_Challenge.png) |
+| **01** | Linguistic Analysis Levels & Pipeline Framing | 3 | Theoretical Model / [`main.py`](./main.py) | [Screenshot](./outputs/Phase08_Master_Pipeline_Execution.png) |
+| **02** | Structured Entity Regular Expression Inventory | 4 | [`src/entity_patterns.py`](./src/entity_patterns.py) | [Screenshot](./outputs/Phase02_Entity_Regex_Extraction.png) |
+| **03** | Maximal-Munch Tokenisation & Normalisation | 4 | [`src/tokenizer_normalizer.py`](./src/tokenizer_normalizer.py) | [Screenshot](./outputs/Phase01_Tokenisation_Normalisation.png) |
+| **04** | Automata Design, Subset Construction & Equivalence | 5 | [`src/automata_engine.py`](./src/automata_engine.py) | [Screenshot](./outputs/Phase03_Automata_Validation_Subset.png) |
+| **05** | Inflectional Morphology & Paradigm Analysis | 3 | [`src/morphology_engine.py`](./src/morphology_engine.py) | [Screenshot](./outputs/Phase04_Morphological_FST_Orthography.png) |
+| **06** | Derivational Morphology & Affix Productivity | 4 | [`src/morphology_engine.py`](./src/morphology_engine.py) | [Screenshot](./outputs/Phase04_Morphological_FST_Orthography.png) |
+| **07** | Finite-State Transducers & Lexicon Parsing | 5 | [`src/transducer_fst.py`](./src/transducer_fst.py) | [Screenshot](./outputs/Phase04_Morphological_FST_Orthography.png) |
+| **08** | Two-Level Morphology & Orthographic Rewrite Rules | 4 | [`src/transducer_fst.py`](./src/transducer_fst.py) | [Screenshot](./outputs/Phase04_Morphological_FST_Orthography.png) |
+| **09** | The Porter Stemmer Algorithm & Condition Proofs | 5 | [`src/porter_stemmer.py`](./src/porter_stemmer.py) | [Screenshot](./outputs/Phase05_Porter_Stemmer_Divergence.png) |
+| **10** | End-to-End Pipeline Harness & Benchmarking | 3 | [`main.py`](./main.py) | [Screenshot](./outputs/Phase08_Master_Pipeline_Execution.png) |
+| **11** | Conflation Strategy Evaluation & Defense | 2 | [`src/search_retrieval.py`](./src/search_retrieval.py) | [Screenshot](./outputs/Phase06_Information_Retrieval_Benchmark.png) |
+| **12** | Day-4 Challenge: OCR Corruption & Code-Mixing | 8 | [`src/day4_challenge.py`](./src/day4_challenge.py) | [Screenshot](./outputs/Phase07_Day4_Noise_Challenge.png) |
 
 ---
 
@@ -253,14 +253,12 @@ All 20 morphological boundary transformations executed with **100% PASS** rate:
 
 ## Verification & Execution Instructions
 
-To execute the test harness and reproduce all benchmarks:
+To execute the master pipeline and reproduce all benchmarks:
 ```powershell
-# 1. Run the automated unit test suite
-python tests/test_all.py
-
-# 2. Run the full pipeline over all 500 clinical records
-python pipeline_runner.py
+# Run the end-to-end clinical NLP pipeline over all 500 clinical records
+python main.py
 ```
-Generated performance plots are stored under [`outputs/figures/`](./outputs/figures/):
+Generated performance plots and phase outputs are stored under [`outputs/`](./outputs/):
 * `fig1_coverage_vs_lexicon.png`: Vocabulary coverage against lexicon size.
 * `fig2_latency_vs_length.png`: Processing latency vs. record token length.
+* `Phase01_Tokenisation_Normalisation.png` to `Phase08_Master_Pipeline_Execution.png`: Verified terminal output screenshots for all assessment phases.
