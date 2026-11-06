@@ -251,6 +251,17 @@ All 20 morphological boundary transformations executed with **100% PASS** rate:
 
 ---
 
+## Dataset Inventory (`data/`)
+
+The repository includes both structured `.json` and tabular `.csv` (alongside raw `.txt`) datasets:
+* **`clinical_corpus.json` / `clinical_corpus.csv` / `clinical_corpus.txt`**: 500 clinical EHR records (103,954 tokens across Discharge Summaries, Prescriptions, Operation Notes, and Nursing Observations).
+* **`annotated_200_tokens.json` / `annotated_200_tokens.csv`**: 214 gold hand-annotated clinical word forms with stems, lemmas, POS tags, and morphological features.
+* **`eval_40_queries.json` / `eval_40_queries.csv`**: 40 multi-word clinician benchmark search queries with retrieval intents and relevant document IDs.
+* **`morphological_lexicon.json`**: 300 clinical stems, 20 inflectional affixes, 21 derivational affixes, and irregular paradigm lists.
+* **`noisy_day4_records.json`**: OCR-corrupted and Romanised Tamil-English code-mixed records for Task 12.
+
+---
+
 ## Verification & Execution Instructions
 
 To execute the master pipeline and reproduce all benchmarks:
