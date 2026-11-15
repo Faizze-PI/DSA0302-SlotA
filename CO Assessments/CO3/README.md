@@ -476,10 +476,9 @@ We evaluated three architectural paths:
 Target Conversational Query:
 "Can you tell me when the exams that were postponed will be held"
 
-Robust Partial Chunking Forest Output:
-  [VP_CHUNK: Can] [OOV: you] [VP_CHUNK: tell] [NP_CHUNK: me] [FRAG: when] 
-  [NP_CHUNK: the] [NP_CHUNK: exams] [NP_CHUNK: that] [VP_CHUNK: were] 
-  [OOV: postponed] [VP_CHUNK: will] [OOV: be] [OOV: held]
+Enhanced Phrasal Chunking Forest Output:
+  ['VP_CHUNK:Can', 'NP_CHUNK:you', 'VP_CHUNK:tell', 'NP_CHUNK:me', 'WH_CHUNK:when', 
+   'NP_CHUNK:the exams', 'NP_CHUNK:that', 'VP_CHUNK:were postponed', 'VP_CHUNK:will be held']
 ```
 
 ![Phase 11 Terminal Output](outputs/Phase11_Day4_Conversational_Extension.png)

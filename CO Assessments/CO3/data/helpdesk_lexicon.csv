@@ -127,3 +127,8 @@ new,Adj,any,any,any,none
 and,Conj,any,any,any,none
 or,Conj,any,any,any,none
 but,Conj,any,any,any,none
+you,Pron,any,2,any,none
+approve,V_trans,any,any,any,V_trans
+postponed,V_trans,any,any,any,V_trans
+be,Aux,any,any,any,none
+held,V_trans,any,any,any,V_trans

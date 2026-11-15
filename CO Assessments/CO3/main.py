@@ -275,7 +275,7 @@ def main():
 
     print(f"{'Query ID':<8} | {'Type':<22} | {'Len':<4} | {'Earley States':<13} | {'Earley Trees':<12} | {'Status'}")
     print("-" * 75)
-    for row in queries_list[:12]:
+    for idx, row in enumerate(queries_list):
         q_id = row["Query_ID"]
         q_type = row["Sentence_Type"]
         q_text = row["Query_Text"]
@@ -302,7 +302,10 @@ def main():
         topdown_times.append(t_td * 1000)
 
         status_str = f"PARSED ({len(trees)})" if trees else "NO_PARSE"
-        print(f"{q_id:<8} | {q_type:<22} | {n_toks:<4} | {tot_states:<13} | {len(trees):<12} | {status_str}")
+        if idx < 12:
+            print(f"{q_id:<8} | {q_type:<22} | {n_toks:<4} | {tot_states:<13} | {len(trees):<12} | {status_str}")
+
+    print(f"... [Evaluated all {len(queries_list)} benchmark queries across token lengths {min(lengths)}–{max(lengths)} | Avg Earley States: {sum(states_count)/len(states_count):.1f}]")
 
     # ----------------------------------------------------
     # Task 11: Parser Comparison & Defense
@@ -350,12 +353,15 @@ def main():
     print("GENERATING PUBLICATION FIGURES IN OUTPUTS/")
     print("=" * 80)
 
-    # Figure 1: Chart states vs sentence length
+    # Figure 1: Chart states vs sentence length (all 30 queries, lengths 3-10)
     plt.figure(figsize=(7, 4.5), dpi=300)
-    sorted_pairs = sorted(zip(lengths, states_count))
-    plot_x = [p[0] for p in sorted_pairs]
-    plot_y = [p[1] for p in sorted_pairs]
-    plt.plot(plot_x, plot_y, "o-", color="#1f77b4", linewidth=2, markersize=7, label="Empirical Earley States")
+    from collections import defaultdict
+    length_to_states = defaultdict(list)
+    for l, s in zip(lengths, states_count):
+        length_to_states[l].append(s)
+    plot_x = sorted(length_to_states.keys())
+    plot_y = [sum(length_to_states[l]) / len(length_to_states[l]) for l in plot_x]
+    plt.plot(plot_x, plot_y, "o-", color="#1f77b4", linewidth=2, markersize=7, label="Empirical Earley States (Mean)")
     quad_x = list(range(min(plot_x), max(plot_x) + 1))
     scale = plot_y[-1] / (max(plot_x) ** 2)
     quad_y = [scale * (x ** 2) for x in quad_x]
@@ -371,15 +377,17 @@ def main():
     plt.close()
     print(f"Saved: {fig1_path}")
 
-    # Figure 2: Parser runtimes comparison
+    # Figure 2: Parser runtimes comparison (with upper margin and 3-decimal precision)
     plt.figure(figsize=(7, 4.5), dpi=300)
     labels = ["Top-Down (w/ Filter)", "Earley Chart", "Viterbi CKY"]
     avg_times = [sum(topdown_times)/len(topdown_times), sum(earley_times)/len(earley_times), sum(cky_times)/len(cky_times)]
     colors = ["#d62728", "#2ca02c", "#9467bd"]
     bars = plt.bar(labels, avg_times, color=colors, width=0.5)
+    max_val = max(avg_times)
+    plt.ylim(0, max(max_val * 1.35, 0.05))
     for bar in bars:
         yval = bar.get_height()
-        plt.text(bar.get_x() + bar.get_width()/2.0, yval + 0.05, f"{yval:.2f} ms", ha="center", va="bottom", fontsize=9, fontweight="bold")
+        plt.text(bar.get_x() + bar.get_width()/2.0, yval + (max_val * 0.03), f"{yval:.3f} ms", ha="center", va="bottom", fontsize=9, fontweight="bold")
     plt.title("Average Parser Execution Latency per Query", fontsize=12, fontweight="bold")
     plt.ylabel("Execution Time (milliseconds)", fontsize=10)
     plt.grid(axis="y", linestyle="--", alpha=0.5)
@@ -388,14 +396,13 @@ def main():
     plt.savefig(fig2_path)
     plt.close()
     print(f"Saved: {fig2_path}")
-
-    # Figure 3: Ambiguity tree probabilities
+    # Figure 3: Ambiguity tree probabilities (labels inside bars with high contrast)
     plt.figure(figsize=(7, 4.5), dpi=300)
     tree_labels = ["Tree 1: NP-Attachment\n(students with notice)", "Tree 2: VP-Attachment\n(show with notice)"]
     log_probs = [math.log(p_np), math.log(p_vp)]
     plt.bar(tree_labels, log_probs, color=["#1f77b4", "#ff7f0e"], width=0.45)
     for idx, lp in enumerate(log_probs):
-        plt.text(idx, lp - 0.5, f"log P = {lp:.2f}", ha="center", va="top", color="white", fontweight="bold")
+        plt.text(idx, lp / 2.0, f"log P = {lp:.2f}", ha="center", va="center", color="white", fontweight="bold", fontsize=10)
     plt.title("PCFG Ambiguity Resolution: Log-Probabilities", fontsize=12, fontweight="bold")
     plt.ylabel("Log Probability ln P(T|S)", fontsize=10)
     plt.grid(axis="y", linestyle="--", alpha=0.5)

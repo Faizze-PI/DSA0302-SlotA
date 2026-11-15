@@ -79,24 +79,105 @@ class Day4ChallengeEngine:
         return len(tokens) >= 2
 
     def robust_chunk_parse(self, tokens: List[str]) -> List[ParseNode]:
-        chunks = []
-        i = 0
-        while i < len(tokens):
-            w = tokens[i].lower()
+        """Enhanced partial chunking parser: groups consecutive constituents into phrasal chunks
+
+        ([NP_CHUNK: ...], [VP_CHUNK: ...], [PP_CHUNK: ...]) with robust POS fallback heuristics.
+        """
+        tagged = []
+        for tok in tokens:
+            w = tok.lower()
             if w in self.baseline_grammar.lexicon:
                 pos = self.baseline_grammar.lexicon[w][0].pos
-                if pos in ("Det", "N", "Pron"):
-                    chunk_node = ParseNode("NP_CHUNK", children=[ParseNode(pos, token=tokens[i])])
-                    chunks.append(chunk_node)
-                elif pos.startswith("V_") or pos in ("Aux", "Mod"):
-                    chunk_node = ParseNode("VP_CHUNK", children=[ParseNode(pos, token=tokens[i])])
-                    chunks.append(chunk_node)
-                elif pos == "P":
-                    chunk_node = ParseNode("PP_CHUNK", children=[ParseNode(pos, token=tokens[i])])
-                    chunks.append(chunk_node)
-                else:
-                    chunks.append(ParseNode("FRAG", token=tokens[i]))
+            elif w in self.adapted_grammar.lexicon:
+                pos = self.adapted_grammar.lexicon[w][0].pos
+            elif w in ("you", "i", "me", "my", "he", "she", "it", "they", "them", "we", "us", "him", "her"):
+                pos = "Pron"
+            elif w in ("can", "could", "will", "would", "shall", "should", "may", "might", "must"):
+                pos = "Mod"
+            elif w in ("is", "am", "are", "was", "were", "be", "been", "being", "do", "does", "did", "have", "has", "had"):
+                pos = "Aux"
+            elif w in ("tell", "held", "postponed", "crashed", "submit", "approved", "send", "update", "know"):
+                pos = "V_trans"
+            elif w in ("when", "where", "why", "how", "what", "who", "which"):
+                pos = "Wh"
+            elif w in ("that", "if", "whether"):
+                pos = "Comp"
+            elif w in ("in", "on", "at", "for", "with", "near", "by", "from", "to", "about"):
+                pos = "P"
+            elif w in ("the", "a", "an", "this", "these", "that", "those"):
+                pos = "Det"
+            elif w in ("and", "or", "but"):
+                pos = "Conj"
             else:
-                chunks.append(ParseNode("OOV", token=tokens[i]))
+                pos = "UNK"
+            tagged.append((tok, pos))
+
+        chunks = []
+        i = 0
+        n = len(tagged)
+        while i < n:
+            tok, pos = tagged[i]
+
+            # PP Chunk: P followed by optional Det/Adj and Noun/Pron/PropN
+            if pos == "P" and i + 1 < n and tagged[i+1][1] in ("Det", "N", "Pron", "Adj", "PropN"):
+                pp_tokens = [tok]
+                pp_children = [ParseNode(pos, token=tok)]
+                i += 1
+                while i < n and tagged[i][1] in ("Det", "Adj", "N", "Pron", "PropN"):
+                    pp_tokens.append(tagged[i][0])
+                    pp_children.append(ParseNode(tagged[i][1], token=tagged[i][0]))
+                    i += 1
+                chunks.append(ParseNode("PP_CHUNK", token=" ".join(pp_tokens), children=pp_children))
+                continue
+
+            # NP Chunk: consecutive Det, Adj, N, PropN, Pron
+            if pos in ("Det", "Adj", "N", "PropN", "Pron"):
+                np_tokens = [tok]
+                np_children = [ParseNode(pos, token=tok)]
+                i += 1
+                while i < n and tagged[i][1] in ("Adj", "N", "PropN"):
+                    np_tokens.append(tagged[i][0])
+                    np_children.append(ParseNode(tagged[i][1], token=tagged[i][0]))
+                    i += 1
+                chunks.append(ParseNode("NP_CHUNK", token=" ".join(np_tokens), children=np_children))
+                continue
+
+            # VP Chunk: consecutive Aux, Mod, V_*
+            if pos in ("Aux", "Mod") or pos.startswith("V_"):
+                vp_tokens = [tok]
+                vp_children = [ParseNode(pos, token=tok)]
+                has_main_verb = pos.startswith("V_")
+                i += 1
+                while i < n:
+                    next_pos = tagged[i][1]
+                    if next_pos in ("Aux", "Mod"):
+                        if has_main_verb:
+                            # New auxiliary/modal after main verb begins a new verbal constituent
+                            break
+                        vp_tokens.append(tagged[i][0])
+                        vp_children.append(ParseNode(next_pos, token=tagged[i][0]))
+                        i += 1
+                    elif next_pos.startswith("V_"):
+                        vp_tokens.append(tagged[i][0])
+                        vp_children.append(ParseNode(next_pos, token=tagged[i][0]))
+                        has_main_verb = True
+                        i += 1
+                    else:
+                        break
+                chunks.append(ParseNode("VP_CHUNK", token=" ".join(vp_tokens), children=vp_children))
+                continue
+
+            # Single word fragments or OOVs
+            if pos == "Wh":
+                chunks.append(ParseNode("WH_CHUNK", token=tok))
+            elif pos == "Comp":
+                chunks.append(ParseNode("COMP_CHUNK", token=tok))
+            elif pos == "Conj":
+                chunks.append(ParseNode("CONJ_CHUNK", token=tok))
+            elif pos == "UNK":
+                chunks.append(ParseNode("OOV", token=tok))
+            else:
+                chunks.append(ParseNode("FRAG", token=tok))
             i += 1
+
         return chunks
