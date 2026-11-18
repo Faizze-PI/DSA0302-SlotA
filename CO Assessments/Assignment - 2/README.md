@@ -1,4 +1,4 @@
-# CO2 - Assignment 2: N-gram Language Modeling and Part-of-Speech Tagging for a Public Transport Enquiry Helpline
+# Assignment 2: N-gram Language Modeling and Part-of-Speech Tagging for a Public Transport Enquiry Helpline
 
 | Task # | Task Description | Marks | Core Module / Script | Output Screenshot |
 | :---: | :--- | :---: | :--- | :---: |

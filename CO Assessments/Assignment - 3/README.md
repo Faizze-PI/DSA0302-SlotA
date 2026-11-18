@@ -1,5 +1,5 @@
 # SIMATS Engineering — Department of Computer Science & Engineering
-## DSA0302: Natural Language Processing | Course Outcome 3 (CO3) Assessment
+## DSA0302: Natural Language Processing | Assignment - 3
 ### Laboratory & Technical Report: Design, Parse, and Probabilistically Rank English Queries for a University Helpdesk Using Context-Free Grammars, Feature Structures, and Earley Parsing
 
 ---
@@ -490,14 +490,14 @@ Enhanced Phrasal Chunking Forest Output:
 ### Execution Command
 To execute the master pipeline covering all 12 tasks, verify agreement suites, benchmark the 30 queries, and regenerate all figures:
 ```powershell
-python "CO Assessments\CO3\main.py"
+python "CO Assessments\Assignment - 3\main.py"
 ```
 
 ### Verified Runtime
-- Total pipeline execution time: **$0.91$ seconds** (Strictly within the $< 5.0\text{s}$ benchmark requirement).
+- Total pipeline execution time: **$0.57$ seconds** (Strictly within the $< 5.0\text{s}$ benchmark requirement).
 - Operating System: Windows 11 Home Single Language (x86_64).
 - Runtime: Python 3.11.
 
 ---
 **Course Instructor / Lab Evaluator**: SIMATS Department of Computer Science & Engineering  
-**Submission Repository**: `https://github.com/Faizze-PI/DSA0302-SlotA/tree/main/CO%20Assessments/CO3`
+**Submission Repository**: `https://github.com/Faizze-PI/DSA0302-SlotA/tree/main/CO%20Assessments/Assignment%20-%203`

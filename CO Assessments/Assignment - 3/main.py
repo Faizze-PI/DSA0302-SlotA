@@ -33,7 +33,7 @@ def main():
     os.makedirs(outputs_dir, exist_ok=True)
 
     print("=" * 80)
-    print("SIMATS ENGINEERING | DSA03 - NATURAL LANGUAGE PROCESSING | CO3 ASSESSMENT")
+    print("SIMATS ENGINEERING | DSA03 - NATURAL LANGUAGE PROCESSING | ASSIGNMENT - 3")
     print("TOPIC: CFG, Feature Structures & Earley Parsing for University Helpdesk")
     print("=" * 80)
 

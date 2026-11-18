@@ -1,4 +1,4 @@
-# CO1 - Assignment 1: Hospital Record System Text Normalisation and Search Layer
+# Assignment 1: Hospital Record System Text Normalisation and Search Layer
 
 | Task # | Task Description | Marks | Core Module / Script | Output Screenshot |
 | :---: | :--- | :---: | :--- | :---: |
