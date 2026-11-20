@@ -1,0 +1,401 @@
+Coref_ID,Report_ID,Referring_Expr,RE_Type,Antecedent,Distance,Ann1,Ann2
+CR-001,REP-0002,the road,Definite_NP,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-002,REP-0003,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,Velachery main road
+CR-003,REP-0004,this,Demonstrative,Adyar main road,1,Adyar main road,Adyar main road
+CR-004,REP-0005,it,Pronoun,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-005,REP-0006,the road,Definite_NP,Guindy main road,3,Guindy main road,Guindy main road
+CR-006,REP-0007,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-007,REP-0008,this,Demonstrative,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-008,REP-0009,it,Pronoun,Velachery main road,3,Velachery main road,Velachery main road
+CR-009,REP-0010,the road,Definite_NP,Adyar main road,1,Adyar main road,Adyar main road
+CR-010,REP-0011,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,bus route
+CR-011,REP-0012,this,Demonstrative,Guindy main road,3,Guindy main road,Guindy main road
+CR-012,REP-0013,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-013,REP-0014,the road,Definite_NP,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-014,REP-0015,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,Velachery main road
+CR-015,REP-0016,this,Demonstrative,Adyar main road,1,Adyar main road,Adyar main road
+CR-016,REP-0017,it,Pronoun,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-017,REP-0018,the road,Definite_NP,Guindy main road,3,Guindy main road,Guindy main road
+CR-018,REP-0019,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-019,REP-0020,this,Demonstrative,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-020,REP-0021,it,Pronoun,Velachery main road,3,Velachery main road,bus route
+CR-021,REP-0022,the road,Definite_NP,Adyar main road,1,Adyar main road,Adyar main road
+CR-022,REP-0023,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-023,REP-0024,this,Demonstrative,Guindy main road,3,Guindy main road,Guindy main road
+CR-024,REP-0025,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-025,REP-0026,the road,Definite_NP,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-026,REP-0027,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,Velachery main road
+CR-027,REP-0028,this,Demonstrative,Adyar main road,1,Adyar main road,Adyar main road
+CR-028,REP-0029,it,Pronoun,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-029,REP-0030,the road,Definite_NP,Guindy main road,3,Guindy main road,Guindy main road
+CR-030,REP-0031,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,bus route
+CR-031,REP-0032,this,Demonstrative,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-032,REP-0033,it,Pronoun,Velachery main road,3,Velachery main road,Velachery main road
+CR-033,REP-0034,the road,Definite_NP,Adyar main road,1,Adyar main road,Adyar main road
+CR-034,REP-0035,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-035,REP-0036,this,Demonstrative,Guindy main road,3,Guindy main road,Guindy main road
+CR-036,REP-0037,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-037,REP-0038,the road,Definite_NP,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-038,REP-0039,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,Velachery main road
+CR-039,REP-0040,this,Demonstrative,Adyar main road,1,Adyar main road,Adyar main road
+CR-040,REP-0041,it,Pronoun,Tambaram main road,2,Tambaram main road,bus route
+CR-041,REP-0042,the road,Definite_NP,Guindy main road,3,Guindy main road,Guindy main road
+CR-042,REP-0043,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-043,REP-0044,this,Demonstrative,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-044,REP-0045,it,Pronoun,Velachery main road,3,Velachery main road,Velachery main road
+CR-045,REP-0046,the road,Definite_NP,Adyar main road,1,Adyar main road,Adyar main road
+CR-046,REP-0047,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-047,REP-0048,this,Demonstrative,Guindy main road,3,Guindy main road,Guindy main road
+CR-048,REP-0049,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-049,REP-0050,the road,Definite_NP,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-050,REP-0051,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,bus route
+CR-051,REP-0052,this,Demonstrative,Adyar main road,1,Adyar main road,Adyar main road
+CR-052,REP-0053,it,Pronoun,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-053,REP-0054,the road,Definite_NP,Guindy main road,3,Guindy main road,Guindy main road
+CR-054,REP-0055,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-055,REP-0056,this,Demonstrative,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-056,REP-0057,it,Pronoun,Velachery main road,3,Velachery main road,Velachery main road
+CR-057,REP-0058,the road,Definite_NP,Adyar main road,1,Adyar main road,Adyar main road
+CR-058,REP-0059,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-059,REP-0060,this,Demonstrative,Guindy main road,3,Guindy main road,Guindy main road
+CR-060,REP-0061,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,bus route
+CR-061,REP-0062,the road,Definite_NP,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-062,REP-0063,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,Velachery main road
+CR-063,REP-0064,this,Demonstrative,Adyar main road,1,Adyar main road,Adyar main road
+CR-064,REP-0065,it,Pronoun,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-065,REP-0066,the road,Definite_NP,Guindy main road,3,Guindy main road,Guindy main road
+CR-066,REP-0067,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-067,REP-0068,this,Demonstrative,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-068,REP-0069,it,Pronoun,Velachery main road,3,Velachery main road,Velachery main road
+CR-069,REP-0070,the road,Definite_NP,Adyar main road,1,Adyar main road,Adyar main road
+CR-070,REP-0071,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,bus route
+CR-071,REP-0072,this,Demonstrative,Guindy main road,3,Guindy main road,Guindy main road
+CR-072,REP-0073,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-073,REP-0074,the road,Definite_NP,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-074,REP-0075,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,Velachery main road
+CR-075,REP-0076,this,Demonstrative,Adyar main road,1,Adyar main road,Adyar main road
+CR-076,REP-0077,it,Pronoun,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-077,REP-0078,the road,Definite_NP,Guindy main road,3,Guindy main road,Guindy main road
+CR-078,REP-0079,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-079,REP-0080,this,Demonstrative,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-080,REP-0081,it,Pronoun,Velachery main road,3,Velachery main road,bus route
+CR-081,REP-0082,the road,Definite_NP,Adyar main road,1,Adyar main road,Adyar main road
+CR-082,REP-0083,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-083,REP-0084,this,Demonstrative,Guindy main road,3,Guindy main road,Guindy main road
+CR-084,REP-0085,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-085,REP-0086,the road,Definite_NP,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-086,REP-0087,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,Velachery main road
+CR-087,REP-0088,this,Demonstrative,Adyar main road,1,Adyar main road,Adyar main road
+CR-088,REP-0089,it,Pronoun,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-089,REP-0090,the road,Definite_NP,Guindy main road,3,Guindy main road,Guindy main road
+CR-090,REP-0091,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,bus route
+CR-091,REP-0092,this,Demonstrative,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-092,REP-0093,it,Pronoun,Velachery main road,3,Velachery main road,Velachery main road
+CR-093,REP-0094,the road,Definite_NP,Adyar main road,1,Adyar main road,Adyar main road
+CR-094,REP-0095,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,Tambaram main road
+CR-095,REP-0096,this,Demonstrative,Guindy main road,3,Guindy main road,Guindy main road
+CR-096,REP-0097,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,Anna Nagar main road
+CR-097,REP-0098,the road,Definite_NP,T Nagar main road,2,T Nagar main road,T Nagar main road
+CR-098,REP-0099,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,Velachery main road
+CR-099,REP-0100,this,Demonstrative,Adyar main road,1,Adyar main road,Adyar main road
+CR-100,REP-0101,it,Pronoun,Tambaram main road,2,Tambaram main road,bus route
+CR-101,REP-0102,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-102,REP-0103,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-103,REP-0104,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-104,REP-0105,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-105,REP-0106,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-106,REP-0107,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-107,REP-0108,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-108,REP-0109,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-109,REP-0110,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-110,REP-0111,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-111,REP-0112,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-112,REP-0113,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-113,REP-0114,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-114,REP-0115,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-115,REP-0116,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-116,REP-0117,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-117,REP-0118,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-118,REP-0119,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-119,REP-0120,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-120,REP-0121,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-121,REP-0122,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-122,REP-0123,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-123,REP-0124,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-124,REP-0125,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-125,REP-0126,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-126,REP-0127,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-127,REP-0128,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-128,REP-0129,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-129,REP-0130,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-130,REP-0131,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-131,REP-0132,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-132,REP-0133,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-133,REP-0134,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-134,REP-0135,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-135,REP-0136,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-136,REP-0137,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-137,REP-0138,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-138,REP-0139,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-139,REP-0140,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-140,REP-0141,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-141,REP-0142,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-142,REP-0143,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-143,REP-0144,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-144,REP-0145,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-145,REP-0146,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-146,REP-0147,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-147,REP-0148,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-148,REP-0149,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-149,REP-0150,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-150,REP-0001,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-151,REP-0002,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-152,REP-0003,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-153,REP-0004,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-154,REP-0005,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-155,REP-0006,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-156,REP-0007,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-157,REP-0008,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-158,REP-0009,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-159,REP-0010,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-160,REP-0011,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-161,REP-0012,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-162,REP-0013,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-163,REP-0014,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-164,REP-0015,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-165,REP-0016,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-166,REP-0017,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-167,REP-0018,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-168,REP-0019,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-169,REP-0020,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-170,REP-0021,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-171,REP-0022,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-172,REP-0023,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-173,REP-0024,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-174,REP-0025,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-175,REP-0026,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-176,REP-0027,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-177,REP-0028,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-178,REP-0029,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-179,REP-0030,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-180,REP-0031,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-181,REP-0032,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-182,REP-0033,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-183,REP-0034,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-184,REP-0035,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-185,REP-0036,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-186,REP-0037,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-187,REP-0038,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-188,REP-0039,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-189,REP-0040,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-190,REP-0041,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-191,REP-0042,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-192,REP-0043,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-193,REP-0044,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-194,REP-0045,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-195,REP-0046,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-196,REP-0047,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-197,REP-0048,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-198,REP-0049,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-199,REP-0050,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-200,REP-0051,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-201,REP-0052,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-202,REP-0053,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-203,REP-0054,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-204,REP-0055,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-205,REP-0056,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-206,REP-0057,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-207,REP-0058,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-208,REP-0059,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-209,REP-0060,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-210,REP-0061,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-211,REP-0062,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-212,REP-0063,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-213,REP-0064,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-214,REP-0065,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-215,REP-0066,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-216,REP-0067,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-217,REP-0068,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-218,REP-0069,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-219,REP-0070,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-220,REP-0071,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-221,REP-0072,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-222,REP-0073,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-223,REP-0074,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-224,REP-0075,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-225,REP-0076,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-226,REP-0077,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-227,REP-0078,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-228,REP-0079,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-229,REP-0080,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-230,REP-0081,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-231,REP-0082,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-232,REP-0083,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-233,REP-0084,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-234,REP-0085,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-235,REP-0086,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-236,REP-0087,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-237,REP-0088,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-238,REP-0089,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-239,REP-0090,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-240,REP-0091,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-241,REP-0092,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-242,REP-0093,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-243,REP-0094,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-244,REP-0095,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-245,REP-0096,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-246,REP-0097,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-247,REP-0098,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-248,REP-0099,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-249,REP-0100,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-250,REP-0101,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-251,REP-0102,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-252,REP-0103,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-253,REP-0104,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-254,REP-0105,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-255,REP-0106,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-256,REP-0107,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-257,REP-0108,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-258,REP-0109,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-259,REP-0110,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-260,REP-0111,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-261,REP-0112,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-262,REP-0113,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-263,REP-0114,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-264,REP-0115,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-265,REP-0116,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-266,REP-0117,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-267,REP-0118,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-268,REP-0119,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-269,REP-0120,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-270,REP-0121,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-271,REP-0122,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-272,REP-0123,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-273,REP-0124,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-274,REP-0125,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-275,REP-0126,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-276,REP-0127,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-277,REP-0128,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-278,REP-0129,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-279,REP-0130,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-280,REP-0131,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-281,REP-0132,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-282,REP-0133,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-283,REP-0134,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-284,REP-0135,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-285,REP-0136,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-286,REP-0137,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-287,REP-0138,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-288,REP-0139,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-289,REP-0140,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-290,REP-0141,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-291,REP-0142,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-292,REP-0143,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-293,REP-0144,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-294,REP-0145,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-295,REP-0146,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-296,REP-0147,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-297,REP-0148,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-298,REP-0149,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-299,REP-0150,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-300,REP-0001,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-301,REP-0002,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-302,REP-0003,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-303,REP-0004,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-304,REP-0005,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-305,REP-0006,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-306,REP-0007,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-307,REP-0008,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-308,REP-0009,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-309,REP-0010,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-310,REP-0011,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-311,REP-0012,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-312,REP-0013,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-313,REP-0014,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-314,REP-0015,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-315,REP-0016,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-316,REP-0017,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-317,REP-0018,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-318,REP-0019,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-319,REP-0020,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-320,REP-0021,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-321,REP-0022,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-322,REP-0023,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-323,REP-0024,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-324,REP-0025,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-325,REP-0026,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-326,REP-0027,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-327,REP-0028,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-328,REP-0029,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-329,REP-0030,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-330,REP-0031,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-331,REP-0032,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-332,REP-0033,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-333,REP-0034,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-334,REP-0035,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-335,REP-0036,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-336,REP-0037,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-337,REP-0038,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-338,REP-0039,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-339,REP-0040,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-340,REP-0041,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-341,REP-0042,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-342,REP-0043,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-343,REP-0044,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-344,REP-0045,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-345,REP-0046,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-346,REP-0047,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-347,REP-0048,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-348,REP-0049,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-349,REP-0050,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-350,REP-0051,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-351,REP-0052,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-352,REP-0053,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-353,REP-0054,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-354,REP-0055,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-355,REP-0056,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-356,REP-0057,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-357,REP-0058,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-358,REP-0059,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-359,REP-0060,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-360,REP-0061,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-361,REP-0062,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-362,REP-0063,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-363,REP-0064,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-364,REP-0065,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-365,REP-0066,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-366,REP-0067,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-367,REP-0068,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-368,REP-0069,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-369,REP-0070,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-370,REP-0071,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-371,REP-0072,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-372,REP-0073,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-373,REP-0074,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-374,REP-0075,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-375,REP-0076,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-376,REP-0077,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-377,REP-0078,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-378,REP-0079,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-379,REP-0080,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-380,REP-0081,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-381,REP-0082,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-382,REP-0083,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-383,REP-0084,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-384,REP-0085,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-385,REP-0086,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-386,REP-0087,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-387,REP-0088,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-388,REP-0089,it,Pronoun,Tambaram main road,2,Tambaram main road,
+CR-389,REP-0090,the road,Definite_NP,Guindy main road,3,Guindy main road,
+CR-390,REP-0091,Anna Nagar,Proper_Name,Anna Nagar main road,1,Anna Nagar main road,
+CR-391,REP-0092,this,Demonstrative,T Nagar main road,2,T Nagar main road,
+CR-392,REP-0093,it,Pronoun,Velachery main road,3,Velachery main road,
+CR-393,REP-0094,the road,Definite_NP,Adyar main road,1,Adyar main road,
+CR-394,REP-0095,Anna Nagar,Proper_Name,Tambaram main road,2,Tambaram main road,
+CR-395,REP-0096,this,Demonstrative,Guindy main road,3,Guindy main road,
+CR-396,REP-0097,it,Pronoun,Anna Nagar main road,1,Anna Nagar main road,
+CR-397,REP-0098,the road,Definite_NP,T Nagar main road,2,T Nagar main road,
+CR-398,REP-0099,Anna Nagar,Proper_Name,Velachery main road,3,Velachery main road,
+CR-399,REP-0100,this,Demonstrative,Adyar main road,1,Adyar main road,
+CR-400,REP-0101,it,Pronoun,Tambaram main road,2,Tambaram main road,

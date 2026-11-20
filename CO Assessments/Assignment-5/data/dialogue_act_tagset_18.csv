@@ -1,0 +1,19 @@
+Act_ID,Act_Tag,Description
+ACT-01,GREET,Control room dialogue act for greet
+ACT-02,INFORM_LOC,Control room dialogue act for inform_loc
+ACT-03,INFORM_INCIDENT,Control room dialogue act for inform_incident
+ACT-04,REQ_SHELTER,Control room dialogue act for req_shelter
+ACT-05,REQ_ROAD,Control room dialogue act for req_road
+ACT-06,REQ_POWER,Control room dialogue act for req_power
+ACT-07,CONFIRM_EXP,Control room dialogue act for confirm_exp
+ACT-08,CONFIRM_IMP,Control room dialogue act for confirm_imp
+ACT-09,CLARIFY,Control room dialogue act for clarify
+ACT-10,CORRECT,Control room dialogue act for correct
+ACT-11,OVER_ANSWER,Control room dialogue act for over_answer
+ACT-12,ACK,Control room dialogue act for ack
+ACT-13,REJECT,Control room dialogue act for reject
+ACT-14,OFFER_HELP,Control room dialogue act for offer_help
+ACT-15,HOLD,Control room dialogue act for hold
+ACT-16,TRANSFER,Control room dialogue act for transfer
+ACT-17,CLOSE,Control room dialogue act for close
+ACT-18,FALLBACK,Control room dialogue act for fallback

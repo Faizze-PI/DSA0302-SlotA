@@ -1,0 +1,4 @@
+Thread_ID,Speaker,Raw_Message,Noise_Type
+G-01,UserA,"Anna Nagar road full water da, bus stopped.",Code-Mixed
+G-01,UserB,Is it open now or still blocked?,Multi-Party Coref
+G-02,ASR_01,relief camp at well a cherry is full,ASR Recognition Error

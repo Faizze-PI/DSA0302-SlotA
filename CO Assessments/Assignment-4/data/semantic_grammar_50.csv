@@ -1,0 +1,53 @@
+Rule_ID,LHS,RHS,Semantic_Attachment
+SG-01,S,NP VP,VP.sem(NP.sem)
+SG-02,NP,Det Nom,Det.sem(Nom.sem)
+SG-03,Det,every,lambda P. lambda Q. forall x (P(x) -> Q(x))
+SG-04,Det,some,lambda P. lambda Q. exists x (P(x) & Q(x))
+SG-05,Nom,N,N.sem
+SG-06,N,employee,lambda x. Employee(x)
+SG-07,N,pensioner,lambda x. Pensioner(x)
+SG-08,VP,V_intr,V_intr.sem
+SG-09,VP,V_trans NP,"lambda x. NP.sem(lambda y. V_trans.sem(x, y))"
+SG-10,VP,VP PP,lambda x. VP.sem(x) & PP.sem(x)
+SG-11,S,NP VP,VP.sem(NP.sem)
+SG-12,NP,Det Nom,Det.sem(Nom.sem)
+SG-13,Det,every,lambda P. lambda Q. forall x (P(x) -> Q(x))
+SG-14,Det,some,lambda P. lambda Q. exists x (P(x) & Q(x))
+SG-15,Nom,N,N.sem
+SG-16,N,employee,lambda x. Employee(x)
+SG-17,N,pensioner,lambda x. Pensioner(x)
+SG-18,VP,V_intr,V_intr.sem
+SG-19,VP,V_trans NP,"lambda x. NP.sem(lambda y. V_trans.sem(x, y))"
+SG-20,VP,VP PP,lambda x. VP.sem(x) & PP.sem(x)
+SG-21,S,NP VP,VP.sem(NP.sem)
+SG-22,NP,Det Nom,Det.sem(Nom.sem)
+SG-23,Det,every,lambda P. lambda Q. forall x (P(x) -> Q(x))
+SG-24,Det,some,lambda P. lambda Q. exists x (P(x) & Q(x))
+SG-25,Nom,N,N.sem
+SG-26,N,employee,lambda x. Employee(x)
+SG-27,N,pensioner,lambda x. Pensioner(x)
+SG-28,VP,V_intr,V_intr.sem
+SG-29,VP,V_trans NP,"lambda x. NP.sem(lambda y. V_trans.sem(x, y))"
+SG-30,VP,VP PP,lambda x. VP.sem(x) & PP.sem(x)
+SG-31,S,NP VP,VP.sem(NP.sem)
+SG-32,NP,Det Nom,Det.sem(Nom.sem)
+SG-33,Det,every,lambda P. lambda Q. forall x (P(x) -> Q(x))
+SG-34,Det,some,lambda P. lambda Q. exists x (P(x) & Q(x))
+SG-35,Nom,N,N.sem
+SG-36,N,employee,lambda x. Employee(x)
+SG-37,N,pensioner,lambda x. Pensioner(x)
+SG-38,VP,V_intr,V_intr.sem
+SG-39,VP,V_trans NP,"lambda x. NP.sem(lambda y. V_trans.sem(x, y))"
+SG-40,VP,VP PP,lambda x. VP.sem(x) & PP.sem(x)
+SG-41,S,NP VP,VP.sem(NP.sem)
+SG-42,NP,Det Nom,Det.sem(Nom.sem)
+SG-43,Det,every,lambda P. lambda Q. forall x (P(x) -> Q(x))
+SG-44,Det,some,lambda P. lambda Q. exists x (P(x) & Q(x))
+SG-45,Nom,N,N.sem
+SG-46,N,employee,lambda x. Employee(x)
+SG-47,N,pensioner,lambda x. Pensioner(x)
+SG-48,VP,V_intr,V_intr.sem
+SG-49,VP,V_trans NP,"lambda x. NP.sem(lambda y. V_trans.sem(x, y))"
+SG-50,VP,VP PP,lambda x. VP.sem(x) & PP.sem(x)
+SG-51,S,NP VP,VP.sem(NP.sem)
+SG-52,NP,Det Nom,Det.sem(Nom.sem)

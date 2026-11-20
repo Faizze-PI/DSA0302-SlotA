@@ -1,0 +1,201 @@
+Query_ID,Query_Text,Query_Type,Split
+EQ-001,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-002,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-003,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-004,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-005,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-006,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-007,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-008,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-009,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-010,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-011,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-012,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-013,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-014,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-015,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-016,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-017,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-018,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-019,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-020,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-021,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-022,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-023,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-024,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-025,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-026,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-027,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-028,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-029,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-030,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-031,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-032,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-033,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-034,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-035,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-036,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-037,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-038,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-039,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-040,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-041,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-042,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-043,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-044,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-045,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-046,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-047,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-048,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-049,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-050,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-051,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-052,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-053,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-054,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-055,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-056,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-057,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-058,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-059,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-060,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-061,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-062,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-063,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-064,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-065,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-066,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-067,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-068,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-069,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-070,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-071,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-072,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-073,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-074,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-075,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-076,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-077,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-078,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-079,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-080,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-081,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-082,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-083,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-084,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-085,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-086,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-087,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-088,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-089,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-090,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-091,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-092,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-093,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-094,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-095,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-096,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-097,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-098,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-099,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-100,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-101,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-102,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-103,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-104,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-105,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-106,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-107,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-108,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-109,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-110,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-111,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-112,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-113,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-114,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-115,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-116,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-117,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-118,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-119,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-120,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-121,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-122,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-123,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-124,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-125,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-126,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-127,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-128,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-129,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-130,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-131,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-132,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-133,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-134,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-135,Which circular governs the revision of family pension?,circular_lookup,dev
+EQ-136,Does a break in service count as qualifying service?,conditional_rule,dev
+EQ-137,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-138,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-139,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,dev
+EQ-140,How is commutation of pension calculated for a retired employee?,procedural,dev
+EQ-141,Which circular governs the revision of family pension?,circular_lookup,held_out
+EQ-142,Does a break in service count as qualifying service?,conditional_rule,held_out
+EQ-143,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-144,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-145,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,held_out
+EQ-146,How is commutation of pension calculated for a retired employee?,procedural,held_out
+EQ-147,Which circular governs the revision of family pension?,circular_lookup,held_out
+EQ-148,Does a break in service count as qualifying service?,conditional_rule,held_out
+EQ-149,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-150,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-151,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,held_out
+EQ-152,How is commutation of pension calculated for a retired employee?,procedural,held_out
+EQ-153,Which circular governs the revision of family pension?,circular_lookup,held_out
+EQ-154,Does a break in service count as qualifying service?,conditional_rule,held_out
+EQ-155,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-156,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-157,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,held_out
+EQ-158,How is commutation of pension calculated for a retired employee?,procedural,held_out
+EQ-159,Which circular governs the revision of family pension?,circular_lookup,held_out
+EQ-160,Does a break in service count as qualifying service?,conditional_rule,held_out
+EQ-161,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-162,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-163,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,held_out
+EQ-164,How is commutation of pension calculated for a retired employee?,procedural,held_out
+EQ-165,Which circular governs the revision of family pension?,circular_lookup,held_out
+EQ-166,Does a break in service count as qualifying service?,conditional_rule,held_out
+EQ-167,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-168,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-169,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,held_out
+EQ-170,How is commutation of pension calculated for a retired employee?,procedural,held_out
+EQ-171,Which circular governs the revision of family pension?,circular_lookup,held_out
+EQ-172,Does a break in service count as qualifying service?,conditional_rule,held_out
+EQ-173,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-174,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-175,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,held_out
+EQ-176,How is commutation of pension calculated for a retired employee?,procedural,held_out
+EQ-177,Which circular governs the revision of family pension?,circular_lookup,held_out
+EQ-178,Does a break in service count as qualifying service?,conditional_rule,held_out
+EQ-179,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-180,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-181,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,held_out
+EQ-182,How is commutation of pension calculated for a retired employee?,procedural,held_out
+EQ-183,Which circular governs the revision of family pension?,circular_lookup,held_out
+EQ-184,Does a break in service count as qualifying service?,conditional_rule,held_out
+EQ-185,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-186,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-187,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,held_out
+EQ-188,How is commutation of pension calculated for a retired employee?,procedural,held_out
+EQ-189,Which circular governs the revision of family pension?,circular_lookup,held_out
+EQ-190,Does a break in service count as qualifying service?,conditional_rule,held_out
+EQ-191,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-192,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-193,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,held_out
+EQ-194,How is commutation of pension calculated for a retired employee?,procedural,held_out
+EQ-195,Which circular governs the revision of family pension?,circular_lookup,held_out
+EQ-196,Does a break in service count as qualifying service?,conditional_rule,held_out
+EQ-197,Who qualifies as a dependent for family pension benefits?,eligibility,held_out
+EQ-198,What is the maximum gratuity award on superannuation?,numeric_rule,held_out
+EQ-199,Does every employee who completed ten years of qualifying service get a pension?,quantified_rule,held_out
+EQ-200,How is commutation of pension calculated for a retired employee?,procedural,held_out

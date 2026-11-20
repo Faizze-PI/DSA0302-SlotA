@@ -1,0 +1,301 @@
+Dial_ID,Turn_Pos,Utterance,Gold_Act,Prev_Act,Ann2_Act
+DL-001,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-002,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-003,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-004,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-005,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-006,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-007,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-008,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-009,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-010,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-011,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-012,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,CLARIFY
+DL-013,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-014,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-015,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-016,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-017,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-018,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-019,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-020,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-021,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-022,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-023,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-024,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,CLARIFY
+DL-025,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-026,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-027,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-028,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-029,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-030,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-031,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-032,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-033,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-034,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-035,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-036,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,CLARIFY
+DL-037,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-038,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-039,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-040,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-041,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-042,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-043,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-044,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-045,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-046,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-047,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-048,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CLARIFY
+DL-049,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-050,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-051,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-052,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-053,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-054,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-055,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-056,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-057,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-058,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-059,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-060,1,"Hello, is anyone there?",GREET,NONE,CLARIFY
+DL-061,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-062,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-063,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-064,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-065,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-066,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-067,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-068,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-069,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-070,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-071,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-072,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,CLARIFY
+DL-073,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-074,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-075,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-076,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-077,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-078,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-079,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-080,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-081,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-082,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-083,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-084,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,CLARIFY
+DL-085,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-086,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-087,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-088,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-089,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-090,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-091,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,REQ_SHELTER
+DL-092,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-093,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-094,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-095,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-096,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,CLARIFY
+DL-097,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,REQ_ROAD
+DL-098,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,CORRECT
+DL-099,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,OFFER_HELP
+DL-100,1,"Hello, is anyone there?",GREET,NONE,GREET
+DL-101,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-102,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-103,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-104,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-105,1,"Hello, is anyone there?",GREET,NONE,
+DL-106,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-107,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-108,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-109,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-110,1,"Hello, is anyone there?",GREET,NONE,
+DL-111,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-112,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-113,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-114,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-115,1,"Hello, is anyone there?",GREET,NONE,
+DL-116,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-117,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-118,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-119,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-120,1,"Hello, is anyone there?",GREET,NONE,
+DL-121,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-122,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-123,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-124,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-125,1,"Hello, is anyone there?",GREET,NONE,
+DL-126,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-127,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-128,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-129,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-130,1,"Hello, is anyone there?",GREET,NONE,
+DL-131,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-132,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-133,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-134,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-135,1,"Hello, is anyone there?",GREET,NONE,
+DL-136,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-137,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-138,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-139,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-140,1,"Hello, is anyone there?",GREET,NONE,
+DL-141,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-142,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-143,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-144,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-145,1,"Hello, is anyone there?",GREET,NONE,
+DL-146,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-147,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-148,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-149,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-150,1,"Hello, is anyone there?",GREET,NONE,
+DL-151,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-152,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-153,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-154,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-155,1,"Hello, is anyone there?",GREET,NONE,
+DL-156,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-157,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-158,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-159,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-160,1,"Hello, is anyone there?",GREET,NONE,
+DL-161,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-162,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-163,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-164,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-165,1,"Hello, is anyone there?",GREET,NONE,
+DL-166,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-167,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-168,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-169,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-170,1,"Hello, is anyone there?",GREET,NONE,
+DL-171,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-172,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-173,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-174,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-175,1,"Hello, is anyone there?",GREET,NONE,
+DL-176,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-177,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-178,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-179,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-180,1,"Hello, is anyone there?",GREET,NONE,
+DL-181,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-182,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-183,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-184,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-185,1,"Hello, is anyone there?",GREET,NONE,
+DL-186,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-187,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-188,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-189,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-190,1,"Hello, is anyone there?",GREET,NONE,
+DL-191,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-192,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-193,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-194,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-195,1,"Hello, is anyone there?",GREET,NONE,
+DL-196,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-197,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-198,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-199,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-200,1,"Hello, is anyone there?",GREET,NONE,
+DL-201,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-202,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-203,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-204,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-205,1,"Hello, is anyone there?",GREET,NONE,
+DL-206,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-207,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-208,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-209,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-210,1,"Hello, is anyone there?",GREET,NONE,
+DL-211,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-212,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-213,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-214,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-215,1,"Hello, is anyone there?",GREET,NONE,
+DL-216,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-217,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-218,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-219,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-220,1,"Hello, is anyone there?",GREET,NONE,
+DL-221,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-222,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-223,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-224,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-225,1,"Hello, is anyone there?",GREET,NONE,
+DL-226,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-227,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-228,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-229,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-230,1,"Hello, is anyone there?",GREET,NONE,
+DL-231,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-232,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-233,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-234,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-235,1,"Hello, is anyone there?",GREET,NONE,
+DL-236,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-237,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-238,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-239,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-240,1,"Hello, is anyone there?",GREET,NONE,
+DL-241,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-242,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-243,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-244,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-245,1,"Hello, is anyone there?",GREET,NONE,
+DL-246,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-247,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-248,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-249,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-250,1,"Hello, is anyone there?",GREET,NONE,
+DL-251,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-252,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-253,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-254,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-255,1,"Hello, is anyone there?",GREET,NONE,
+DL-256,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-257,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-258,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-259,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-260,1,"Hello, is anyone there?",GREET,NONE,
+DL-261,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-262,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-263,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-264,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-265,1,"Hello, is anyone there?",GREET,NONE,
+DL-266,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-267,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-268,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-269,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-270,1,"Hello, is anyone there?",GREET,NONE,
+DL-271,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-272,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-273,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-274,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-275,1,"Hello, is anyone there?",GREET,NONE,
+DL-276,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-277,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-278,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-279,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-280,1,"Hello, is anyone there?",GREET,NONE,
+DL-281,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-282,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-283,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-284,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-285,1,"Hello, is anyone there?",GREET,NONE,
+DL-286,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-287,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-288,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-289,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-290,1,"Hello, is anyone there?",GREET,NONE,
+DL-291,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-292,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-293,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-294,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-295,1,"Hello, is anyone there?",GREET,NONE,
+DL-296,2,Where is the nearest open relief camp in Velachery?,REQ_SHELTER,GREET,
+DL-297,3,Is the Anna Nagar main road still blocked?,REQ_ROAD,GREET,
+DL-298,4,"No, I meant Tambaram, not Adyar.",CORRECT,CONFIRM_EXP,
+DL-299,5,Can you please send a rescue boat?,OFFER_HELP,INFORM_LOC,
+DL-300,1,"Hello, is anyone there?",GREET,NONE,

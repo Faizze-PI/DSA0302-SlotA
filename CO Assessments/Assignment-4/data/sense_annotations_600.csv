@@ -1,0 +1,601 @@
+Ann_ID,Term,Context,Gold_Sense,Annotator_1,Annotator_2
+SA-001,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,service.n.01
+SA-002,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,dependent.n.01
+SA-003,benefit,district office counter submission for benefit form,benefit.n.02,benefit.n.02,benefit.n.02
+SA-004,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,revision.n.01
+SA-005,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,award.n.01
+SA-006,credit,district office counter submission for credit form,credit.n.02,credit.n.02,credit.n.02
+SA-007,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,commutation.n.01
+SA-008,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,grade.n.01
+SA-009,scale,district office counter submission for scale form,scale.n.02,scale.n.02,scale.n.02
+SA-010,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,order.n.02
+SA-011,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,grant.n.01
+SA-012,claim,district office counter submission for claim form,claim.n.02,claim.n.02,claim.n.02
+SA-013,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,family.n.01
+SA-014,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,break.n.01
+SA-015,qualifying,district office counter submission for qualifying form,qualifying.n.02,qualifying.n.02,qualifying.n.02
+SA-016,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,pension.n.01
+SA-017,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,allowance.n.01
+SA-018,arrears,district office counter submission for arrears form,arrears.n.02,arrears.n.02,arrears.n.02
+SA-019,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,sanction.n.01
+SA-020,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,rule.n.02
+SA-021,circular,district office counter submission for circular form,circular.n.02,circular.n.02,circular.n.02
+SA-022,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,office.n.01
+SA-023,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,date.n.01
+SA-024,rate,district office counter submission for rate form,rate.n.02,rate.n.02,rate.n.02
+SA-025,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,status.n.01
+SA-026,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,service.n.01
+SA-027,dependent,district office counter submission for dependent form,dependent.n.02,dependent.n.02,dependent.n.02
+SA-028,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,benefit.n.01
+SA-029,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,revision.n.01
+SA-030,award,district office counter submission for award form,award.n.02,award.n.02,award.n.01
+SA-031,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,credit.n.01
+SA-032,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,commutation.n.01
+SA-033,grade,district office counter submission for grade form,grade.n.02,grade.n.02,grade.n.02
+SA-034,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,scale.n.01
+SA-035,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,order.n.01
+SA-036,grant,district office counter submission for grant form,grant.n.02,grant.n.02,grant.n.02
+SA-037,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,claim.n.01
+SA-038,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,family.n.01
+SA-039,break,district office counter submission for break form,break.n.02,break.n.02,break.n.02
+SA-040,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,qualifying.n.02
+SA-041,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,pension.n.01
+SA-042,allowance,district office counter submission for allowance form,allowance.n.02,allowance.n.02,allowance.n.02
+SA-043,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,arrears.n.01
+SA-044,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,sanction.n.01
+SA-045,rule,district office counter submission for rule form,rule.n.02,rule.n.02,rule.n.02
+SA-046,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,circular.n.01
+SA-047,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,office.n.01
+SA-048,date,district office counter submission for date form,date.n.02,date.n.02,date.n.02
+SA-049,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,rate.n.01
+SA-050,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,status.n.02
+SA-051,service,district office counter submission for service form,service.n.02,service.n.02,service.n.02
+SA-052,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,dependent.n.01
+SA-053,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,benefit.n.01
+SA-054,revision,district office counter submission for revision form,revision.n.02,revision.n.02,revision.n.02
+SA-055,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,award.n.01
+SA-056,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,credit.n.01
+SA-057,commutation,district office counter submission for commutation form,commutation.n.02,commutation.n.02,commutation.n.02
+SA-058,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,grade.n.01
+SA-059,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,scale.n.01
+SA-060,order,district office counter submission for order form,order.n.02,order.n.02,order.n.01
+SA-061,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,grant.n.01
+SA-062,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,claim.n.01
+SA-063,family,district office counter submission for family form,family.n.02,family.n.02,family.n.02
+SA-064,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,break.n.01
+SA-065,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,qualifying.n.01
+SA-066,pension,district office counter submission for pension form,pension.n.02,pension.n.02,pension.n.02
+SA-067,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,allowance.n.01
+SA-068,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,arrears.n.01
+SA-069,sanction,district office counter submission for sanction form,sanction.n.02,sanction.n.02,sanction.n.02
+SA-070,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,rule.n.02
+SA-071,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,circular.n.01
+SA-072,office,district office counter submission for office form,office.n.02,office.n.02,office.n.02
+SA-073,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,date.n.01
+SA-074,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,rate.n.01
+SA-075,status,district office counter submission for status form,status.n.02,status.n.02,status.n.02
+SA-076,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,service.n.01
+SA-077,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,dependent.n.01
+SA-078,benefit,district office counter submission for benefit form,benefit.n.02,benefit.n.02,benefit.n.02
+SA-079,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,revision.n.01
+SA-080,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,award.n.02
+SA-081,credit,district office counter submission for credit form,credit.n.02,credit.n.02,credit.n.02
+SA-082,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,commutation.n.01
+SA-083,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,grade.n.01
+SA-084,scale,district office counter submission for scale form,scale.n.02,scale.n.02,scale.n.02
+SA-085,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,order.n.01
+SA-086,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,grant.n.01
+SA-087,claim,district office counter submission for claim form,claim.n.02,claim.n.02,claim.n.02
+SA-088,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,family.n.01
+SA-089,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,break.n.01
+SA-090,qualifying,district office counter submission for qualifying form,qualifying.n.02,qualifying.n.02,qualifying.n.01
+SA-091,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,pension.n.01
+SA-092,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,allowance.n.01
+SA-093,arrears,district office counter submission for arrears form,arrears.n.02,arrears.n.02,arrears.n.02
+SA-094,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,sanction.n.01
+SA-095,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,rule.n.01
+SA-096,circular,district office counter submission for circular form,circular.n.02,circular.n.02,circular.n.02
+SA-097,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,office.n.01
+SA-098,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,date.n.01
+SA-099,rate,district office counter submission for rate form,rate.n.02,rate.n.02,rate.n.02
+SA-100,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,status.n.02
+SA-101,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,service.n.01
+SA-102,dependent,district office counter submission for dependent form,dependent.n.02,dependent.n.02,dependent.n.02
+SA-103,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,benefit.n.01
+SA-104,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,revision.n.01
+SA-105,award,district office counter submission for award form,award.n.02,award.n.02,award.n.02
+SA-106,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,credit.n.01
+SA-107,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,commutation.n.01
+SA-108,grade,district office counter submission for grade form,grade.n.02,grade.n.02,grade.n.02
+SA-109,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,scale.n.01
+SA-110,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,order.n.02
+SA-111,grant,district office counter submission for grant form,grant.n.02,grant.n.02,grant.n.02
+SA-112,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,claim.n.01
+SA-113,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,family.n.01
+SA-114,break,district office counter submission for break form,break.n.02,break.n.02,break.n.02
+SA-115,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,qualifying.n.01
+SA-116,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,pension.n.01
+SA-117,allowance,district office counter submission for allowance form,allowance.n.02,allowance.n.02,allowance.n.02
+SA-118,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,arrears.n.01
+SA-119,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,sanction.n.01
+SA-120,rule,district office counter submission for rule form,rule.n.02,rule.n.02,rule.n.01
+SA-121,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,circular.n.01
+SA-122,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,office.n.01
+SA-123,date,district office counter submission for date form,date.n.02,date.n.02,date.n.02
+SA-124,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,rate.n.01
+SA-125,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,status.n.01
+SA-126,service,district office counter submission for service form,service.n.02,service.n.02,service.n.02
+SA-127,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,dependent.n.01
+SA-128,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,benefit.n.01
+SA-129,revision,district office counter submission for revision form,revision.n.02,revision.n.02,revision.n.02
+SA-130,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,award.n.02
+SA-131,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,credit.n.01
+SA-132,commutation,district office counter submission for commutation form,commutation.n.02,commutation.n.02,commutation.n.02
+SA-133,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,grade.n.01
+SA-134,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,scale.n.01
+SA-135,order,district office counter submission for order form,order.n.02,order.n.02,order.n.02
+SA-136,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,grant.n.01
+SA-137,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,claim.n.01
+SA-138,family,district office counter submission for family form,family.n.02,family.n.02,family.n.02
+SA-139,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,break.n.01
+SA-140,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,qualifying.n.02
+SA-141,pension,district office counter submission for pension form,pension.n.02,pension.n.02,pension.n.02
+SA-142,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,allowance.n.01
+SA-143,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,arrears.n.01
+SA-144,sanction,district office counter submission for sanction form,sanction.n.02,sanction.n.02,sanction.n.02
+SA-145,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,rule.n.01
+SA-146,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,circular.n.01
+SA-147,office,district office counter submission for office form,office.n.02,office.n.02,office.n.02
+SA-148,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,date.n.01
+SA-149,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,rate.n.01
+SA-150,status,district office counter submission for status form,status.n.02,status.n.02,status.n.01
+SA-151,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,service.n.01
+SA-152,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,dependent.n.01
+SA-153,benefit,district office counter submission for benefit form,benefit.n.02,benefit.n.02,benefit.n.02
+SA-154,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,revision.n.01
+SA-155,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,award.n.01
+SA-156,credit,district office counter submission for credit form,credit.n.02,credit.n.02,credit.n.02
+SA-157,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,commutation.n.01
+SA-158,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,grade.n.01
+SA-159,scale,district office counter submission for scale form,scale.n.02,scale.n.02,scale.n.02
+SA-160,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,order.n.02
+SA-161,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,grant.n.01
+SA-162,claim,district office counter submission for claim form,claim.n.02,claim.n.02,claim.n.02
+SA-163,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,family.n.01
+SA-164,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,break.n.01
+SA-165,qualifying,district office counter submission for qualifying form,qualifying.n.02,qualifying.n.02,qualifying.n.02
+SA-166,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,pension.n.01
+SA-167,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,allowance.n.01
+SA-168,arrears,district office counter submission for arrears form,arrears.n.02,arrears.n.02,arrears.n.02
+SA-169,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,sanction.n.01
+SA-170,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,rule.n.02
+SA-171,circular,district office counter submission for circular form,circular.n.02,circular.n.02,circular.n.02
+SA-172,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,office.n.01
+SA-173,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,date.n.01
+SA-174,rate,district office counter submission for rate form,rate.n.02,rate.n.02,rate.n.02
+SA-175,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,status.n.01
+SA-176,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,service.n.01
+SA-177,dependent,district office counter submission for dependent form,dependent.n.02,dependent.n.02,dependent.n.02
+SA-178,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,benefit.n.01
+SA-179,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,revision.n.01
+SA-180,award,district office counter submission for award form,award.n.02,award.n.02,award.n.01
+SA-181,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,credit.n.01
+SA-182,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,commutation.n.01
+SA-183,grade,district office counter submission for grade form,grade.n.02,grade.n.02,grade.n.02
+SA-184,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,scale.n.01
+SA-185,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,order.n.01
+SA-186,grant,district office counter submission for grant form,grant.n.02,grant.n.02,grant.n.02
+SA-187,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,claim.n.01
+SA-188,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,family.n.01
+SA-189,break,district office counter submission for break form,break.n.02,break.n.02,break.n.02
+SA-190,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,qualifying.n.02
+SA-191,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,pension.n.01
+SA-192,allowance,district office counter submission for allowance form,allowance.n.02,allowance.n.02,allowance.n.02
+SA-193,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,arrears.n.01
+SA-194,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,sanction.n.01
+SA-195,rule,district office counter submission for rule form,rule.n.02,rule.n.02,rule.n.02
+SA-196,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,circular.n.01
+SA-197,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,office.n.01
+SA-198,date,district office counter submission for date form,date.n.02,date.n.02,date.n.02
+SA-199,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,rate.n.01
+SA-200,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,status.n.02
+SA-201,service,district office counter submission for service form,service.n.02,service.n.02,
+SA-202,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-203,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-204,revision,district office counter submission for revision form,revision.n.02,revision.n.02,
+SA-205,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-206,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-207,commutation,district office counter submission for commutation form,commutation.n.02,commutation.n.02,
+SA-208,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-209,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-210,order,district office counter submission for order form,order.n.02,order.n.02,
+SA-211,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-212,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-213,family,district office counter submission for family form,family.n.02,family.n.02,
+SA-214,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-215,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-216,pension,district office counter submission for pension form,pension.n.02,pension.n.02,
+SA-217,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-218,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-219,sanction,district office counter submission for sanction form,sanction.n.02,sanction.n.02,
+SA-220,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-221,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-222,office,district office counter submission for office form,office.n.02,office.n.02,
+SA-223,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-224,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-225,status,district office counter submission for status form,status.n.02,status.n.02,
+SA-226,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,
+SA-227,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-228,benefit,district office counter submission for benefit form,benefit.n.02,benefit.n.02,
+SA-229,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,
+SA-230,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-231,credit,district office counter submission for credit form,credit.n.02,credit.n.02,
+SA-232,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,
+SA-233,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-234,scale,district office counter submission for scale form,scale.n.02,scale.n.02,
+SA-235,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,
+SA-236,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-237,claim,district office counter submission for claim form,claim.n.02,claim.n.02,
+SA-238,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,
+SA-239,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-240,qualifying,district office counter submission for qualifying form,qualifying.n.02,qualifying.n.02,
+SA-241,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,
+SA-242,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-243,arrears,district office counter submission for arrears form,arrears.n.02,arrears.n.02,
+SA-244,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,
+SA-245,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-246,circular,district office counter submission for circular form,circular.n.02,circular.n.02,
+SA-247,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,
+SA-248,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-249,rate,district office counter submission for rate form,rate.n.02,rate.n.02,
+SA-250,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,
+SA-251,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,
+SA-252,dependent,district office counter submission for dependent form,dependent.n.02,dependent.n.02,
+SA-253,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-254,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,
+SA-255,award,district office counter submission for award form,award.n.02,award.n.02,
+SA-256,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-257,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,
+SA-258,grade,district office counter submission for grade form,grade.n.02,grade.n.02,
+SA-259,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-260,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,
+SA-261,grant,district office counter submission for grant form,grant.n.02,grant.n.02,
+SA-262,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-263,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,
+SA-264,break,district office counter submission for break form,break.n.02,break.n.02,
+SA-265,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-266,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,
+SA-267,allowance,district office counter submission for allowance form,allowance.n.02,allowance.n.02,
+SA-268,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-269,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,
+SA-270,rule,district office counter submission for rule form,rule.n.02,rule.n.02,
+SA-271,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-272,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,
+SA-273,date,district office counter submission for date form,date.n.02,date.n.02,
+SA-274,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-275,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,
+SA-276,service,district office counter submission for service form,service.n.02,service.n.02,
+SA-277,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-278,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-279,revision,district office counter submission for revision form,revision.n.02,revision.n.02,
+SA-280,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-281,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-282,commutation,district office counter submission for commutation form,commutation.n.02,commutation.n.02,
+SA-283,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-284,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-285,order,district office counter submission for order form,order.n.02,order.n.02,
+SA-286,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-287,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-288,family,district office counter submission for family form,family.n.02,family.n.02,
+SA-289,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-290,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-291,pension,district office counter submission for pension form,pension.n.02,pension.n.02,
+SA-292,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-293,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-294,sanction,district office counter submission for sanction form,sanction.n.02,sanction.n.02,
+SA-295,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-296,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-297,office,district office counter submission for office form,office.n.02,office.n.02,
+SA-298,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-299,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-300,status,district office counter submission for status form,status.n.02,status.n.02,
+SA-301,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,
+SA-302,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-303,benefit,district office counter submission for benefit form,benefit.n.02,benefit.n.02,
+SA-304,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,
+SA-305,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-306,credit,district office counter submission for credit form,credit.n.02,credit.n.02,
+SA-307,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,
+SA-308,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-309,scale,district office counter submission for scale form,scale.n.02,scale.n.02,
+SA-310,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,
+SA-311,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-312,claim,district office counter submission for claim form,claim.n.02,claim.n.02,
+SA-313,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,
+SA-314,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-315,qualifying,district office counter submission for qualifying form,qualifying.n.02,qualifying.n.02,
+SA-316,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,
+SA-317,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-318,arrears,district office counter submission for arrears form,arrears.n.02,arrears.n.02,
+SA-319,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,
+SA-320,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-321,circular,district office counter submission for circular form,circular.n.02,circular.n.02,
+SA-322,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,
+SA-323,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-324,rate,district office counter submission for rate form,rate.n.02,rate.n.02,
+SA-325,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,
+SA-326,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,
+SA-327,dependent,district office counter submission for dependent form,dependent.n.02,dependent.n.02,
+SA-328,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-329,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,
+SA-330,award,district office counter submission for award form,award.n.02,award.n.02,
+SA-331,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-332,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,
+SA-333,grade,district office counter submission for grade form,grade.n.02,grade.n.02,
+SA-334,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-335,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,
+SA-336,grant,district office counter submission for grant form,grant.n.02,grant.n.02,
+SA-337,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-338,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,
+SA-339,break,district office counter submission for break form,break.n.02,break.n.02,
+SA-340,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-341,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,
+SA-342,allowance,district office counter submission for allowance form,allowance.n.02,allowance.n.02,
+SA-343,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-344,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,
+SA-345,rule,district office counter submission for rule form,rule.n.02,rule.n.02,
+SA-346,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-347,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,
+SA-348,date,district office counter submission for date form,date.n.02,date.n.02,
+SA-349,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-350,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,
+SA-351,service,district office counter submission for service form,service.n.02,service.n.02,
+SA-352,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-353,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-354,revision,district office counter submission for revision form,revision.n.02,revision.n.02,
+SA-355,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-356,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-357,commutation,district office counter submission for commutation form,commutation.n.02,commutation.n.02,
+SA-358,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-359,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-360,order,district office counter submission for order form,order.n.02,order.n.02,
+SA-361,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-362,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-363,family,district office counter submission for family form,family.n.02,family.n.02,
+SA-364,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-365,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-366,pension,district office counter submission for pension form,pension.n.02,pension.n.02,
+SA-367,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-368,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-369,sanction,district office counter submission for sanction form,sanction.n.02,sanction.n.02,
+SA-370,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-371,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-372,office,district office counter submission for office form,office.n.02,office.n.02,
+SA-373,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-374,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-375,status,district office counter submission for status form,status.n.02,status.n.02,
+SA-376,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,
+SA-377,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-378,benefit,district office counter submission for benefit form,benefit.n.02,benefit.n.02,
+SA-379,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,
+SA-380,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-381,credit,district office counter submission for credit form,credit.n.02,credit.n.02,
+SA-382,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,
+SA-383,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-384,scale,district office counter submission for scale form,scale.n.02,scale.n.02,
+SA-385,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,
+SA-386,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-387,claim,district office counter submission for claim form,claim.n.02,claim.n.02,
+SA-388,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,
+SA-389,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-390,qualifying,district office counter submission for qualifying form,qualifying.n.02,qualifying.n.02,
+SA-391,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,
+SA-392,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-393,arrears,district office counter submission for arrears form,arrears.n.02,arrears.n.02,
+SA-394,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,
+SA-395,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-396,circular,district office counter submission for circular form,circular.n.02,circular.n.02,
+SA-397,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,
+SA-398,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-399,rate,district office counter submission for rate form,rate.n.02,rate.n.02,
+SA-400,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,
+SA-401,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,
+SA-402,dependent,district office counter submission for dependent form,dependent.n.02,dependent.n.02,
+SA-403,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-404,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,
+SA-405,award,district office counter submission for award form,award.n.02,award.n.02,
+SA-406,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-407,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,
+SA-408,grade,district office counter submission for grade form,grade.n.02,grade.n.02,
+SA-409,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-410,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,
+SA-411,grant,district office counter submission for grant form,grant.n.02,grant.n.02,
+SA-412,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-413,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,
+SA-414,break,district office counter submission for break form,break.n.02,break.n.02,
+SA-415,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-416,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,
+SA-417,allowance,district office counter submission for allowance form,allowance.n.02,allowance.n.02,
+SA-418,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-419,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,
+SA-420,rule,district office counter submission for rule form,rule.n.02,rule.n.02,
+SA-421,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-422,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,
+SA-423,date,district office counter submission for date form,date.n.02,date.n.02,
+SA-424,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-425,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,
+SA-426,service,district office counter submission for service form,service.n.02,service.n.02,
+SA-427,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-428,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-429,revision,district office counter submission for revision form,revision.n.02,revision.n.02,
+SA-430,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-431,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-432,commutation,district office counter submission for commutation form,commutation.n.02,commutation.n.02,
+SA-433,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-434,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-435,order,district office counter submission for order form,order.n.02,order.n.02,
+SA-436,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-437,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-438,family,district office counter submission for family form,family.n.02,family.n.02,
+SA-439,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-440,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-441,pension,district office counter submission for pension form,pension.n.02,pension.n.02,
+SA-442,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-443,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-444,sanction,district office counter submission for sanction form,sanction.n.02,sanction.n.02,
+SA-445,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-446,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-447,office,district office counter submission for office form,office.n.02,office.n.02,
+SA-448,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-449,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-450,status,district office counter submission for status form,status.n.02,status.n.02,
+SA-451,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,
+SA-452,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-453,benefit,district office counter submission for benefit form,benefit.n.02,benefit.n.02,
+SA-454,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,
+SA-455,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-456,credit,district office counter submission for credit form,credit.n.02,credit.n.02,
+SA-457,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,
+SA-458,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-459,scale,district office counter submission for scale form,scale.n.02,scale.n.02,
+SA-460,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,
+SA-461,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-462,claim,district office counter submission for claim form,claim.n.02,claim.n.02,
+SA-463,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,
+SA-464,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-465,qualifying,district office counter submission for qualifying form,qualifying.n.02,qualifying.n.02,
+SA-466,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,
+SA-467,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-468,arrears,district office counter submission for arrears form,arrears.n.02,arrears.n.02,
+SA-469,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,
+SA-470,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-471,circular,district office counter submission for circular form,circular.n.02,circular.n.02,
+SA-472,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,
+SA-473,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-474,rate,district office counter submission for rate form,rate.n.02,rate.n.02,
+SA-475,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,
+SA-476,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,
+SA-477,dependent,district office counter submission for dependent form,dependent.n.02,dependent.n.02,
+SA-478,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-479,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,
+SA-480,award,district office counter submission for award form,award.n.02,award.n.02,
+SA-481,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-482,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,
+SA-483,grade,district office counter submission for grade form,grade.n.02,grade.n.02,
+SA-484,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-485,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,
+SA-486,grant,district office counter submission for grant form,grant.n.02,grant.n.02,
+SA-487,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-488,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,
+SA-489,break,district office counter submission for break form,break.n.02,break.n.02,
+SA-490,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-491,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,
+SA-492,allowance,district office counter submission for allowance form,allowance.n.02,allowance.n.02,
+SA-493,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-494,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,
+SA-495,rule,district office counter submission for rule form,rule.n.02,rule.n.02,
+SA-496,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-497,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,
+SA-498,date,district office counter submission for date form,date.n.02,date.n.02,
+SA-499,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-500,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,
+SA-501,service,district office counter submission for service form,service.n.02,service.n.02,
+SA-502,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-503,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-504,revision,district office counter submission for revision form,revision.n.02,revision.n.02,
+SA-505,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-506,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-507,commutation,district office counter submission for commutation form,commutation.n.02,commutation.n.02,
+SA-508,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-509,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-510,order,district office counter submission for order form,order.n.02,order.n.02,
+SA-511,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-512,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-513,family,district office counter submission for family form,family.n.02,family.n.02,
+SA-514,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-515,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-516,pension,district office counter submission for pension form,pension.n.02,pension.n.02,
+SA-517,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-518,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-519,sanction,district office counter submission for sanction form,sanction.n.02,sanction.n.02,
+SA-520,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-521,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-522,office,district office counter submission for office form,office.n.02,office.n.02,
+SA-523,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-524,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-525,status,district office counter submission for status form,status.n.02,status.n.02,
+SA-526,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,
+SA-527,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-528,benefit,district office counter submission for benefit form,benefit.n.02,benefit.n.02,
+SA-529,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,
+SA-530,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-531,credit,district office counter submission for credit form,credit.n.02,credit.n.02,
+SA-532,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,
+SA-533,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-534,scale,district office counter submission for scale form,scale.n.02,scale.n.02,
+SA-535,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,
+SA-536,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-537,claim,district office counter submission for claim form,claim.n.02,claim.n.02,
+SA-538,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,
+SA-539,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-540,qualifying,district office counter submission for qualifying form,qualifying.n.02,qualifying.n.02,
+SA-541,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,
+SA-542,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-543,arrears,district office counter submission for arrears form,arrears.n.02,arrears.n.02,
+SA-544,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,
+SA-545,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-546,circular,district office counter submission for circular form,circular.n.02,circular.n.02,
+SA-547,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,
+SA-548,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-549,rate,district office counter submission for rate form,rate.n.02,rate.n.02,
+SA-550,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,
+SA-551,service,official pension circular regarding service entitlement and verification,service.n.01,service.n.01,
+SA-552,dependent,district office counter submission for dependent form,dependent.n.02,dependent.n.02,
+SA-553,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-554,revision,official pension circular regarding revision entitlement and verification,revision.n.01,revision.n.01,
+SA-555,award,district office counter submission for award form,award.n.02,award.n.02,
+SA-556,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-557,commutation,official pension circular regarding commutation entitlement and verification,commutation.n.01,commutation.n.01,
+SA-558,grade,district office counter submission for grade form,grade.n.02,grade.n.02,
+SA-559,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-560,order,official pension circular regarding order entitlement and verification,order.n.01,order.n.01,
+SA-561,grant,district office counter submission for grant form,grant.n.02,grant.n.02,
+SA-562,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-563,family,official pension circular regarding family entitlement and verification,family.n.01,family.n.01,
+SA-564,break,district office counter submission for break form,break.n.02,break.n.02,
+SA-565,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-566,pension,official pension circular regarding pension entitlement and verification,pension.n.01,pension.n.01,
+SA-567,allowance,district office counter submission for allowance form,allowance.n.02,allowance.n.02,
+SA-568,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-569,sanction,official pension circular regarding sanction entitlement and verification,sanction.n.01,sanction.n.01,
+SA-570,rule,district office counter submission for rule form,rule.n.02,rule.n.02,
+SA-571,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-572,office,official pension circular regarding office entitlement and verification,office.n.01,office.n.01,
+SA-573,date,district office counter submission for date form,date.n.02,date.n.02,
+SA-574,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-575,status,official pension circular regarding status entitlement and verification,status.n.01,status.n.01,
+SA-576,service,district office counter submission for service form,service.n.02,service.n.02,
+SA-577,dependent,official pension circular regarding dependent entitlement and verification,dependent.n.01,dependent.n.01,
+SA-578,benefit,official pension circular regarding benefit entitlement and verification,benefit.n.01,benefit.n.01,
+SA-579,revision,district office counter submission for revision form,revision.n.02,revision.n.02,
+SA-580,award,official pension circular regarding award entitlement and verification,award.n.01,award.n.01,
+SA-581,credit,official pension circular regarding credit entitlement and verification,credit.n.01,credit.n.01,
+SA-582,commutation,district office counter submission for commutation form,commutation.n.02,commutation.n.02,
+SA-583,grade,official pension circular regarding grade entitlement and verification,grade.n.01,grade.n.01,
+SA-584,scale,official pension circular regarding scale entitlement and verification,scale.n.01,scale.n.01,
+SA-585,order,district office counter submission for order form,order.n.02,order.n.02,
+SA-586,grant,official pension circular regarding grant entitlement and verification,grant.n.01,grant.n.01,
+SA-587,claim,official pension circular regarding claim entitlement and verification,claim.n.01,claim.n.01,
+SA-588,family,district office counter submission for family form,family.n.02,family.n.02,
+SA-589,break,official pension circular regarding break entitlement and verification,break.n.01,break.n.01,
+SA-590,qualifying,official pension circular regarding qualifying entitlement and verification,qualifying.n.01,qualifying.n.01,
+SA-591,pension,district office counter submission for pension form,pension.n.02,pension.n.02,
+SA-592,allowance,official pension circular regarding allowance entitlement and verification,allowance.n.01,allowance.n.01,
+SA-593,arrears,official pension circular regarding arrears entitlement and verification,arrears.n.01,arrears.n.01,
+SA-594,sanction,district office counter submission for sanction form,sanction.n.02,sanction.n.02,
+SA-595,rule,official pension circular regarding rule entitlement and verification,rule.n.01,rule.n.01,
+SA-596,circular,official pension circular regarding circular entitlement and verification,circular.n.01,circular.n.01,
+SA-597,office,district office counter submission for office form,office.n.02,office.n.02,
+SA-598,date,official pension circular regarding date entitlement and verification,date.n.01,date.n.01,
+SA-599,rate,official pension circular regarding rate entitlement and verification,rate.n.01,rate.n.01,
+SA-600,status,district office counter submission for status form,status.n.02,status.n.02,

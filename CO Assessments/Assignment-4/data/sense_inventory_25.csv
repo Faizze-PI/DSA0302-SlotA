@@ -1,0 +1,51 @@
+Term,Sense_ID,POS,Gloss,Example
+service,service.n.01,NN,Primary pension-domain statutory meaning of service in official rules,The service is verified under pension rules.
+service,service.n.02,NN,Administrative or general office procedure meaning of service,Submit the service to the district office.
+dependent,dependent.n.01,NN,Primary pension-domain statutory meaning of dependent in official rules,The dependent is verified under pension rules.
+dependent,dependent.n.02,NN,Administrative or general office procedure meaning of dependent,Submit the dependent to the district office.
+benefit,benefit.n.01,NN,Primary pension-domain statutory meaning of benefit in official rules,The benefit is verified under pension rules.
+benefit,benefit.n.02,NN,Administrative or general office procedure meaning of benefit,Submit the benefit to the district office.
+revision,revision.n.01,NN,Primary pension-domain statutory meaning of revision in official rules,The revision is verified under pension rules.
+revision,revision.n.02,NN,Administrative or general office procedure meaning of revision,Submit the revision to the district office.
+award,award.n.01,NN,Primary pension-domain statutory meaning of award in official rules,The award is verified under pension rules.
+award,award.n.02,NN,Administrative or general office procedure meaning of award,Submit the award to the district office.
+credit,credit.n.01,NN,Primary pension-domain statutory meaning of credit in official rules,The credit is verified under pension rules.
+credit,credit.n.02,NN,Administrative or general office procedure meaning of credit,Submit the credit to the district office.
+commutation,commutation.n.01,NN,Primary pension-domain statutory meaning of commutation in official rules,The commutation is verified under pension rules.
+commutation,commutation.n.02,NN,Administrative or general office procedure meaning of commutation,Submit the commutation to the district office.
+grade,grade.n.01,NN,Primary pension-domain statutory meaning of grade in official rules,The grade is verified under pension rules.
+grade,grade.n.02,NN,Administrative or general office procedure meaning of grade,Submit the grade to the district office.
+scale,scale.n.01,NN,Primary pension-domain statutory meaning of scale in official rules,The scale is verified under pension rules.
+scale,scale.n.02,NN,Administrative or general office procedure meaning of scale,Submit the scale to the district office.
+order,order.n.01,NN,Primary pension-domain statutory meaning of order in official rules,The order is verified under pension rules.
+order,order.n.02,NN,Administrative or general office procedure meaning of order,Submit the order to the district office.
+grant,grant.n.01,NN,Primary pension-domain statutory meaning of grant in official rules,The grant is verified under pension rules.
+grant,grant.n.02,NN,Administrative or general office procedure meaning of grant,Submit the grant to the district office.
+claim,claim.n.01,NN,Primary pension-domain statutory meaning of claim in official rules,The claim is verified under pension rules.
+claim,claim.n.02,NN,Administrative or general office procedure meaning of claim,Submit the claim to the district office.
+family,family.n.01,NN,Primary pension-domain statutory meaning of family in official rules,The family is verified under pension rules.
+family,family.n.02,NN,Administrative or general office procedure meaning of family,Submit the family to the district office.
+break,break.n.01,NN,Primary pension-domain statutory meaning of break in official rules,The break is verified under pension rules.
+break,break.n.02,NN,Administrative or general office procedure meaning of break,Submit the break to the district office.
+qualifying,qualifying.n.01,NN,Primary pension-domain statutory meaning of qualifying in official rules,The qualifying is verified under pension rules.
+qualifying,qualifying.n.02,NN,Administrative or general office procedure meaning of qualifying,Submit the qualifying to the district office.
+pension,pension.n.01,NN,Primary pension-domain statutory meaning of pension in official rules,The pension is verified under pension rules.
+pension,pension.n.02,NN,Administrative or general office procedure meaning of pension,Submit the pension to the district office.
+allowance,allowance.n.01,NN,Primary pension-domain statutory meaning of allowance in official rules,The allowance is verified under pension rules.
+allowance,allowance.n.02,NN,Administrative or general office procedure meaning of allowance,Submit the allowance to the district office.
+arrears,arrears.n.01,NN,Primary pension-domain statutory meaning of arrears in official rules,The arrears is verified under pension rules.
+arrears,arrears.n.02,NN,Administrative or general office procedure meaning of arrears,Submit the arrears to the district office.
+sanction,sanction.n.01,NN,Primary pension-domain statutory meaning of sanction in official rules,The sanction is verified under pension rules.
+sanction,sanction.n.02,NN,Administrative or general office procedure meaning of sanction,Submit the sanction to the district office.
+rule,rule.n.01,NN,Primary pension-domain statutory meaning of rule in official rules,The rule is verified under pension rules.
+rule,rule.n.02,NN,Administrative or general office procedure meaning of rule,Submit the rule to the district office.
+circular,circular.n.01,NN,Primary pension-domain statutory meaning of circular in official rules,The circular is verified under pension rules.
+circular,circular.n.02,NN,Administrative or general office procedure meaning of circular,Submit the circular to the district office.
+office,office.n.01,NN,Primary pension-domain statutory meaning of office in official rules,The office is verified under pension rules.
+office,office.n.02,NN,Administrative or general office procedure meaning of office,Submit the office to the district office.
+date,date.n.01,NN,Primary pension-domain statutory meaning of date in official rules,The date is verified under pension rules.
+date,date.n.02,NN,Administrative or general office procedure meaning of date,Submit the date to the district office.
+rate,rate.n.01,NN,Primary pension-domain statutory meaning of rate in official rules,The rate is verified under pension rules.
+rate,rate.n.02,NN,Administrative or general office procedure meaning of rate,Submit the rate to the district office.
+status,status.n.01,NN,Primary pension-domain statutory meaning of status in official rules,The status is verified under pension rules.
+status,status.n.02,NN,Administrative or general office procedure meaning of status,Submit the status to the district office.

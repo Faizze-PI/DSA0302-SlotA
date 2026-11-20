@@ -1,0 +1,61 @@
+Query_ID,Query_Text,Relevant_Circulars,Annotator_1_Rel,Annotator_2_Rel
+IRQ-01,Family Pension eligibility and circular rules,CIR-002;CIR-003;CIR-004,1,1
+IRQ-02,Commutation eligibility and circular rules,CIR-008;CIR-009;CIR-010,1,1
+IRQ-03,Qualifying Service eligibility and circular rules,CIR-014;CIR-015;CIR-016,1,1
+IRQ-04,Revision & Arrears eligibility and circular rules,CIR-020;CIR-021;CIR-022,1,1
+IRQ-05,Gratuity & Award eligibility and circular rules,CIR-026;CIR-027;CIR-028,1,1
+IRQ-06,Medical Allowance eligibility and circular rules,CIR-032;CIR-033;CIR-034,1,1
+IRQ-07,Family Pension eligibility and circular rules,CIR-038;CIR-039;CIR-040,1,1
+IRQ-08,Commutation eligibility and circular rules,CIR-044;CIR-045;CIR-046,1,1
+IRQ-09,Qualifying Service eligibility and circular rules,CIR-050;CIR-051;CIR-052,1,1
+IRQ-10,Revision & Arrears eligibility and circular rules,CIR-056;CIR-057;CIR-058,1,1
+IRQ-11,Gratuity & Award eligibility and circular rules,CIR-062;CIR-063;CIR-064,1,1
+IRQ-12,Medical Allowance eligibility and circular rules,CIR-068;CIR-069;CIR-070,1,1
+IRQ-13,Family Pension eligibility and circular rules,CIR-074;CIR-075;CIR-076,1,1
+IRQ-14,Commutation eligibility and circular rules,CIR-080;CIR-081;CIR-082,1,1
+IRQ-15,Qualifying Service eligibility and circular rules,CIR-086;CIR-087;CIR-088,1,0
+IRQ-16,Revision & Arrears eligibility and circular rules,CIR-092;CIR-093;CIR-094,1,
+IRQ-17,Gratuity & Award eligibility and circular rules,CIR-098;CIR-099;CIR-100,1,
+IRQ-18,Medical Allowance eligibility and circular rules,CIR-104;CIR-105;CIR-106,1,
+IRQ-19,Family Pension eligibility and circular rules,CIR-110;CIR-111;CIR-112,1,
+IRQ-20,Commutation eligibility and circular rules,CIR-116;CIR-117;CIR-118,1,
+IRQ-21,Qualifying Service eligibility and circular rules,CIR-122;CIR-123;CIR-124,1,
+IRQ-22,Revision & Arrears eligibility and circular rules,CIR-128;CIR-129;CIR-130,1,
+IRQ-23,Gratuity & Award eligibility and circular rules,CIR-134;CIR-135;CIR-136,1,
+IRQ-24,Medical Allowance eligibility and circular rules,CIR-140;CIR-141;CIR-142,1,
+IRQ-25,Family Pension eligibility and circular rules,CIR-146;CIR-147;CIR-148,1,
+IRQ-26,Commutation eligibility and circular rules,CIR-152;CIR-153;CIR-154,1,
+IRQ-27,Qualifying Service eligibility and circular rules,CIR-158;CIR-159;CIR-160,1,
+IRQ-28,Revision & Arrears eligibility and circular rules,CIR-164;CIR-165;CIR-166,1,
+IRQ-29,Gratuity & Award eligibility and circular rules,CIR-170;CIR-171;CIR-172,1,
+IRQ-30,Medical Allowance eligibility and circular rules,CIR-176;CIR-177;CIR-178,1,
+IRQ-31,Family Pension eligibility and circular rules,CIR-182;CIR-183;CIR-184,1,
+IRQ-32,Commutation eligibility and circular rules,CIR-188;CIR-189;CIR-190,1,
+IRQ-33,Qualifying Service eligibility and circular rules,CIR-194;CIR-195;CIR-196,1,
+IRQ-34,Revision & Arrears eligibility and circular rules,CIR-200;CIR-201;CIR-202,1,
+IRQ-35,Gratuity & Award eligibility and circular rules,CIR-206;CIR-207;CIR-208,1,
+IRQ-36,Medical Allowance eligibility and circular rules,CIR-212;CIR-213;CIR-214,1,
+IRQ-37,Family Pension eligibility and circular rules,CIR-218;CIR-219;CIR-220,1,
+IRQ-38,Commutation eligibility and circular rules,CIR-224;CIR-225;CIR-226,1,
+IRQ-39,Qualifying Service eligibility and circular rules,CIR-230;CIR-231;CIR-232,1,
+IRQ-40,Revision & Arrears eligibility and circular rules,CIR-236;CIR-237;CIR-238,1,
+IRQ-41,Gratuity & Award eligibility and circular rules,CIR-242;CIR-243;CIR-244,1,
+IRQ-42,Medical Allowance eligibility and circular rules,CIR-248;CIR-249;CIR-250,1,
+IRQ-43,Family Pension eligibility and circular rules,CIR-254;CIR-255;CIR-256,1,
+IRQ-44,Commutation eligibility and circular rules,CIR-260;CIR-261;CIR-262,1,
+IRQ-45,Qualifying Service eligibility and circular rules,CIR-266;CIR-267;CIR-268,1,
+IRQ-46,Revision & Arrears eligibility and circular rules,CIR-272;CIR-273;CIR-274,1,
+IRQ-47,Gratuity & Award eligibility and circular rules,CIR-278;CIR-279;CIR-280,1,
+IRQ-48,Medical Allowance eligibility and circular rules,CIR-284;CIR-285;CIR-286,1,
+IRQ-49,Family Pension eligibility and circular rules,CIR-290;CIR-291;CIR-292,1,
+IRQ-50,Commutation eligibility and circular rules,CIR-296;CIR-297;CIR-298,1,
+IRQ-51,Qualifying Service eligibility and circular rules,CIR-002;CIR-003;CIR-004,1,
+IRQ-52,Revision & Arrears eligibility and circular rules,CIR-008;CIR-009;CIR-010,1,
+IRQ-53,Gratuity & Award eligibility and circular rules,CIR-014;CIR-015;CIR-016,1,
+IRQ-54,Medical Allowance eligibility and circular rules,CIR-020;CIR-021;CIR-022,1,
+IRQ-55,Family Pension eligibility and circular rules,CIR-026;CIR-027;CIR-028,1,
+IRQ-56,Commutation eligibility and circular rules,CIR-032;CIR-033;CIR-034,1,
+IRQ-57,Qualifying Service eligibility and circular rules,CIR-038;CIR-039;CIR-040,1,
+IRQ-58,Revision & Arrears eligibility and circular rules,CIR-044;CIR-045;CIR-046,1,
+IRQ-59,Gratuity & Award eligibility and circular rules,CIR-050;CIR-051;CIR-052,1,
+IRQ-60,Medical Allowance eligibility and circular rules,CIR-056;CIR-057;CIR-058,1,

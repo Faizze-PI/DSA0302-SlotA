@@ -1,0 +1,4 @@
+Enquiry_ID,Enquiry_Text,Challenge_Type
+D4-01,Does a person who retired in 2019 with two breaks in service qualify for the revised family pension?,Cross-reference + Date + Aggregation
+D4-02,How many years of a broken service record count as qualifying service under the 2020 scheme?,Aggregation + Effective Date
+D4-03,"If Circular 104 overrides Circular 045 after 2018-04-01, what is the commutation rate?",Cross-reference + Temporal
