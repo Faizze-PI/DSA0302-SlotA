@@ -1,0 +1,56 @@
+================================================================================
+SIMATS ENGINEERING | DSA0302 - NATURAL LANGUAGE PROCESSING | ASSIGNMENT - 5
+TOPIC: Discourse, Reference Resolution, Dialogue, NLG & MT for Control Room
+================================================================================
+
+================================================================================
+TASK 1: DISCOURSE SEGMENTATION & CROSS-SENTENCE ANAPHORA
+================================================================================
+Total Citizen Reports: 1200 | Cross-Sentence Anaphora Rate: 100.0%
+Boundary Agreement (n=15): Raw=93.3%, Cohen's kappa=0.000
+
+================================================================================
+TASK 2: REFERENCE RESOLUTION (HOBBS, CENTERING, MUC & B-CUBED)
+================================================================================
+Hobbs Resolution ('it') -> Anna Nagar main road | Hobbs Step 2: Visit left-to-right breadth-first NP 'Anna Nagar main road' -> Match
+Centering Transitions: [(1, 'NONE', 'Initial Utterance'), (2, 'Anna_Nagar_Road', 'Shift'), (3, 'Anna_Nagar_Road', 'Retain')]
+Coreference Scores (400 REs): MUC F1=0.892 | B-cubed F1=0.864
+
+================================================================================
+TASK 3 & 4: TEXT COHERENCE, ENTITY-GRID & RST STRUCTURE
+================================================================================
+Cohesive Device Counts: {'Reference': 1200, 'Conjunction': 1200, 'Lexical_Cohesion': 1200, 'Ellipsis': 48, 'Substitution': 35}
+Entity-Grid Readability Correlation (Spearman r): 0.842
+RST Nucleus-Only Summary: Anna Nagar main road is closed due to flooding.
+
+================================================================================
+TASK 5 & 6: DIALOGUE MANAGER & DIALOGUE ACT CLASSIFICATION
+================================================================================
+Frame Slot State After Correction: {'Location': 'Adyar', 'Incident_Type': 'flooding', 'Need_Type': 'shelter', 'Caller_Count': '4', 'Urgency': 'High'}
+Dialogue Act Agreement: Raw=92.0%, kappa=0.902 | Classifier Accuracy: 100.0%
+
+================================================================================
+TASK 7 & 8: NLG PLANNING, SURFACE REALISATION & BLEU
+================================================================================
+Citizen Bulletin : Road blockage is reported in T Nagar. The main road is closed, and the nearest relief camp at T Nagar High School is open with 375 spaces.
+Officer Bulletin : [PRIORITY] Road blockage at T Nagar. Road: Closed. Shelter T Nagar High School capacity remaining: 375 beds.
+NLG BLEU vs Human: 0.410
+
+================================================================================
+TASK 9: MACHINE TRANSLATION (IBM MODEL 1 EM & BLEU)
+================================================================================
+IBM Model 1 Held-Out BLEU -> Tamil: 0.036 | Hindi: 0.034
+
+================================================================================
+TASK 10 & 11: SYSTEM BENCHMARK & CONTROL ROOM RECOMMENDATION
+================================================================================
+  Recommended Stack: Hobbs+Centering Coref + Frame DM + Grammar NLG + Transfer/SMT Hybrid
+
+================================================================================
+TASK 12: DAY-4 DESIGN CHALLENGE (GROUP MESSAGING & 15-MIN DEADLINE)
+================================================================================
+  [G-01] Code-Mixed             | FAILED (Single-speaker/English assumption) -> RECOVERED (Speaker-ID + Code-Mix + Confidence Gate)
+  [G-01] Multi-Party Coref      | FAILED (Single-speaker/English assumption) -> RECOVERED (Speaker-ID + Code-Mix + Confidence Gate)
+  [G-02] ASR Recognition Error  | FAILED (Single-speaker/English assumption) -> RECOVERED (Speaker-ID + Code-Mix + Confidence Gate)
+
+ASSIGNMENT-5 PIPELINE COMPLETED IN 1.04 SECONDS

@@ -1,0 +1,86 @@
+================================================================================
+SIMATS ENGINEERING | DSA0302 - NATURAL LANGUAGE PROCESSING | ASSIGNMENT - 4
+TOPIC: Meaning Representation, FOPC, WSD & IR for Government Pension Helpdesk
+================================================================================
+
+================================================================================
+TASK 1 & 2: MEANING REPRESENTATION, VERIFIABILITY & CANONICAL FORM
+================================================================================
+  - First-Order Logic (FOPC)   | Expr: High (quantifiers, negation, n-ary) | Inf: Full deductive & resolution
+  - Semantic Networks          | Expr: Medium (binary isa/has links)    | Inf: Inheritance & spreading activation
+  - Frames                     | Expr: Medium-High (typed slots)        | Inf: Procedural attachment & defaults
+  - Slot-Filler Structures     | Expr: Low (flat key-value)             | Inf: Template matching only
+Verifiability Check -> Ramesh: TRUE | Suresh: FALSE | Mohan: UNKNOWN
+Canonical Mapping   -> forall x (Employee(x) & ServiceGE(x,10) -> Qualifies(x,Pension))
+
+================================================================================
+TASK 3: FIRST-ORDER PREDICATE CALCULUS (FOPC) & INFERENCE
+================================================================================
+Loaded 42 FOPC rules over domain ['anita', 'kavita', 'ramesh', 'suresh']
+  F1_Ramesh_Pension          => True  (Employee(ramesh) & QualifyingServiceGe10(ramesh) -> True)
+  F2_Suresh_Pension          => False (QualifyingServiceGe10(suresh) is False)
+  F3_Anita_FamilyPension     => True  (DependentOf(anita,ramesh) & Deceased(ramesh) & ~IncomeAboveLimit(anita) -> True)
+  F4_Kavita_FamilyPension    => False (Deceased(suresh) is False -> False)
+  F5_Suresh_Break            => True  (BreakInService(suresh) & ~Condoned(suresh) -> ~CountsAsQualifying(suresh))
+  F6_Universal_All_Ten_Years => False (Counterexample suresh in Employee without QualifyingServiceGe10 -> False)
+Inference Chain 1: Step 2 (Modus Ponens): QualifiesFor(ramesh, SuperannuationPension) [PROVED]
+Inference Chain 2: Step 2 (Modus Ponens): QualifiesFor(anita, FamilyPension) [PROVED]
+
+================================================================================
+TASK 4: LINGUISTICALLY RELEVANT CONCEPTS & NER OVER CIRCULARS
+================================================================================
+NER Accuracy (200 hand-checked mentions): 96.5%
+Extracted Entity Counts across 300 Circulars: {'CIRCULAR_ID': 600, 'YEAR': 600, 'RULE_REF': 600, 'SCHEME': 1400, 'DURATION': 750}
+  Event [Retirement]: exists e (Retirement(e) & Experiencer(e, ramesh) & Time(e, 2019))
+  Event [Sanction]: exists e (Sanction(e) & Agent(e, Directorate) & Theme(e, Pension) & Beneficiary(e, ramesh))
+  Event [Revision]: exists e (Revision(e) & Agent(e, FinanceDept) & Theme(e, PayMatrix) & Instrument(e, CIR-104))
+
+================================================================================
+TASK 5: SYNTAX-DRIVEN SEMANTIC ANALYSIS (LAMBDA CALCULUS)
+================================================================================
+Loaded 52 semantic grammar rules. Derivation: forall x (Employee(x) -> Receives(x, Pension))
+Coverage over 200 enquiries: 67.0% | Failures: {'Lexical_OOV': 33, 'Multi_Clause_Unsupported': 33}
+
+================================================================================
+TASK 6: LEXEMES, SENSES & SELECTIONAL RESTRICTIONS
+================================================================================
+Sense Inventory: 25 ambiguous domain terms
+  pension         --[Hypernym]--> regular_payment -> income -> financial_gain
+  family_pension  --[Hyponym]--> pension
+  service_record  --[Meronym]--> service_book
+  eligible        --[Antonym]--> ineligible
+
+================================================================================
+TASK 7: WORD SENSE DISAMBIGUATION (LESK, MFS & SUPERVISED CV)
+================================================================================
+  MFS_Baseline          : 66.67%
+  Lesk_Raw              : 100.00%
+  Lesk_Stopwords        : 100.00%
+  Lesk_Extended         : 100.00%
+  Supervised_5Fold_CV   : 100.00%
+
+================================================================================
+TASK 8: INFORMATION RETRIEVAL OVER 300 CIRCULARS (60 QUERIES)
+================================================================================
+  Lexical TF-IDF Baseline : P=0.003 R=0.011 F1=0.005 MAP=0.003
+  Sense-Expanded Retrieval: P=0.002 R=0.006 F1=0.003 MAP=0.001
+
+================================================================================
+TASK 9: ANNOTATION GOLD STANDARD & COHEN'S KAPPA
+================================================================================
+  Sense Annotation (n=200)    : Raw=90.0%, Cohen's kappa=0.898
+  Relevance Judgements (n=15): Raw=93.3%, Cohen's kappa=0.000
+
+================================================================================
+TASK 10 & 11: PIPELINE BENCHMARK & DESIGN RECOMMENDATION
+================================================================================
+  Recommended Architecture: Hybrid Sense-Aware IR + FOPC Rule Engine + Fallback Clarification
+
+================================================================================
+TASK 12: DAY-4 DESIGN CHALLENGE (TEMPORAL & AGGREGATION)
+================================================================================
+  [D4-01] Cross-reference + Date + Aggregation | Base: FAILED (No temporal/count support) -> Mod: RESOLVED (Temporal FOPC + SQL Aggregator)
+  [D4-02] Aggregation + Effective Date     | Base: FAILED (No temporal/count support) -> Mod: RESOLVED (Temporal FOPC + SQL Aggregator)
+  [D4-03] Cross-reference + Temporal       | Base: FAILED (No temporal/count support) -> Mod: RESOLVED (Temporal FOPC + SQL Aggregator)
+
+ASSIGNMENT-4 PIPELINE COMPLETED IN 1.24 SECONDS
